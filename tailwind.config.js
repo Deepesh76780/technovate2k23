@@ -19,6 +19,8 @@ module.exports = {
     extend: {
       fontFamily: {
         Orbitron: ["Orbitron", "sans-serif"],
+        Michroma:["Michroma", "sans-serif"],
+        Chakra:['Chakra Petch', "sans-serif"]
       },
       colors: {
         border: "hsl(var(--border))",

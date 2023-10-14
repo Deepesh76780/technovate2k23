@@ -4,8 +4,8 @@ import { SpeakerXMarkIcon } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
 
 function Audio() {
-  const [isPlaying, setIsPlaying] = useState(true);
-  const audioRef = useRef(true);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const audioRef = useRef();
 
   const toggleAudio = () => {
     if (audioRef.current) {
@@ -22,16 +22,16 @@ function Audio() {
 
   return (
     <motion.div
-      className="fixed bottom-1 left-2"
+      className="fixed bottom-1 left-4"
       initial={{ opacity: 0, scale: 0.5 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 1 }}
     >
       <button onClick={toggleAudio}>
         {isPlaying ? (
-          <SpeakerWaveIcon className="text-slate-300 h-10 w-10" />
+          <SpeakerWaveIcon className="text-slate-300 h-6 w-6" />
         ) : (
-          <SpeakerXMarkIcon className="text-slate-300 h-10 w-10" />
+          <SpeakerXMarkIcon className="text-slate-300 h-6 w-6" />
         )}
       </button>
       <audio

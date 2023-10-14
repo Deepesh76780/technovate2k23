@@ -15,8 +15,8 @@ const container = {
     transition: {
       type: "spring",
       stiffness: 260,
-      damping: 20,
-      duration: 0.2,
+      damping: 60,
+      duration: 2,
     },
   },
 };
@@ -31,18 +31,18 @@ const Navbar = () => {
     >
       <div className="flex gap-5">
         <Link href="/">
-          <NavButton Title="Events" subTitle="r25" />
+          <NavButton Title="Events" subTitle="2" />
         </Link>
         <Link href="/">
-          <NavButton Title="Team" subTitle="r25" />
+          <NavButton Title="Team" subTitle="0" />
         </Link>
       </div>
       <div className="flex gap-5">
         <Link href="/">
-          <NavButton Title="Sponsors" subTitle="r25" />
+          <NavButton Title="Sponsors" subTitle="2" />
         </Link>
         <Link href="/">
-          <NavButton Title="Schedule" subTitle="r25" />
+          <NavButton Title="Schedule" subTitle="4" />
         </Link>
       </div>
     </motion.div>

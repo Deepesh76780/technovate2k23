@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Barlow|Tomorrow:400,700&display=swap");
 @tailwind base;
 @tailwind components;
@@ -8,16 +10,31 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  --yellow-color: #fcee09; 
-  --red-color: #ff003c;
-  --black-color: #050a0e;
+  --yellow-color: #f7ff03; 
+  --red-color: #ff0000b6;
+  --black-color: #090d10dd;
   --blue-color: #00f0ff;
-}
+  /* Background Colors */
+  --dark-bg: #111111;       /* Dark background color */
+  --light-bg: #222222;      /* Slightly lighter background color */
+  
+  /* Text Colors */
+  --text-color: #FFFFFF;    /* White text color */
+  
+  /* Neon Colors */
+  --neon-blue: #20c9efa8;     /* Electric blue neon */
+  --neon-pink: #FF00FF;     /* Hot pink neon */
+  --neon-green: #00FF00;    /* Neon green */
+  --neon-cyan: #22c8ff;     /* Neon cyan */
+  --neon-orange: #FFA500;   /* Neon orange */
 
-@media (prefers-color-scheme: dark) {
-  :root {
+  /* Accent Colors */
+  --accent-red: #FF0000;    /* Red accent color for highlights */
 
-  }
+  /* Metallic Colors */
+  --metallic-silver: #C0C0C0;   /* Silver metallic color */
+  --metallic-chrome: #A9A9A9;   /* Chrome metallic color */
+  --metallic-gold: #FFD700;     /* Gold metallic color */
 }
 
 body {
@@ -47,26 +64,28 @@ body {
   left: 2px;
   right: 2px;
   bottom: 2px;
-  background-color: var(--yellow-color);
+  background-color: var(--neon-blue);
   clip-path: polygon(92% 0, 100% 25%, 100% 100%, 8% 100%, 0% 75%, 0 0);
+  transition: background-color 0.5s;
 }
 
 
 .btn__label {
-  height: 10px;
-  font-size: .40rem;
+  height: 15px;
+  font-size: .50rem;
   position: absolute;
   bottom: -4px;
   right: 8%;
   padding: 0 5px;
-  background-color: var(--yellow-color);
+  background-color: var(--neon-blue);
+  transition: background-color 0.5s;
   z-index: 3;
 }
 
 .btn__content:hover {
-  background-color: var(--red-color);
+  background-color: var(--neon-cyan);
 }
 
 .btn__content:hover + .btn__label {
-  background-color: var(--red-color);
+  background-color: var(--neon-cyan);
 }
