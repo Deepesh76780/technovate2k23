@@ -17,10 +17,16 @@ module.exports = {
       },
     },
     extend: {
+      dropShadow: {
+        glow: [
+          "0 0px 20px rgba(255,255, 255, 0.35)",
+          "0 0px 65px rgba(255, 255,255, 0.2)",
+        ],
+      },
       fontFamily: {
         Orbitron: ["Orbitron", "sans-serif"],
-        Michroma:["Michroma", "sans-serif"],
-        Chakra:['Chakra Petch', "sans-serif"]
+        Michroma: ["Michroma", "sans-serif"],
+        Chakra: ["Chakra Petch", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",

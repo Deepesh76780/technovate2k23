@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Barlow|Tomorrow:400,700&display=swap");
 @tailwind base;
 @tailwind components;
@@ -10,46 +10,45 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  --yellow-color: #f7ff03; 
+  --yellow-color: #f7ff03;
   --red-color: #ff0000b6;
   --black-color: #090d10dd;
   --blue-color: #00f0ff;
   /* Background Colors */
-  --dark-bg: #111111;       /* Dark background color */
-  --light-bg: #222222;      /* Slightly lighter background color */
-  
+  --dark-bg: #111111; /* Dark background color */
+  --light-bg: #222222; /* Slightly lighter background color */
+
   /* Text Colors */
-  --text-color: #FFFFFF;    /* White text color */
-  
+  --text-color: #ffffff; /* White text color */
+
   /* Neon Colors */
-  --neon-blue: #20c9efa8;     /* Electric blue neon */
-  --neon-pink: #FF00FF;     /* Hot pink neon */
-  --neon-green: #00FF00;    /* Neon green */
-  --neon-cyan: #22c8ff;     /* Neon cyan */
-  --neon-orange: #FFA500;   /* Neon orange */
+  --neon-blue: #e96099a8; /* Electric blue neon */
+  --neon-pink: #ff00ff; /* Hot pink neon */
+  --neon-green: #00ff00; /* Neon green */
+  --neon-cyan: #fffbffdc; /* Neon cyan */
+  --neon-orange: #ffa500; /* Neon orange */
 
   /* Accent Colors */
-  --accent-red: #FF0000;    /* Red accent color for highlights */
+  --accent-red: #ff0000; /* Red accent color for highlights */
 
   /* Metallic Colors */
-  --metallic-silver: #C0C0C0;   /* Silver metallic color */
-  --metallic-chrome: #A9A9A9;   /* Chrome metallic color */
-  --metallic-gold: #FFD700;     /* Gold metallic color */
+  --metallic-silver: #c0c0c0; /* Silver metallic color */
+  --metallic-chrome: #a9a9a9; /* Chrome metallic color */
+  --metallic-gold: #ffd700; /* Gold metallic color */
 }
 
 body {
   color: rgb(var(--foreground-rgb));
 }
 .btn {
-  width: 230px;
-  height: 60px; 
+  width: 140px;
+  height: 45px;
   border: 0;
   outline: none;
   background-color: var(--black-color);
   cursor: pointer;
   position: relative;
-  font-family: Tomorrow, sans-serif;
-  font-size: .85rem;
+  font-size: 0.85rem;
   text-transform: uppercase;
   color: var(--black-color);
   clip-path: polygon(92% 0, 100% 25%, 100% 100%, 8% 100%, 0% 75%, 0 0);
@@ -60,19 +59,20 @@ body {
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 2px;
+  top: 5px;
   left: 2px;
   right: 2px;
   bottom: 2px;
   background-color: var(--neon-blue);
   clip-path: polygon(92% 0, 100% 25%, 100% 100%, 8% 100%, 0% 75%, 0 0);
   transition: background-color 0.5s;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073,
+    0 0 50px #e60073, 0 0 60px #ff00ff, 0 0 70px #ff2dca;
 }
-
 
 .btn__label {
   height: 15px;
-  font-size: .50rem;
+  font-size: 0.5rem;
   position: absolute;
   bottom: -4px;
   right: 8%;
@@ -84,6 +84,8 @@ body {
 
 .btn__content:hover {
   background-color: var(--neon-cyan);
+  text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+    0 0 50px #ffe44d, 0 0 60px #ffde4d, 0 0 70px #ffb24d, 0 0 80px #ffb84d;
 }
 
 .btn__content:hover + .btn__label {
