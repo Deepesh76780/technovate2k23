@@ -15,6 +15,9 @@
   --black-color: #090d10dd;
   --blue-color: #00f0ff;
   /* Background Colors */
+  --primary:var(--red-color)
+  --secondary:var(--yellow-color)
+
   --dark-bg: #111111; /* Dark background color */
   --light-bg: #222222; /* Slightly lighter background color */
 
@@ -22,8 +25,8 @@
   --text-color: #ffffff; /* White text color */
 
   /* Neon Colors */
-  --neon-blue: #e96099a8; /* Electric blue neon */
-  --neon-pink: #ff00ff; /* Hot pink neon */
+  --neon-blue: #e960a5a8; /* Electric blue neon */
+  --neon-pink: #ff00bfcc; /* Hot pink neon */
   --neon-green: #00ff00; /* Neon green */
   --neon-cyan: #fffbffdc; /* Neon cyan */
   --neon-orange: #ffa500; /* Neon orange */
@@ -35,6 +38,22 @@
   --metallic-silver: #c0c0c0; /* Silver metallic color */
   --metallic-chrome: #a9a9a9; /* Chrome metallic color */
   --metallic-gold: #ffd700; /* Gold metallic color */
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: black;
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border-radius: 14px;
+  border: 2px solid rgb(192, 178, 178);
 }
 
 body {

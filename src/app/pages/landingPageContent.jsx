@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useEffect, useState } from "react";
 import Navbar from "../components/nav";
 import { motion, useScroll } from "framer-motion";
@@ -14,7 +14,6 @@ const container = {
     opacity: 1,
     y: 0,
     transition: {
-
       type: "spring",
       stiffness: 260,
       damping: 60,
@@ -49,7 +48,10 @@ const LandingPageContent = () => {
         initial={"hidden"}
         animate={"visible"}
       >
-        <div className="font-Chakra text-9xl tracking-widest text-center text-slate-50 place-self-center w-full font-semibold " style={{ transform: `scale(${scale})` }} >
+        <div
+          className="font-Chakra text-9xl tracking-widest text-center text-slate-50 place-self-center w-full font-semibold "
+          style={{ transform: `scale(${scale})` }}
+        >
           Technovate
           <motion.div
             className="text-2xl mt-2"
@@ -60,7 +62,7 @@ const LandingPageContent = () => {
             4th - 5th Feb
           </motion.div>
         </div>
-      </motion.div >
+      </motion.div>
       <div className="w-full h-[10%] flex justify-end max-w-[150rem] mx-auto">
         <div className="rotate-90 w-fit text-2xl text-slate-200 h-fit place-self-end">
           <div className="flex gap-2">
@@ -74,7 +76,7 @@ const LandingPageContent = () => {
         </div>
       </div>
       <Audio />
-    </div >
+    </div>
   );
 };
 

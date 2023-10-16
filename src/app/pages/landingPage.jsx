@@ -1,12 +1,10 @@
-"use client"
+"use client";
 import React from "react";
 import BackgroundVideo from "../components/backgroundVideo";
 import LandingPageContent from "./landingPageContent";
 
 const LandingPage = () => {
-
   return (
-
     <div>
       <BackgroundVideo
         src={"/background_videos/landing_page.mp4"}
@@ -14,7 +12,6 @@ const LandingPage = () => {
       />
       <LandingPageContent />
     </div>
-
   );
 };
 
