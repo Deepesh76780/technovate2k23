@@ -20,7 +20,7 @@ export default function AboutUsPage() {
 
   return (
     <>
-      <div className="h-screen relative overflow-hidden w-full">
+      <div className="relative overflow-hidden w-full">
         <section class="pt-32 pb-32 relative">
           <div
             class="absolute w-full h-full top-0 left-0 bg-cover bg-center bg-no-repeat  bg-fixed"
