@@ -53,7 +53,7 @@ export default function AboutUsPage() {
         </section>
         <section class="h-fit overflow-hidden">
           <p
-            className=" text-center font-Chakra font-extrabold tracking-widest text-7xl text-black "
+            className=" text-center font-Chakra font-extrabold tracking-widest text-6xl text-black "
             style={{ fontSize: `${fontSize}rem` }}
           >
             ARE YOU READY
