@@ -16,7 +16,7 @@ export default function AboutUsPage() {
     };
   }, []);
 
-  const fontSize = 15 - scrollY / 160;
+  const fontSize = 13 - scrollY / 180;
 
   return (
     <>
@@ -25,7 +25,7 @@ export default function AboutUsPage() {
           <div
             class="absolute w-full h-full top-0 left-0 bg-cover bg-center bg-no-repeat  bg-fixed"
             style={{
-              backgroundImage: `url(/test2.jpg)`,
+              backgroundImage: `url(/png_images/test2.jpg)`,
             }}
           ></div>
           <h1 class="font-Michroma text-white display-2 text-center relative max-w-[80rem] mx-auto font-bold tracking-widest bg-[#14101063] p-10 border-2 border-x-slate-50 rounded-xl">
