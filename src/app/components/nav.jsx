@@ -29,16 +29,16 @@ const Navbar = () => {
       animate={"visible"}
       className=" mt-2 p-2 flex w-fit justify-end fixed gap-5"
     >
-      <Link href="/">
+      <Link href="/event">
         <NavButton Title="Events" subTitle="2" />
       </Link>
-      <Link href="/">
+      <Link href="/team">
         <NavButton Title="Team" subTitle="0" />
       </Link>
-      <Link href="/">
+      <Link href="/sponsers">
         <NavButton Title="Sponsors" subTitle="2" />
       </Link>
-      <Link href="/">
+      <Link href="/schedule">
         <NavButton Title="Schedule" subTitle="4" />
       </Link>
     </motion.div>
