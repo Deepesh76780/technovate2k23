@@ -51,14 +51,6 @@ export default function AboutUsPage() {
             fields of their dreams. "
           </h1>
         </section>
-        <section class="h-fit overflow-hidden">
-          <p
-            className=" text-center font-Chakra font-extrabold tracking-widest text-6xl text-black "
-            style={{ fontSize: `${fontSize}rem` }}
-          >
-            ARE YOU READY
-          </p>
-        </section>
       </div>
     </>
   );

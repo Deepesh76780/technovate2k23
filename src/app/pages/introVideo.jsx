@@ -6,13 +6,21 @@ const IntroVideo = () => {
   return (
     <div className="relative w-screen h-screen overflow-hidden">
       <BackgroundVideo src={"/background_videos/intro_video.mp4"} speed={1} />
-      <div className="absolute w-full h-full z-10 overlay">
-        <img
-          src="/cityP.png"
+        <Image
+          src="/png_images/cityP.png"
+          width={800}
+          height={500}
           alt="City"
-          className="object-contain h-full w-full"
+          className="object-cover absolute bottom-0  right-0"
+          priority={true}
         />
-      </div>
+          <section class="h-fit overflow-hidden">
+          <p
+            className=" text-center font-Chakra font-extrabold tracking-widest text-6xl text-black "
+          >
+            ARE YOU READY
+          </p>
+        </section>
     </div>
   );
 };
