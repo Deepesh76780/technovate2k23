@@ -27,7 +27,7 @@ const Navbar = () => {
       variants={container}
       initial={"hidden"}
       animate={"visible"}
-      className=" mt-2 p-2 flex w-fit justify-end fixed gap-5"
+      className="p-2 flex  justify-between fixed gap-5 mt-1 w-full"
     >
       <Link href="/event">
         <NavButton Title="Events" subTitle="2" />

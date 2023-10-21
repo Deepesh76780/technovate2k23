@@ -19,7 +19,6 @@ export default function AboutUsPage() {
   const fontSize = 13 - scrollY / 180;
 
   return (
-    <>
       <div className="relative overflow-hidden w-full">
         <section class="pt-32 pb-32 relative">
           <div
@@ -52,6 +51,5 @@ export default function AboutUsPage() {
           </h1>
         </section>
       </div>
-    </>
   );
 }
