@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../components/nav";
 import { motion, useScroll } from "framer-motion";
-import Audio from "../components/backgroundAudio";
 import { ChevronDoubleRightIcon } from "@heroicons/react/24/solid";
 
 const container = {
@@ -41,7 +40,7 @@ const LandingPageContent = () => {
 
   return (
     <div className="absolute top-0 left-0 w-full h-full bg-opacity-50 z-10 overlay">
-      <Navbar />
+      <Navbar bgcolor={"bg-[#e960a5a8]"} />
       <motion.div
         className="w-full h-[75%] flex overflow-x-hidden"
         variants={container}
@@ -75,7 +74,6 @@ const LandingPageContent = () => {
           </div>
         </div>
       </div>
-      <Audio />
     </div>
   );
 };

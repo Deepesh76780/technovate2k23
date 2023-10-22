@@ -21,7 +21,7 @@ const container = {
   },
 };
 
-const Navbar = () => {
+const Navbar = ({bgcolor}) => {
   return (
     <motion.div
       variants={container}
@@ -30,16 +30,16 @@ const Navbar = () => {
       className="p-2 flex  justify-between fixed gap-5 mt-1 w-full"
     >
       <Link href="/event">
-        <NavButton Title="Events" subTitle="2" />
+        <NavButton Title="Events" subTitle="2" bgcolor={bgcolor} />
       </Link>
       <Link href="/team">
-        <NavButton Title="Team" subTitle="0" />
+        <NavButton Title="Team" subTitle="0" bgcolor={bgcolor} />
       </Link>
       <Link href="/sponsers">
-        <NavButton Title="Sponsors" subTitle="2" />
+        <NavButton Title="Sponsors" subTitle="2" bgcolor={bgcolor} />
       </Link>
       <Link href="/schedule">
-        <NavButton Title="Schedule" subTitle="4" />
+        <NavButton Title="Schedule" subTitle="4" bgcolor={bgcolor} />
       </Link>
     </motion.div>
   );

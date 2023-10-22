@@ -10,7 +10,7 @@ import {
 
 export default function EventCard() {
   return (
-    <Card className="bg-[#14101063] border-2 border-red-800 rounded-2xl text-slate-100 w-80 p-8 mx-8">
+    <Card className="bg-[#14101084]   shadow-purple-300 shadow-inner rounded-2xl text-slate-100 w-80 h-96 p-8 mx-8">
       <CardHeader>
         <CardTitle>Card Title</CardTitle>
         <CardDescription>Card Description</CardDescription>
