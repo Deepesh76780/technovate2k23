@@ -29,6 +29,9 @@ const Navbar = ({bgcolor}) => {
       animate={"visible"}
       className="p-2 flex  justify-between fixed gap-5 mt-1 w-full"
     >
+      <Link href="/">
+        <NavButton Title="Home" subTitle="4" bgcolor={bgcolor} />
+      </Link>
       <Link href="/event">
         <NavButton Title="Events" subTitle="2" bgcolor={bgcolor} />
       </Link>

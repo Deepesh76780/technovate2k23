@@ -7,20 +7,18 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import Image from "next/image";
 
-export default function EventCard() {
+export default function EventCard({Img}) {
   return (
-    <Card className="bg-[#14101084]   shadow-purple-300 shadow-inner rounded-2xl text-slate-100 w-80 h-96 p-8 mx-8">
-      <CardHeader>
-        <CardTitle>Card Title</CardTitle>
-        <CardDescription>Card Description</CardDescription>
-      </CardHeader>
-      <CardContent>
-        <p>Card Content</p>
-      </CardContent>
-      <CardFooter>
-        <p>Card Footer</p>
-      </CardFooter>
+    <Card className="bg-[#14101084]  flex shadow-purple-300 shadow-xl rounded-2xl text-slate-100 w-80 h-96  mx-8 overflow-hidden">
+      <Image
+        src={Img}
+        width={1000}
+        height={1000}
+        className="bg-contain w-full h-full"
+        priority
+      />
     </Card>
   );
 }

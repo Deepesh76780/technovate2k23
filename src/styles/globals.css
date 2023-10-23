@@ -10,10 +10,10 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  --yellow-color: #f7ff03;
+  --yellow-color: #a85dd1e1;
   --red-color: #ff0000b6;
   --black-color: #090d10dd;
-  --blue-color: #00f0ff;
+  --blue-color: #dba240;
   /* Background Colors */
   --primary:var(--red-color)
   --secondary:var(--yellow-color)
@@ -58,6 +58,8 @@
 
 body {
   color: rgb(var(--foreground-rgb));
+  background-color: #000000;
+
 }
 .btn {
   width: 140px;
