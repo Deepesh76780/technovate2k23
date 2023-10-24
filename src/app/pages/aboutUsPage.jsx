@@ -27,7 +27,7 @@ export default function AboutUsPage() {
               backgroundImage: `url(/png_images/test2.jpg)`,
             }}
           ></div>
-          <h1 class="font-Michroma text-slate-300 text-lg display-2 text-center relative max-w-[80rem]  mx-auto font-bold tracking-widest bg-[#14101084] p-10 shadow-purple-300 shadow-inner  rounded-2xl">
+          <h1 class="font-Michroma text-slate-300 text-base display-2 text-center relative max-w-[80rem]  mx-auto font-bold tracking-widest bg-[#14101084] p-10 shadow-purple-300 shadow-inner  rounded-2xl">
             Technovate, the annual symphony of technology and culture at
             IIIT-NR, is a splendid convergence of mind and artistry. In the
             enchanting month of November, this grand affair unfurls a spectacle

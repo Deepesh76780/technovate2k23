@@ -8,7 +8,7 @@ const LandingPage = () => {
     <div>
       <BackgroundVideo
         src={"/background_videos/landing_page.mp4"}
-        speed={0.7}
+        speed={1}
       />
       <LandingPageContent />
     </div>
