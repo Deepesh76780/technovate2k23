@@ -5,7 +5,7 @@ import Footer from "./components/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Technovate 2023",
+  title: "Technovate|2023",
   description: "",
 };
 
