@@ -1,13 +1,19 @@
 import React from "react";
-import Navbar from "../components/nav";
+import Image from "next/image";
 
-export default function TeamLayout({children}) {
+
+export default function EventLayout({ children }) {
   return (
-    
     <React.Fragment>
-      <Navbar bgcolor={"bg-[#40d0db]"}  />
+      <Image
+        layout="fill"
+        className="object-cover"
+        src={"/background_images/teams.jpg"}
+        alt={"title"}
+        objectFit="center"
+        priority={true}
+      />
       {children}
     </React.Fragment>
-    
   );
 }

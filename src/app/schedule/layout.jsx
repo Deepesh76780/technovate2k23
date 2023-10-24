@@ -1,14 +1,23 @@
-
 import React from "react";
-import Navbar from "../components/nav"
+import Image from "next/image";
 
 
-
-export default function ScheduleLayout({children}) {
+export default function SponsersLayout({children}) {
   return (
     <React.Fragment>
-    <Navbar bgcolor={"bg-[#dba240]"}  />
+      <Image
+        layout="fill"
+        className="object-cover"
+        src={"/background_images/schedule.jpg"}
+        alt={"title"}
+        objectFit="center"
+        priority={true}
+      />
       {children}
     </React.Fragment>
   );
 }
+
+
+
+

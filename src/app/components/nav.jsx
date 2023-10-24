@@ -27,7 +27,7 @@ const Navbar = ({bgcolor}) => {
       variants={container}
       initial={"hidden"}
       animate={"visible"}
-      className="p-2 flex  justify-between fixed gap-5 mt-1 w-full"
+      className="p-2 z-1 flex  justify-between fixed gap-5 mt-1 w-full"
     >
       <Link href="/">
         <NavButton Title="Home" subTitle="4" bgcolor={bgcolor} />

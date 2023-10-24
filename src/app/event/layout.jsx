@@ -1,12 +1,19 @@
 import React from "react";
-import Navbar from "../components/nav";
+import Image from "next/image";
 
 
 export default function EventLayout({ children }) {
   return (
-      <React.Fragment>
-        <Navbar bgcolor={"bg-[#a85dd1e1]"} />
-        {children}
-      </React.Fragment>
+    <React.Fragment>
+      <Image
+        layout="fill"
+        className="object-cover"
+        src={"/background_images/events.jpg"}
+        alt={"title"}
+        objectFit="center"
+        priority={true}
+      />
+      {children}
+    </React.Fragment>
   );
 }

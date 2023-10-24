@@ -1,12 +1,21 @@
 import React from "react";
-import Navbar from "../components/nav"
+import Image from "next/image";
 
 
 export default function SponsersLayout({children}) {
   return (
     <React.Fragment>
-    <Navbar bgcolor={"bg-[#40dbb2]"}  />
+      <Image
+        layout="fill"
+        className="object-cover"
+        src={"/background_images/sponsers.jpg"}
+        alt={"title"}
+        objectFit="center"
+        priority={true}
+      />
       {children}
     </React.Fragment>
   );
 }
+
+
