@@ -3,7 +3,10 @@
 import Navbar from "../components/nav";
 
 
-export default function Sponsers() {
+export default async function Schedule() {
+
+  await new Promise((resolve)=>{setTimeout(resolve, 2000)})
+
   return (
     <>
       <Navbar bgcolor={"bg-[#dba240]"}  />
