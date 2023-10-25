@@ -4,7 +4,7 @@ import LandingPage from "./components/sideButton";
 import Navbar from "../components/nav";
 
 
-export default function EventLayout({ children }) {
+export default function EventLayout(props) {
   return (
     <React.Fragment>
       <Image
@@ -20,7 +20,7 @@ export default function EventLayout({ children }) {
         <div className="flex flex-row relative z-1 h-full w-full my-auto">
           <LandingPage/>
          <div className="shadow-inner shadow-black lg:h-[400px] xl:h-[500px] text-white p-5 w-full rounded-xl bg-[#bf5dbf29]">
-          {children}
+          {props.children}
           </div>
         </div>
       </main>

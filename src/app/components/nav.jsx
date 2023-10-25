@@ -32,7 +32,7 @@ const Navbar = ({bgcolor}) => {
       <Link href="/">
         <NavButton Title="Home" subTitle="4" bgcolor={bgcolor} />
       </Link>
-      <Link href="/event">
+      <Link href="/event/pronight">
         <NavButton Title="Events" subTitle="2" bgcolor={bgcolor} />
       </Link>
       <Link href="/team">

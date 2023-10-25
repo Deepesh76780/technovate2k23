@@ -4,7 +4,7 @@ import { SpeakerXMarkIcon } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
 
 function Audio() {
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(true);
   const audioRef = useRef();
 
   const toggleAudio = () => {
@@ -38,7 +38,7 @@ function Audio() {
         ref={audioRef}
         src="/background_audio/get_you_to_moon.mp3"
         loop
-        autoPlay
+        autoPlay={true}
       />
     </motion.div>
   );

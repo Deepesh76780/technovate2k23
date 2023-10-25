@@ -18,10 +18,6 @@ export default function AboutEvent() {
               <EventCard Img={"/star_images/ash_king.jpg"}/>
               <EventCard Img={"/star_images/aashish_solanki.jpg"}/>
               <EventCard Img={"/star_images/gajendra_verma.jpg"}/>
-              <div className='font-Michroma max-w-xl text-center text-xl bg-[#14101084] rounded-2xl shadow-inner shadow-slate-200 p-4 text-slate-300 tracking-widest'>
-               thank you for bestowing upon us an unforgettable festivity to etch into our shared memory.
-                "In short dhanyawad"
-              </div>
             </Marquee>
         </div>
     </section>

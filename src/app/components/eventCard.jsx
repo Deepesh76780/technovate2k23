@@ -11,7 +11,7 @@ import Image from "next/image";
 
 export default function EventCard({Img}) {
   return (
-    <Card className="bg-[#14101084]  flex shadow-purple-300 shadow-xl rounded-2xl text-slate-100 w-80 h-96  mx-8 overflow-hidden">
+    <Card className="bg-[#14101084] flex shadow-purple-300 shadow-2xl rounded-2xl text-slate-100 w-80 h-[22rem]  mx-12 overflow-hidden border-2 border-black">
       <Image
         src={Img}
         width={1000}
