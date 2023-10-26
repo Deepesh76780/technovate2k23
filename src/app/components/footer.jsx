@@ -2,7 +2,6 @@
 import React from 'react'
 import Link from 'next/link'
 import { BsTwitter, BsFacebook, BsInstagram,BsLinkedin } from 'react-icons/bs'
-import Audio from "../components/backgroundAudio";
 
 
 export default function Footer() {
@@ -17,7 +16,6 @@ export default function Footer() {
       <div className="flex flex-col items-center justify-center">
         <p className="text-slate-100 text-xs">© 2024 Technovate - All Rights Reserved.</p>
       </div>
-      <Audio />
     </footer>
   )
 }

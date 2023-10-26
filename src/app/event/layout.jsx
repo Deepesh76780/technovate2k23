@@ -26,7 +26,7 @@ export default function EventLayout(props) {
       <main className=" flex flex-col min-h-screen items-center justify-between overflow-x-hidden p-16">
         <div className="flex flex-row relative z-1 h-full w-full my-auto">
           <LandingPage/>
-         <div className={`card shadow-inner border-2 border-purple-400 shadow-black lg:h-[400px] xl:h-[500px] ${overflow} text-white p-5 w-full  bg-[#bf5dbf29]`}>
+         <div className={`card shadow-inner border-2 border-purple-300 shadow-black lg:h-[400px] xl:h-[500px] ${overflow} text-white p-5 w-full`}>
           {props.children}
           </div>
         </div>

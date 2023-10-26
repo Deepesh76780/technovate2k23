@@ -1,6 +1,8 @@
 import "../styles/globals.css";
 import { Inter } from "next/font/google";
-import Footer from "./components/footer";
+import Audio from "./components/backgroundAudio";
+
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,8 +15,8 @@ export default function RootLayout(props) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        {props.children}    
-        <Footer/>    
+        {props.children}   
+        <Audio />
       </body>
     </html>
   );

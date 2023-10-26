@@ -10,7 +10,7 @@ import Link from 'next/link'
 export default function EventCard({navigateUrl,eventName}) {
   return (
     <Link href={`/event/${navigateUrl}`}>
-    <Card className="card bg-[#400c4097]  text-center shadow-inner shadow-black p-5 w-36 hover:scale-105  hover:bg-[#00000038]  cursor-pointer transition-all duration-300">
+    <Card className="bg-[#3104316e]  text-center shadow-inner shadow-black p-5 w-36 hover:scale-105    cursor-pointer transition-all duration-300">
         <Image 
           src={"/star_images/ash_king.jpg"}
           width={1000}
@@ -18,7 +18,7 @@ export default function EventCard({navigateUrl,eventName}) {
           className='w-full h-28'
           alt={"jai shree ram"}
         />
-      <CardFooter className="text-center mx-auto mt-2 uppercase text-sm w-28">
+      <CardFooter className="text-center mx-auto mt-2 uppercase text-sm w-28   p-2">
         <p className='truncate'>
          {eventName}
         </p>

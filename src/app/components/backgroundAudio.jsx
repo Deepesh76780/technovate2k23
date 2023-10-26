@@ -1,3 +1,4 @@
+"use client"
 import React, { useRef, useState, useEffect } from "react";
 import { SpeakerWaveIcon } from "@heroicons/react/24/solid";
 import { SpeakerXMarkIcon } from "@heroicons/react/24/solid";
