@@ -30,12 +30,12 @@ const Navbar = ({bgcolor}) => {
       className="p-2 z-1 flex  justify-between fixed gap-5 mt-1 w-full"
     >
       <Link href="/">
-        <NavButton Title="Home" subTitle="4" bgcolor={bgcolor} />
+        <NavButton Title="Home" subTitle="©" bgcolor={bgcolor} />
       </Link>
       <Link href="/event/pronight">
         <NavButton Title="Events" subTitle="2" bgcolor={bgcolor} />
       </Link>
-      <Link href="/team">
+      <Link href="/team/creaters">
         <NavButton Title="Team" subTitle="0" bgcolor={bgcolor} />
       </Link>
       <Link href="/sponsers">
