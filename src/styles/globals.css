@@ -41,20 +41,40 @@
 }
 
 /* Chrome, Edge, and Safari */
-*::-webkit-scrollbar {
+body::-webkit-scrollbar {
   width: 5px;
 }
 
-*::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
   background: black;
   border-radius: 5px;
 }
 
-*::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
   background-color: #000000;
   border-radius: 14px;
   border: 2px solid rgb(192, 178, 178);
 }
+
+.custom::-webkit-scrollbar {
+  width: 3px;
+  overflow-y: hidden;
+}
+
+.custom::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
+  border-radius: 5px;
+}
+
+.custom::-webkit-scrollbar-thumb {
+  background-color: #00000000;
+  border: 2px solid rgba(192, 178, 178, 0);
+}
+
+
+
+
+
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -72,6 +92,10 @@ body {
   font-size: 0.85rem;
   text-transform: uppercase;
   color: var(--black-color);
+  clip-path: polygon(92% 0, 100% 25%, 100% 100%, 8% 100%, 0% 75%, 0 0);
+}
+
+.card{
   clip-path: polygon(92% 0, 100% 25%, 100% 100%, 8% 100%, 0% 75%, 0 0);
 }
 

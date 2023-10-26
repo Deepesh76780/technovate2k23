@@ -1,12 +1,8 @@
-
 "use client"
-import { Suspense } from "react";
 import Navbar from "../components/nav";
 
 
 export default async function Team() {
-
-  await new Promise((resolve)=>{setTimeout(resolve, 2000)})
 
   return (
     <>

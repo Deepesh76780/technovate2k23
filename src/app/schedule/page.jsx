@@ -1,11 +1,8 @@
-
 "use client"
 import Navbar from "../components/nav";
 
 
 export default async function Schedule() {
-
-  await new Promise((resolve)=>{setTimeout(resolve, 2000)})
 
   return (
     <>

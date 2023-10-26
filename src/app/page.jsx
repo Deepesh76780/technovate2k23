@@ -7,7 +7,7 @@ import AboutEvent from "./pages/aboutEvent"
 
 export default async function Home() {
 
-  await new Promise((resolve)=>{setTimeout(resolve, 2000)})
+  // await new Promise((resolve)=>{setTimeout(resolve, 2000)})
 
   return (
         <main className="flex flex-col min-h-screen items-center justify-between overflow-x-hidden">
