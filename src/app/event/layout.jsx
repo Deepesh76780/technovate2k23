@@ -1,7 +1,7 @@
 "use client"
 import React from "react";
 import Image from "next/image";
-import LandingPage from "./components/sideButton";
+import SideButton from "./components/sideButton";
 import Navbar from "../components/nav";
 import { usePathname } from "next/navigation";
 
@@ -23,13 +23,13 @@ export default function EventLayout(props) {
         priority={true}
       />
       <Navbar bgcolor={"bg-[#a85dd1e1]"} />
-      <main className=" flex flex-col min-h-screen items-center justify-between overflow-x-hidden p-16">
+      <main className=" flex flex-col min-h-screen items-center justify-between overflow-x-hidden pt-16 px-9 p-5">
         <div className="flex flex-row relative z-1 h-full w-full my-auto">
-          <LandingPage/>
-         <div className={`card shadow-inner border-2 border-purple-300 shadow-black lg:h-[400px] xl:h-[500px] ${overflow} text-white p-5 w-full`}>
+         <div className={`p-5 card shadow-inner border-2 border-purple-300 shadow-black lg:h-[400px] xl:h-[500px] ${overflow} text-white  w-full`}>
           {props.children}
           </div>
         </div>
+        <SideButton/>
       </main>
     </React.Fragment>
   );
