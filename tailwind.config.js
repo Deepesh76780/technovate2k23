@@ -25,7 +25,7 @@ module.exports = {
       },
       fontFamily: {
         Orbitron: ["Orbitron", "sans-serif"],
-        Michroma: ["Michroma", "sans-serif"],
+        Michroma:['var(--font-Michroma)'],
         Chakra: ["Chakra Petch", "sans-serif"],
       },
       colors: {
