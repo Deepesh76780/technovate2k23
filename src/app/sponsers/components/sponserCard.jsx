@@ -11,7 +11,7 @@ export default function SponserCard({ sponserName }) {
         <Card className="text-center card shadow-inner border-2 hover:shadow-emerald-500 w-48 h-56 overflow-hidden cursor-pointer transition-all duration-300">
             <CardTitle className='relative w-full h-[90%]'>
                 <Image
-                    src={"/past_star_images/ash_king.jpg"}
+                    src={"/past_star_images/ash_king.png"}
                     alt={"Sponsers Card"}
                     fill
                 />
