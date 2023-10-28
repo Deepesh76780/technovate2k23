@@ -12,7 +12,7 @@ export default function EventCard({ navigateUrl, eventName }) {
     <Link href={`/event/${navigateUrl}`}>
       <Card className="card bg-[#2304236e]  text-center shadow-inner shadow-black p-2 w-40  hover:scale-90    cursor-pointer transition-all duration-300">
         <Image
-          src={"/star_images/ash_king.jpg"}
+          src={"/past_star_images/ash_king.jpg"}
           width={1000}
           height={1000}
           className='card w-full h-32'

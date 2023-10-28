@@ -11,7 +11,7 @@ export default function PlayerCard({ navigateUrl, playerTask }) {
     <Link href={`/team/${navigateUrl}`}>
       <Card className="card text-center shadow-md overflow-hidden  border-2  w-44 hover:scale-105 cursor-pointer transition-all duration-300">
         <Image
-          src={"/star_images/ash_king.jpg"}
+          src={"/past_star_images/ash_king.jpg"}
           width={1000}
           height={1000}
           className='w-full h-full'
