@@ -9,7 +9,7 @@ import Link from 'next/link'
 export default function PlayerCard({ navigateUrl, playerTask }) {
   return (
     <Link href={`/team/${navigateUrl}`}>
-      <Card className="text-center shadow-md overflow-hidden  border-2  w-44 hover:scale-105 cursor-pointer transition-all duration-300">
+      <Card className="card text-center shadow-md overflow-hidden  border-2  w-44 hover:scale-105 cursor-pointer transition-all duration-300">
         <Image
           src={"/star_images/ash_king.jpg"}
           width={1000}

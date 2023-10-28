@@ -15,7 +15,7 @@ export default function AboutUsPage() {
         >
         </div>
         <div className="w-full p-10">
-          <h1 className="card font-Michroma border-2 border-pink-500 text-slate-300 text-base display-2 text-center relative max-w-[80rem]  mx-auto font-bold tracking-widest bg-[#1410109a] p-10 shadow-pink-400 shadow-inner">
+          <h1 className="card font-cyberstar border-2 border-pink-500 text-slate-300 text-base display-2 text-center relative max-w-[80rem]  mx-auto font-bold tracking-widest bg-[#1410109a] p-10 shadow-pink-400 shadow-inner">
             Technovate, the annual symphony of technology and culture at
             IIIT-NR, is a splendid convergence of mind and artistry. In the
             enchanting month of November, this grand affair unfurls a spectacle

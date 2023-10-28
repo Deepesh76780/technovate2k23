@@ -48,7 +48,7 @@ const LandingPageContent = () => {
         animate={"visible"}
       >
         <div
-          className="font-Chakra text-9xl tracking-widest text-center text-slate-50 place-self-center w-full font-semibold "
+          className="font-glitch text-9xl tracking-[0.15em] text-center text-slate-50 place-self-center w-full "
           style={{ transform: `scale(${scale})` }}
         >
           Technovate
@@ -65,7 +65,7 @@ const LandingPageContent = () => {
       <div className="w-full h-[10%] flex justify-end max-w-[150rem] mx-auto">
         <div className="rotate-90 w-fit text-2xl text-slate-200 h-fit place-self-end">
           <div className="flex gap-2">
-            <p className="place-self-center text-sm font-Orbitron tracking-wider">
+            <p className="place-self-center text-sm font-cyberstar tracking-widest">
               scroll down
             </p>
             <div className="place-self-center">

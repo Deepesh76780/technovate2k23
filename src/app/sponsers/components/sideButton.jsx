@@ -3,7 +3,7 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 
 
-const style = "shadow-inner card border-2  text-center font-Chakra  tracking-widest  p-3 uppercase w-48 hover:scale-110 transition-all duration-300"
+const style = "shadow-inner card border-2  text-center text-sm font-cyberblack  tracking-widest  p-3 uppercase w-48 hover:scale-110 transition-all duration-300"
 
 export default function SideButton() {
 

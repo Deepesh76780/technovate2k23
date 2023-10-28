@@ -27,6 +27,11 @@ module.exports = {
         Orbitron: ["var(--font-Orbitron)"],
         Michroma: ["var(--font-Michroma)"],
         Chakra: ["var(--font-Chakra_Petch)"],
+        cyberway: ["var(--my-cyberway)"],
+        cyberblack: ["var(--my-cyberblack)"],
+        glitch: ["var(--my-glitch)"],
+        greek: ["var(--my-greek)"],
+        cyberstar: ["var(--my-cyberstar)"],
       },
       colors: {
         border: "hsl(var(--border))",
