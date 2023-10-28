@@ -8,9 +8,8 @@ import { usePathname } from "next/navigation";
 
 export default function EventLayout(props) {
 
-  const pathname=usePathname();
-
-  const overflow=(pathname==="/event/cultural" || pathname==="/event/pronight" || pathname==="/event/informal" || pathname==="/event/technical") ? "overflow-y-scroll custom":"overflow-hidden";
+  const pathname = usePathname();
+  const overflow = (pathname === "/event/cultural" || pathname === "/event/pronight" || pathname === "/event/informal" || pathname === "/event/technical") ? "overflow-y-scroll custom" : "overflow-hidden";
 
   return (
     <React.Fragment>
@@ -24,12 +23,12 @@ export default function EventLayout(props) {
       />
       <Navbar bgcolor={"bg-[#a85dd1e1]"} />
       <main className=" flex flex-col min-h-screen items-center justify-between overflow-x-hidden pt-16 px-9 p-5">
-        <div className="flex flex-row relative z-1 h-full w-full my-auto">
-         <div className={`p-5 card shadow-inner border-2 border-purple-300 shadow-black lg:h-[400px] xl:h-[500px] ${overflow} text-white  w-full`}>
-          {props.children}
+        <div className="flex flex-row relative z-1 h-[70vh] w-[80%] my-auto">
+          <div className={`p-5 card shadow-inner border-2 border-purple-300 shadow-purple-400 lg:h-[400px] xl:h-[500px] ${overflow} text-white  w-full`}>
+            {props.children}
           </div>
         </div>
-        <SideButton/>
+        <SideButton />
       </main>
     </React.Fragment>
   );

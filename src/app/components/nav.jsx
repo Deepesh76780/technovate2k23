@@ -21,7 +21,7 @@ const container = {
   },
 };
 
-const Navbar = ({bgcolor}) => {
+const Navbar = ({ bgcolor }) => {
   return (
     <motion.div
       variants={container}
@@ -38,7 +38,7 @@ const Navbar = ({bgcolor}) => {
       <Link href="/team/creaters">
         <NavButton Title="Team" subTitle="0" bgcolor={bgcolor} />
       </Link>
-      <Link href="/sponsers">
+      <Link href="/sponsers/overall_sponser">
         <NavButton Title="Sponsors" subTitle="2" bgcolor={bgcolor} />
       </Link>
       <Link href="/schedule">
