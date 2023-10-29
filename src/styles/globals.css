@@ -131,3 +131,7 @@ body {
   background-color: var(--neon-cyan);
 }
 
+.pink_selector::selection{
+  background-color: rgb(206, 46, 139);
+  color:black
+}

@@ -42,18 +42,18 @@ const LandingPageContent = () => {
     <div className="absolute top-0 left-0 w-full h-full bg-opacity-50 z-10 overlay">
       <Navbar bgcolor={"bg-[#e960a5a8]"} />
       <motion.div
-        className="w-full h-[75%] flex overflow-x-hidden"
+        className="w-full h-[80%] flex overflow-x-hidden"
         variants={container}
         initial={"hidden"}
         animate={"visible"}
       >
         <div
-          className="font-glitch text-9xl tracking-[0.15em] text-center text-slate-50 place-self-center w-full "
+          className="pink_selector font-glitch text-9xl tracking-[0.15em] text-center text-slate-50 place-self-center w-full "
           style={{ transform: `scale(${scale})` }}
         >
           Technovate
           <motion.div
-            className="text-2xl mt-2"
+            className="pink_selector text-2xl mt-2"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1.5, duration: 1 }}
