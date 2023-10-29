@@ -8,7 +8,7 @@ import Image from 'next/image'
 
 export default function SponserCard({ sponserName }) {
     return (
-        <Card className="text-center card shadow-inner border-2 hover:shadow-emerald-500 w-48 h-56 overflow-hidden cursor-pointer transition-all duration-300">
+        <Card className="text-center card shadow-inner border-2 hover:shadow-emerald-600 w-48 h-56 overflow-hidden cursor-pointer transition-all duration-300">
             <CardTitle className='relative w-full h-[90%]'>
                 <Image
                     src={"/past_star_images/ash_king.png"}
@@ -16,7 +16,7 @@ export default function SponserCard({ sponserName }) {
                     fill
                 />
             </CardTitle>
-            <CardFooter className="mx-auto justify-center uppercase bg-emerald-200 p-1 text-sm h-[10%] w-full">
+            <CardFooter className="mx-auto justify-center font-cyberstar font-medium tracking-widest uppercase bg-emerald-300 p-1 text-sm h-[10%] w-full">
                 {sponserName}
             </CardFooter>
         </Card>

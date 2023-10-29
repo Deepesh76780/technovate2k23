@@ -3,7 +3,7 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 
 
-const style = "shadow-inner card border-2 text-sm  text-center font-cyberblack  tracking-widest  p-3 uppercase w-38 hover:scale-110 transition-all duration-300"
+const style = "shadow-inner card border-2 text-xs  text-center font-cyberblack  tracking-widest  p-3 uppercase w-38 hover:scale-110 transition-all duration-300"
 
 export default function LandingPage() {
 
