@@ -6,15 +6,15 @@ import {
 import Image from 'next/image'
 import Link from 'next/link'
 
-export default function PlayerCard({ navigateUrl, playerTask }) {
+export default function PlayerCard({ navigateUrl, playerTask, imgUrl }) {
   return (
     <Link href={`/team/${navigateUrl}`}>
       <Card className="card text-center shadow-md overflow-hidden  border-2  w-44 hover:scale-105 cursor-pointer transition-all duration-300">
         <Image
-          src={"/past_star_images/ash_king.png"}
+          src={imgUrl}
           width={1000}
           height={1000}
-          className='w-full h-full'
+          className='w-full h-52'
           alt={"jai shree ram"}
         />
         <CardFooter className="mx-auto font-cyberstar tracking-widest uppercase bg-cyan-200 p-1 text-sm w-full">

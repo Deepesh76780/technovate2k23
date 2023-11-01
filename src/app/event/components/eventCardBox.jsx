@@ -10,7 +10,7 @@ import Link from 'next/link'
 export default function EventCard({ navigateUrl, eventName }) {
   return (
     <Link href={`/event/${navigateUrl}`}>
-      <Card className="card bg-[#2304236e]  text-center shadow-inner shadow-black p-2 w-40  hover:scale-90    cursor-pointer transition-all duration-300">
+      <Card className="card bg-[#2304236e]  text-center shadow-inner shadow-black p-2 w-40  hover:scale-95    cursor-pointer transition-all duration-300">
         <Image
           src={"/past_star_images/ash_king.png"}
           width={1000}

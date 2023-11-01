@@ -35,7 +35,7 @@ const Navbar = ({ bgcolor }) => {
       <Link href="/event/pronight">
         <NavButton Title="Events" subTitle="2" bgcolor={bgcolor} />
       </Link>
-      <Link href="/team/creaters">
+      <Link href="/team/creators">
         <NavButton Title="Team" subTitle="0" bgcolor={bgcolor} />
       </Link>
       <Link href="/sponsers/overall_sponser">

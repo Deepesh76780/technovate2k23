@@ -4,41 +4,11 @@ import { Chakra_PetchFont } from "../styles/font"
 import { MichromaFont } from "../styles/font"
 import { OrbitronFont } from "../styles/font"
 import { inter } from "../styles/font"
-import localFont from "next/font/local"
-
-const cyberway = localFont({
-  src: "./cyberway.ttf",
-  display: "swap",
-  weight: "300",
-  variable: "--my-cyberway"
-})
-
-const cyberstar = localFont({
-  src: "./cyberstar.ttf",
-  display: "swap",
-  variable: "--my-cyberstar"
-})
-
-const glitch = localFont({
-  src: "./glitch.ttf",
-  display: "swap",
-  weight: "300",
-  variable: "--my-glitch"
-})
-
-const cyberblack = localFont({
-  src: "./cyberblack.ttf",
-  display: "swap",
-  weight: "300",
-  variable: "--my-cyberblack"
-})
-
-const greek = localFont({
-  src: "./greek.ttf",
-  display: "swap",
-  weight: "300",
-  variable: "--my-greek"
-})
+import { cyberway } from "../styles/font"
+import { cyberstar } from "../styles/font";
+import { greek } from "../styles/font";
+import { glitch } from "../styles/font";
+import { cyberblack } from "../styles/font";
 
 
 export const metadata = {

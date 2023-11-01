@@ -2,6 +2,41 @@ import { Inter } from "next/font/google";
 import { Michroma } from "next/font/google";
 import { Chakra_Petch } from "next/font/google";
 import { Orbitron } from "next/font/google";
+import localFont from "next/font/local";
+
+export const cyberway = localFont({
+  src: "./cyberway.ttf",
+  display: "swap",
+  weight: "300",
+  variable: "--my-cyberway",
+});
+
+export const cyberstar = localFont({
+  src: "./cyberstar.ttf",
+  display: "swap",
+  variable: "--my-cyberstar",
+});
+
+export const glitch = localFont({
+  src: "./glitch.ttf",
+  display: "swap",
+  weight: "300",
+  variable: "--my-glitch",
+});
+
+export const cyberblack = localFont({
+  src: "./cyberblack.ttf",
+  display: "swap",
+  weight: "300",
+  variable: "--my-cyberblack",
+});
+
+export const greek = localFont({
+  src: "./greek.ttf",
+  display: "swap",
+  weight: "300",
+  variable: "--my-greek",
+});
 
 export const MichromaFont = Michroma({
   subsets: ["latin"],
