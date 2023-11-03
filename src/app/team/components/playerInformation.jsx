@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import Image from 'next/image'
 import {
@@ -6,12 +7,31 @@ import {
 import { BsLinkedin } from 'react-icons/bs'
 import { AiOutlineMail } from 'react-icons/ai'
 import { BiPhoneCall } from "react-icons/bi"
+import { motion } from "framer-motion"
 import Link from 'next/link'
 
 export default function PlayerInfo({ props }) {
+  const item = {
+    hidden: {
+      opacity: 0,
+    },
+    show: {
+      opacity: 1,
+      transition: {
+        type: "spring",
+        stiffness: 260,
+        damping: 60,
+        duration: 2,
+      }
+    }
+  }
 
   return (
-    <div className={`flex flex-row items-center  justify-around text-sm text-slate-100 font-Michroma tracking-widest`}>
+    <motion.div
+      variants={item}
+      animate="show"
+      initial="hidden"
+      className={`flex flex-row items-center  justify-around text-sm text-slate-100 font-Michroma tracking-widest`}>
       <Card className="text-center shadow-md overflow-hidden h-[80%]  border-2 w-2/5 hover:scale-105 cursor-pointer transition-all duration-300 my-auto card">
         <Image
           src={props.imgUrl}
@@ -40,6 +60,6 @@ export default function PlayerInfo({ props }) {
           </div>
         </CardFooter>
       </Card>
-    </div>
+    </motion.div>
   )
 }
