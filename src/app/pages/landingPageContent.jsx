@@ -1,10 +1,9 @@
-"use client";
 import React, { useEffect, useState } from "react";
 import Navbar from "../components/nav";
-import { motion, useScroll } from "framer-motion";
+import { motion } from "framer-motion";
 import { ChevronDoubleRightIcon } from "@heroicons/react/24/solid";
 
-const container = {
+const containerVariants = {
   hidden: {
     opacity: 0,
     y: 20,
@@ -30,6 +29,7 @@ const LandingPageContent = () => {
       setScrollY(window.scrollY);
     };
 
+
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
@@ -43,14 +43,11 @@ const LandingPageContent = () => {
       <Navbar bgcolor={"bg-[#e960a5a8]"} />
       <motion.div
         className="w-full h-[80%] flex overflow-x-hidden"
-        variants={container}
-        initial={"hidden"}
-        animate={"visible"}
+        variants={containerVariants}
+        initial="hidden"
+        animate="visible"
       >
-        <div
-          className="pink_selector font-glitch text-9xl tracking-[0.15em] text-center text-slate-50 place-self-center w-full "
-          style={{ transform: `scale(${scale})` }}
-        >
+        <div className="pink_selector font-glitch text-9xl tracking-[0.15em] text-center text-slate-50 place-self-center w-full " style={{ transform: `scale(${scale})` }}>
           Technovate
           <motion.div
             className="pink_selector text-2xl mt-2"

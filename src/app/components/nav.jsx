@@ -21,6 +21,34 @@ const container = {
   },
 };
 
+const navData = [
+  {
+    href: "/",
+    title: "Home",
+    subTitle: "©"
+  },
+  {
+    href: "/event/pronight",
+    title: "Events",
+    subTitle: "2"
+  },
+  {
+    href: "/team/creators",
+    title: "Team",
+    subTitle: "0"
+  },
+  {
+    href: "/sponsers/overall_sponser",
+    title: "Sponsors",
+    subTitle: "2"
+  },
+  {
+    href: "/schedule",
+    title: "Schedule",
+    subTitle: "4"
+  }
+]
+
 const Navbar = ({ bgcolor }) => {
   return (
     <motion.div
@@ -29,21 +57,13 @@ const Navbar = ({ bgcolor }) => {
       animate={"visible"}
       className="p-2 z-1 flex  justify-between fixed gap-5 mt-1 w-full"
     >
-      <Link href="/">
-        <NavButton Title="Home" subTitle="©" bgcolor={bgcolor} />
-      </Link>
-      <Link href="/event/pronight">
-        <NavButton Title="Events" subTitle="2" bgcolor={bgcolor} />
-      </Link>
-      <Link href="/team/creators">
-        <NavButton Title="Team" subTitle="0" bgcolor={bgcolor} />
-      </Link>
-      <Link href="/sponsers/overall_sponser">
-        <NavButton Title="Sponsors" subTitle="2" bgcolor={bgcolor} />
-      </Link>
-      <Link href="/schedule">
-        <NavButton Title="Schedule" subTitle="4" bgcolor={bgcolor} />
-      </Link>
+      {
+        navData.map((item, index) => {
+          return <Link href={item.href} key={index}>
+            <NavButton Title={item.title} subTitle={item.subTitle} bgcolor={bgcolor} />
+          </Link>
+        })
+      }
     </motion.div>
   );
 };

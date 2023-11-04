@@ -13,7 +13,7 @@ import { cyberblack } from "../styles/font";
 
 export const metadata = {
   title: "Technovate | 2024",
-  description: "",
+  description: "Technovate is the annual technical fest of IIIT Naya Raipur.",
 };
 
 export default function RootLayout(props) {
