@@ -19,7 +19,7 @@ export default function SideButton() {
         type: "spring",
         stiffness: 260,
         damping: 60,
-        delay: 1.5,
+        delay: 1,
         duration: 2,
       }
     },

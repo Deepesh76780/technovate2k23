@@ -19,7 +19,7 @@ export default function LandingPage() {
         stiffness: 260,
         damping: 60,
         duration: 2,
-        delay: 1.5,
+        delay: 1,
       }
     },
 
