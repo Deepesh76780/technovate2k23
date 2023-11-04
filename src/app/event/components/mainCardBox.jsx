@@ -29,9 +29,9 @@ export default function EventCard() {
       animate="show"
       initial="hidden"
       variants={item}
-      className=" flex flex-row justify-between place-items-center m-10 my-auto"  >
+      className=" flex flex-row justify-between m-5 place-items-center w-full"  >
       <Card
-        className="card bg-[#25052597]  text-center shadow-inner shadow-black p-2 w-[40%] "
+        className="card bg-[#25052597] h-full w-2/5 text-center shadow-inner shadow-black p-2  "
       >
         <Image
           src={"/past_star_images/ash_king.png"}
