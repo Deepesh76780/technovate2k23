@@ -8,12 +8,10 @@ export default function page() {
   const data = team.filter(item => item.criteria === "outlook")
 
   return (
-    <React.Fragment>
-      {
-        data.map((item) => {
-          return <PlayerCard key={item.id} navigateUrl={`outlook/${item.id}`} playerTask={item.name} imgUrl={item.imgUrl} />
-        })
-      }
-    </React.Fragment>
+
+    data.map((item) => {
+      return <PlayerCard key={item.id} navigateUrl={`outlook/${item.id}`} playerTask={item.name} imgUrl={item.imgUrl} />
+    })
+
   )
 }

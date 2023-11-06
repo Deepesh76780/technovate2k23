@@ -1,16 +1,13 @@
 "use client"
 import React from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Navbar from "../components/nav";
-import { usePathname } from "next/navigation";
 import SideButton from "./components/sideButton";
 
 
 
 export default function SponsersLayout({ children }) {
 
-  const pathname = usePathname();
-  const overflow = (pathname === "/event/cultural" || pathname === "/event/pronight" || pathname === "/event/informal" || pathname === "/event/technical") ? "overflow-y-scroll custom" : "overflow-hidden";
 
 
   return (

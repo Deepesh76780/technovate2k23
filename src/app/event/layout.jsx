@@ -1,7 +1,7 @@
 "use client"
 import React from "react";
 import Image from "next/legacy/image";
-import SideButton from "./components/sideButton";
+import SideButton from "./components/bottomButton";
 import Navbar from "../components/nav";
 import { usePathname } from "next/navigation";
 

@@ -8,12 +8,8 @@ export default function page() {
   const data = team.filter(item => (item.criteria === "technical" || item.criteria === "overallCoordinator"))
 
   return (
-    <React.Fragment>
-      {
-        data.map((item) => {
-          return <PlayerCard key={item.id} navigateUrl={`technical/${item.id}`} playerTask={item.name} imgUrl={item.imgUrl} />
-        })
-      }
-    </React.Fragment>
+    data.map((item) => {
+      return <PlayerCard key={item.id} navigateUrl={`technical/${item.id}`} playerTask={item.name} imgUrl={item.imgUrl} />
+    })
   )
 }
