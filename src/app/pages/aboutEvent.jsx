@@ -29,16 +29,19 @@ export default function AboutEvent() {
             backgroundImage: `url(/png_images/test3.jpg)`,
           }}
         ></div>
-        <div className="w-full">
+        <div className="w-full ">
           <Marquee>
             {
               imgData.map((item, index) => {
                 return <EventCard Img={item.href} key={index} />
               })
             }
+            <div className='card -rotate-90 font-cyberstar border-2 border-pink-500 text-slate-300 text-base display-2 text-center relative max-w-[80rem]  mx-auto font-bold tracking-widest bg-[#1410109a] p-4 shadow-pink-400 shadow-inner'>
+              past performers
+            </div>
           </Marquee>
         </div>
-      </section>
-    </div>
+      </section >
+    </div >
   )
 }

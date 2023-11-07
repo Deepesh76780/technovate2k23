@@ -1,5 +1,5 @@
 "use client"
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef, useState } from "react";
 import { SpeakerWaveIcon } from "@heroicons/react/24/solid";
 import { SpeakerXMarkIcon } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 function Audio() {
   const [isPlaying, setIsPlaying] = useState(true);
   const audioRef = useRef();
+
 
   const toggleAudio = () => {
     if (audioRef.current) {
@@ -39,7 +40,7 @@ function Audio() {
         ref={audioRef}
         src="/background_audio/get_you_to_moon.mp3"
         loop
-        autoPlay={true}
+        autoPlay
       />
     </motion.div>
   );
