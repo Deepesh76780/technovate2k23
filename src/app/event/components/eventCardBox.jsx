@@ -17,9 +17,7 @@ export default function EventCard({ navigateUrl, eventName }) {
     show: {
       opacity: 1,
       transition: {
-        type: "spring",
         stiffness: 260,
-        damping: 60,
         duration: 2,
       }
     }
@@ -32,7 +30,7 @@ export default function EventCard({ navigateUrl, eventName }) {
       initial="hidden"
     >
       <Link href={`/event/${navigateUrl}`}>
-        <Card className="card bg-[#2304236e]  text-center shadow-inner shadow-black p-2 w-40  hover:scale-95    cursor-pointer transition-all duration-300">
+        <Card className="card bg-[#9c149c6e]  text-center shadow-inner shadow-black p-2 w-40  hover:scale-95    cursor-pointer transition-all duration-300">
           <Image
             src={"/past_star_images/ash_king.png"}
             width={1000}

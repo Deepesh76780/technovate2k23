@@ -3,8 +3,6 @@ import EventCard from '../../components/mainCardBox'
 
 export default function Page({ params }) {
   return (
-
     <EventCard />
-
   )
 }

@@ -16,9 +16,7 @@ export default function EventCard() {
     show: {
       opacity: 1,
       transition: {
-        type: "spring",
         stiffness: 260,
-        damping: 60,
         duration: 2,
       }
     }
@@ -31,7 +29,7 @@ export default function EventCard() {
       variants={item}
       className=" flex flex-row justify-between m-5 place-items-center w-full"  >
       <Card
-        className="card bg-[#25052597] h-full w-2/5 text-center shadow-inner shadow-black p-2  "
+        className="card  bg-[#9c149c6e] h-full w-2/5 text-center shadow-inner shadow-black p-2  "
       >
         <Image
           src={"/past_star_images/ash_king.png"}

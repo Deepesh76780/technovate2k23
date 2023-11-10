@@ -17,9 +17,7 @@ export default function PlayerCard({ navigateUrl, playerTask, imgUrl }) {
     show: {
       opacity: 1,
       transition: {
-        type: "spring",
         stiffness: 260,
-        damping: 60,
         duration: 2,
       }
     }
@@ -40,7 +38,7 @@ export default function PlayerCard({ navigateUrl, playerTask, imgUrl }) {
             className='w-full h-52'
             alt={"jai shree ram"}
           />
-          <CardFooter className="mx-auto font-cyberstar tracking-widest uppercase bg-cyan-200 p-1 text-sm w-full">
+          <CardFooter className="mx-auto font-cyberstar tracking-widest uppercase bg-cyan-200 p-1 px-5 text-sm w-full">
             <p className='truncate mx-auto'>
               {playerTask}
             </p>

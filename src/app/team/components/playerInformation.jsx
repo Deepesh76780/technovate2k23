@@ -18,9 +18,7 @@ export default function PlayerInfo({ props }) {
     show: {
       opacity: 1,
       transition: {
-        type: "spring",
         stiffness: 260,
-        damping: 60,
         duration: 2,
       }
     }
