@@ -11,25 +11,28 @@ import Loading from "./pages/animateLoader";
 export default function Home() {
 
   const [loading, setLoading] = React.useState(true);
-  const [isPortrait, setIsPortrait] = React.useState(window.matchMedia('(orientation: portrait)').matches);
+  const [isPortrait, setIsPortrait] = React.useState(false);
 
   React.useEffect(() => {
     const handleOrientationChange = (event) => {
       setIsPortrait(event.matches);
     };
 
-    const mediaQuery = window.matchMedia('(orientation: portrait)');
+    // Check if window is defined (runs only in a browser environment)
+    if (typeof window !== 'undefined') {
+      const mediaQuery = window.matchMedia('(orientation: portrait)');
 
-    // Initial check
-    setIsPortrait(mediaQuery.matches);
+      // Initial check
+      setIsPortrait(mediaQuery.matches);
 
-    // Attach a listener for changes
-    mediaQuery.addEventListener('change', handleOrientationChange);
+      // Attach a listener for changes
+      mediaQuery.addEventListener('change', handleOrientationChange);
 
-    // Cleanup the listener on component unmount
-    return () => {
-      mediaQuery.removeEventListener('change', handleOrientationChange);
-    };
+      // Cleanup the listener on component unmount
+      return () => {
+        mediaQuery.removeEventListener('change', handleOrientationChange);
+      };
+    }
   }, []);
 
   setTimeout(() => {
