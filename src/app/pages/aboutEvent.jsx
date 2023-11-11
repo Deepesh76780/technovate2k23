@@ -36,7 +36,7 @@ export default function AboutEvent() {
                 return <EventCard Img={item.href} key={index} />
               })
             }
-            <div className='card -rotate-90 font-cyberstar border-2 border-pink-500 text-slate-300 text-base display-2 text-center relative max-w-[80rem]  mx-auto font-bold tracking-widest bg-[#1410109a] p-4 shadow-pink-400 shadow-inner'>
+            <div className='card -rotate-90 font-cyberstar border-2 border-pink-500 text-slate-300 text-base display-2 text-center relative max-w-[80rem]  mx-auto font-bold tracking-widest bg-blackparent p-4 shadow-pink-400 shadow-inner'>
               past performers
             </div>
           </Marquee>

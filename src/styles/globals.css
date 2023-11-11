@@ -67,7 +67,20 @@ body::-webkit-scrollbar-thumb {
   border: 2px solid rgba(192, 178, 178, 0);
 }
 
+.cus::-webkit-scrollbar {
+  width: 5px;
+}
 
+.cus::-webkit-scrollbar-track {
+  border-radius: 5px;
+}
+
+.cus::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  margin:10px;
+  border-radius: 14px;
+  border: 2px solid rgb(192, 178, 178);
+}
 
 
 

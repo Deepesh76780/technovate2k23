@@ -43,7 +43,7 @@ const navData = [
     subTitle: "2"
   },
   {
-    href: "/schedule",
+    href: "/schedule/day1",
     title: "Schedule",
     subTitle: "4"
   }

@@ -33,6 +33,9 @@ module.exports = {
         greek: ["var(--my-greek)"],
         cyberstar: ["var(--my-cyberstar)"],
       },
+      backgroundColor: {
+        blackparent: "#00000080",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

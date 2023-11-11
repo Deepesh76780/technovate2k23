@@ -7,9 +7,9 @@ import { usePathname } from "next/navigation";
 
 const ALLOWED_PATHNAMES = ["/event/cultural", "/event/pronight", "/event/informal", "/event/technical"];
 
-export default function EventLayout(props) {
+export default function EventLayout({ children }) {
   const pathname = usePathname();
-  const isOverflow = ALLOWED_PATHNAMES.includes(pathname) ? "overflow-y-scroll custom" : "overflow-hidden";
+  const isOverflow = ALLOWED_PATHNAMES.includes(pathname) ? "overflow-y-scroll" : "overflow-hidden";
   const navbarBgColor = "bg-[#a85dd1e1]";
 
   return (
@@ -25,8 +25,10 @@ export default function EventLayout(props) {
       <Navbar bgcolor={navbarBgColor} />
       <main className="flex flex-col min-h-screen  overflow-x-hidden pt-16 px-16 p-5">
         <div className="w-[50%] flex flex-row justify-start relative z-1  skew-x-12 h-[60vh] my-auto">
-          <div className={`p-5  h-full w-full flex bg-[#00000080] border-2 border-purple-400 shadow-md shadow-purple-400 ${isOverflow} text-white`}>
-            {props.children}
+          <div className={`p-1  h-full w-full  bg-blackparent border-2 border-purple-400 shadow-md shadow-purple-400  text-white`}>
+            <div className={`overflow-y-scroll cus h-full w-full p-5 flex flex-row flex-wrap ${isOverflow} gap-10 justify-center`}>
+              {children}
+            </div>
           </div>
         </div>
         <SideButton />
