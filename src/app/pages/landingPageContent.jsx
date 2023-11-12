@@ -43,12 +43,12 @@ const LandingPageContent = () => {
     <div className={`absolute top-0 left-0 w-full h-full ${hover ? "bg-black" : "bg-opacity-50"} z-10 overlay`}>
       <Navbar bgcolor={"bg-[#e960a5a8]"} />
       <motion.div
-        className="w-full h-[80%] flex overflow-x-hidden"
+        className="w-full lg:h-[80%]  h-[83%] flex overflow-x-hidden"
         variants={containerVariants}
         initial="hidden"
         animate="visible"
       >
-        <div className="pink_selector font-glitch lg:text-9xl text-5xl tracking-[0.15em] z-10 text-center text-slate-50 place-self-center w-full " style={{ transform: `scale(${scale})` }}>
+        <div className="pink_selector font-glitch lg:text-9xl text-6xl tracking-[0.15em] z-10 text-center text-slate-50 place-self-center w-full " style={{ transform: `scale(${scale})` }}>
           {hover ? "IIITNR FEST" : "Technovate"}
 
           <motion.div
@@ -61,10 +61,10 @@ const LandingPageContent = () => {
           </motion.div>
         </div>
       </motion.div>
-      <div className="w-full h-[2%] flex justify-end max-w-[150rem] mx-auto">
-        <div className="rotate-90 w-fit lg:text-2xl text-xl text-slate-200 h-fit place-self-end">
+      <div className="w-full h-[1%] lg:h-[2%] flex justify-end max-w-[150rem] mx-auto">
+        <div className="rotate-90 w-fit  text-slate-200 h-fit place-self-end">
           <div className="flex gap-2">
-            <p className="place-self-center text-sm font-cyberstar tracking-widest">
+            <p className="place-self-center text-xs lg:text-sm font-cyberstar tracking-widest">
               scroll down
             </p>
             <div className="place-self-center">

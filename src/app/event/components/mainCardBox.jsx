@@ -27,7 +27,7 @@ export default function EventCard() {
       animate="show"
       initial="hidden"
       variants={item}
-      className=" flex flex-row justify-between m-5 place-items-center w-full"  >
+      className=" flex flex-row justify-between  lg:m-5 place-items-center w-full"  >
       <Card
         className="card  bg-[#9c149c6e] h-full w-2/5 text-center shadow-inner shadow-black p-2  "
       >

@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 import { usePathname } from "next/navigation"
 
 
-const style = "shadow-inner card border-2  text-center text-xs font-cyberblack  tracking-widest  p-3 uppercase w-32 hover:scale-110 transition-all duration-300"
+const style = "shadow-inner card border-2  text-center text-xs font-cyberblack  tracking-widest p-1 lg:p-3 uppercase w-28 lg:w-32 hover:scale-110 transition-all duration-300"
 
 export default function SideButton() {
 
@@ -32,7 +32,7 @@ export default function SideButton() {
       variants={item}
       initial="hidden"
       animate="show"
-      className="flex w-[40%] gap-4 text-purple-300 items-center justify-center place-self-center">
+      className="flex w-[40%] gap-3 lg:gap-4 text-purple-300 items-center justify-center place-self-center">
       <Link className={`${style} ${pathname.startsWith("/event/pronight") ? "shadow-pink-400 border-pink-400 text-pink-300" : "border-purple-400 shadow-pink-300"}`} href={"/event/pronight"}>Pronight</Link>
       <Link className={`${style} ${pathname.startsWith("/event/cultural") ? "shadow-pink-400 border-pink-400 text-pink-300" : "border-purple-400 shadow-pink-300"}`} href={"/event/cultural"}>Cultural</Link>
       <Link className={`${style} ${pathname.startsWith("/event/informal") ? "shadow-pink-400 border-pink-400 text-pink-300" : "border-purple-400 shadow-pink-300"}`} href={"/event/informal"}>informal</Link>
