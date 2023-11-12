@@ -79,7 +79,7 @@ const LandingPageContent = () => {
         transition={{ duration: 1, delay: 1.5 }}
         onMouseEnter={() => setHover(true)}
         onMouseLeave={() => setHover(false)}
-        className="pink_selector h-fit  border-2  hover:border-pink-500 hover:bg-black hover:rounded-lg hover:scale-125 hover:backdrop-hue-rotate-30 hover:text-pink-400 transition-all duration-500 cursor-pointer tracking-widest flex place-self-center text-center  border-slate-200  text-3xl  rounded-xl font-cyberstar text-slate-50 p-4 mx-auto w-fit backdrop-hue-rotate-90">
+        className="pink_selector h-fit  border-2  hover:border-pink-500 hover:bg-black hover:rounded-lg hover:scale-125 hover:backdrop-hue-rotate-30 hover:text-pink-400 transition-all duration-500 cursor-pointer tracking-[0.3em] flex place-self-center text-center  border-slate-200  text-2xl  rounded-xl font-cyberway  text-slate-50 p-4 mx-auto w-fit backdrop-hue-rotate-90">
         REGISTER
       </motion.div>
     </div >

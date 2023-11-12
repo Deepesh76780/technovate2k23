@@ -33,9 +33,9 @@ export default function BottomButton() {
             initial="hidden"
             animate="show"
             className="flex w-[40%] gap-4 text-purple-300 items-center justify-center place-self-center">
-            <Link className={`${style} ${pathname.startsWith("/schedule/day1") ? "shadow-pink-400 border-pink-400 text-pink-300" : "border-amber-600 shadow-amber-300 text-amber-300"}`} href={"/schedule/day1"}>level 1</Link>
-            <Link className={`${style} ${pathname.startsWith("/schedule/day2") ? "shadow-pink-400 border-pink-400 text-pink-300" : "border-amber-600 shadow-amber-300 text-amber-300"}`} href={"/schedule/day2"}>level 2</Link>
-            <Link className={`${style} ${pathname.startsWith("/schedule/day3") ? "shadow-pink-400 border-pink-400 text-pink-300" : "border-amber-600 shadow-amber-300 text-amber-300"}`} href={"/schedule/day3"}>level 3</Link>
+            <Link className={`${style} ${pathname.startsWith("/schedule/day1") ? "shadow-red-300 border-red-400 text-red-200" : "border-amber-600 shadow-amber-300 text-amber-300"}`} href={"/schedule/day1"}>level 1</Link>
+            <Link className={`${style} ${pathname.startsWith("/schedule/day2") ? "shadow-red-300 border-red-400 text-red-200" : "border-amber-600 shadow-amber-300 text-amber-300"}`} href={"/schedule/day2"}>level 2</Link>
+            <Link className={`${style} ${pathname.startsWith("/schedule/day3") ? "shadow-red-300 border-red-400 text-red-200" : "border-amber-600 shadow-amber-300 text-amber-300"}`} href={"/schedule/day3"}>level 3</Link>
         </motion.div>
     )
 }

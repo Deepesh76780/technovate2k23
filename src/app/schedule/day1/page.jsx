@@ -1,7 +1,7 @@
 import React from 'react'
 import ScheduleTable from "../component/scheduleTable"
 
-const star = [
+const day1 = [
     {
         "time": "9:00",
         "name": "jai shree ram",
@@ -68,7 +68,7 @@ const star = [
 
 const Page = () => {
     return (
-        <ScheduleTable data={star} />
+        <ScheduleTable data={day1} />
     )
 }
 

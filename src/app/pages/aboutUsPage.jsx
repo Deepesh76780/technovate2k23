@@ -26,6 +26,9 @@ export default function AboutUsPage() {
             vibrant oasis empowering students to celebrate their skills and passions.
           </h1>
         </div>
+        <div className=' w-fit  border-2 font-cyberway tracking-[0.3em] mt-12 shadow-xl rounded-2xl   text-slate-100 text-2xl display-2 text-center relative max-w-[80rem]  mx-auto font-bold  bg-blackparent p-4 shadow-black '>
+          ABOUT US
+        </div>
       </section>
     </div>
   );
