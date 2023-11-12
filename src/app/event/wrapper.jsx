@@ -23,7 +23,7 @@ export default function Wrapper({ children }) {
                 priority={true}
             />
             <Navbar bgcolor={navbarBgColor} />
-            <main className="flex flex-col min-h-screen  overflow-x-hidden pt-16 px-16 p-5">
+            <main className="flex flex-col min-h-screen  overflow-x-hidden pt-7 lg:pt-16 px-16 p-2 lg:p-5">
                 <div className=" w-[50%] flex flex-row justify-start relative z-1  skew-x-12 h-[45vh] lg:h-[60vh] my-auto">
                     <div className={`p-1  h-full w-full  bg-blackparent border-2 border-purple-400 shadow-md shadow-purple-400  text-white`}>
                         <div className={`overflow-y-scroll cus h-full w-full p-1 lg:p-5 flex flex-row flex-wrap ${isOverflow} gap-2 lg:gap-10 justify-center`}>
