@@ -41,19 +41,19 @@ export default function PlayerInfo({ props }) {
       </Card >
       <Card className="flex flex-col gap-2">
         <CardHeader className="flex flex-col gap-2 font-cyberstar tracking-[0.2em]">
-          <CardTitle className="text-xs w-48 truncate">{props.name}</CardTitle>
+          <CardTitle className="text-base w-48 truncate">{props.name}</CardTitle>
           <CardDescription >Website Head</CardDescription>
         </CardHeader>
         <CardFooter className="flex flex-col items-start gap-2">
           <div className='flex gap-2'>
-            <BiPhoneCall className='h-5 w-5' /> <p className='text-xs'>+916213876128</p>
+            <BiPhoneCall className='h-5 w-5' /> <p className='text-base'>+91-{props.phone}</p>
           </div>
           <div className='flex flex-row gap-2'>
-            <Link href="#">
-              <BsLinkedin className='h-5 w-5' />
+            <Link href={props.linkedIn} >
+              <BsLinkedin className='h-5 w-5 hover:scale-125 transition-all duration-300' />
             </Link>
             <Link href="#">
-              <AiOutlineMail className='h-5 w-5' />
+              <AiOutlineMail className='h-5 w-5 hover:scale-125 transition-all duration-300' />
             </Link>
           </div>
         </CardFooter>

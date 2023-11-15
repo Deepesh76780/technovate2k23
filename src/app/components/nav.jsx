@@ -33,7 +33,7 @@ const navData = [
     subTitle: "2"
   },
   {
-    href: "/team/creators",
+    href: "/team/HeadCoordinator",
     title: "Team",
     subTitle: "0"
   },

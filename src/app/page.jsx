@@ -7,6 +7,7 @@ import IntroVideo from '../app/pages/introVideo';
 import AboutEvent from '../app/pages/aboutEvent';
 import Footer from '../app/components/footer';
 import Loading from '../app/pages/animateLoader';
+import Blog from '../app/pages/blog';
 
 export default function Home() {
   const isPortrait = useOrientation();
@@ -29,6 +30,7 @@ export default function Home() {
             <AboutUsPage />
             <IntroVideo />
             <AboutEvent />
+            <Blog />
             <Footer />
           </>
         )}

@@ -3,6 +3,8 @@ import React, { useRef, useState } from "react";
 import { SpeakerWaveIcon } from "@heroicons/react/24/solid";
 import { SpeakerXMarkIcon } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
+import Image from 'next/image'
+import Link from "next/link";
 
 function Audio() {
   const [isPlaying, setIsPlaying] = useState(true);
@@ -30,11 +32,21 @@ function Audio() {
       transition={{ duration: 1 }}
     >
       <button onClick={toggleAudio}>
-        {isPlaying ? (
-          <SpeakerWaveIcon className="text-slate-300 h-6 w-6" />
-        ) : (
-          <SpeakerXMarkIcon className="text-slate-300 h-6 w-6" />
-        )}
+        <div className="flex flex-row gap-2 items-center justify-center">
+          {isPlaying ? (
+            <SpeakerWaveIcon className="text-slate-300 h-6 w-6" />
+          ) : (
+            <SpeakerXMarkIcon className="text-slate-300 h-6 w-6" />
+          )}
+          <Link href="/">
+            <Image
+              src='/logo/logo.png'
+              height={26}
+              width={26}
+              alt='logo'
+            />
+          </Link>
+        </div>
       </button>
       <audio
         ref={audioRef}
