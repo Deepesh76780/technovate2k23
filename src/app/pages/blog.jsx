@@ -6,14 +6,18 @@ import {
     CardHeader,
 } from "@/components/ui/card"
 import Image from 'next/image'
+import { Separator } from '@/components/ui/separator'
 
 const Blog = () => {
     return (
-        <div className='w-full flex flex-col py-14 gap-20 bg-black max-w-[150rem] text-slate-200'>
-            <div className='w-full flex justify-between items-center '>
-                <Card className="shadow-2xl shadow-slate-700 skew-y-12 transition-all duration-300 p-3 ">
+        <div className='w-full h-full flex flex-col py-14 gap-20 bg-black max-w-[150rem] text-slate-200 px-7'>
+            <div className=' w-fit h-fit border-2 font-cyberway tracking-[0.3em]  shadow-xl rounded-2xl   text-slate-100 text:xl lg:text-2xl  display-2 text-center relative max-w-[80rem]  mx-auto font-bold   p-4 shadow-slate-800 '>
+                Blog
+            </div>
+            <div className='w-full h-full flex justify-between items-center'>
+                <Card className="shadow-inner shadow-black bg-slate-900  transition-all duration-300 p-3 ">
                     <CardHeader>
-                        <div className='relative h-[300px] w-full'>
+                        <div className='relative h-[250px] w-full'>
                             <Image
                                 alt="Yash Khare"
                                 src="/blog/yash.webp"
@@ -29,12 +33,10 @@ const Blog = () => {
                         <p>Student Coordinator (2019-2020)</p>
                     </CardContent>
                 </Card>
-                <div className=' w-fit h-fit border-2 font-cyberway tracking-[0.3em]  shadow-xl rounded-2xl   text-slate-100 text:xl lg:text-2xl  display-2 text-center relative max-w-[80rem]  mx-auto font-bold   p-4 shadow-slate-800 '>
-                    Blog
-                </div>
-                <Card className="shadow-2xl shadow-slate-700  -skew-y-12 transition-all duration-300 p-3 ">
+                <Separator className="w-[0.5px] h-[600px] bg-slate-500 mx-[1px]" />
+                <Card className="shadow-inner shadow-black bg-slate-900 transition-all duration-300 p-3 ">
                     <CardHeader>
-                        <div className='relative h-[300px] w-full'>
+                        <div className='relative h-[250px] w-full'>
                             <Image
                                 alt="Nitin"
                                 src="/blog/nitin.jpg"
