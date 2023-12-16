@@ -9,6 +9,8 @@ import { AiOutlineMail } from 'react-icons/ai'
 import { BiPhoneCall } from "react-icons/bi"
 import { motion } from "framer-motion"
 import Link from 'next/link'
+import { Separator } from "@/components/ui/separator"
+
 
 export default function PlayerInfo({ props }) {
   const item = {
@@ -29,8 +31,8 @@ export default function PlayerInfo({ props }) {
       variants={item}
       animate="show"
       initial="hidden"
-      className={`flex flex-row items-center  justify-around text-sm text-slate-100 font-Michroma tracking-widest`}>
-      <Card className="text-center shadow-md overflow-hidden h-[80%]  border-2 w-2/5 hover:scale-105 cursor-pointer transition-all duration-300 my-auto card">
+      className={`flex md:flex-row flex-col items-center  justify-around text-sm text-slate-100 font-Michroma tracking-widest gap-5`}>
+      <Card className="text-center shadow-md overflow-hidden lg:h-[80%] h-[60%]  border-2 lg:w-2/5 w-4/5 hover:scale-105 cursor-pointer transition-all duration-300 my-auto card">
         <Image
           src={props.imgUrl}
           width={1000}
@@ -39,14 +41,15 @@ export default function PlayerInfo({ props }) {
           alt={"jai shree ram"}
         />
       </Card >
-      <Card className="flex flex-col gap-2">
-        <CardHeader className="flex flex-col gap-2 font-cyberstar tracking-[0.2em]">
-          <CardTitle className="text-base w-48 truncate">{props.name}</CardTitle>
-          <CardDescription >Website Head</CardDescription>
+      <Separator className=" md:hidden visible h-[1px] w-full bg-slate-500 mx-[1px]" />
+      <Card className="flex flex-col md:gap-2 gap-1">
+        <CardHeader className="flex flex-col md:gap-2 gap-1  font-cyberstar tracking-[0.2em]">
+          <CardTitle className="md:text-base text-xs w-48 truncate">{props.name}</CardTitle>
+          <CardDescription className="md:text-base text-xs">Website Head</CardDescription>
         </CardHeader>
         <CardFooter className="flex flex-col items-start gap-2">
-          <div className='flex gap-2'>
-            <BiPhoneCall className='h-5 w-5' /> <p className='text-base'>+91-{props.phone}</p>
+          <div className='flex gap-2 place-items-center'>
+            <BiPhoneCall className='md:h-5 md:w-5 h-3 w-3' /> <p className='md:text-base text-[0.5rem]'>+91-{props.phone}</p>
           </div>
           <div className='flex flex-row gap-2'>
             <Link href={props.linkedIn} >

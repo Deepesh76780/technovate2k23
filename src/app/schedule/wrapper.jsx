@@ -21,8 +21,8 @@ const Wrapper = ({ children }) => {
                 priority={true}
             />
             <Navbar bgcolor={navbarBgcolor} />
-            <main className="flex flex-col min-h-screen  overflow-x-hidden pt-16 p-5 items-end ">
-                <div className="w-[45%] bg-blackparent p-2 rounded-xl  relative z-1 h-[60vh] my-auto">
+            <main className="flex flex-col md:min-h-screen h-[100dvh] overflow-x-hidden pt-16 p-5 items-end ">
+                <div className="md:w-[45%] w-full bg-blackparent p-2 rounded-xl  relative z-1 h-[60vh] my-auto">
                     <div className="overflow-y-scroll cus h-full p-1">
                         {children}
                     </div>

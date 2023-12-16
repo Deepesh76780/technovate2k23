@@ -26,7 +26,7 @@ function Audio() {
 
   return (
     <motion.div
-      className="fixed bottom-1 left-4 z-10 lg:visible hidden"
+      className="fixed bottom-1 left-4 z-10 md:flex hidden"
       initial={{ opacity: 0, scale: 0.5 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 1 }}

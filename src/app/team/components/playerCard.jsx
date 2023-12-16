@@ -35,7 +35,7 @@ export default function PlayerCard({ navigateUrl, playerTask, imgUrl }) {
             src={imgUrl}
             width={1000}
             height={1000}
-            className='w-full h-52'
+            className='w-full h-48 md:h-52'
             alt={"jai shree ram"}
           />
           <CardFooter className="mx-auto font-cyberstar tracking-widest uppercase bg-cyan-200 p-1 px-5 text-sm w-full">
