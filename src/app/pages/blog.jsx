@@ -10,8 +10,9 @@ import { Separator } from '@/components/ui/separator'
 
 const Blog = () => {
     return (
-        <div className="w-full h-full flex flex-col py-14 gap-20 bg-[url('/background_images/Background.jpeg')] bg-cover max-w-[150rem] text-slate-200 px-7">
-            <div className=' md:w-[400px] w-full h-fit border-2 font-cyberway tracking-[0.3em]  shadow-xl rounded-2xl   text-slate-100 text:base lg:text-2xl  display-2 text-center relative max-w-[80rem]  mx-auto font-bold   p-4 shadow-slate-800 '>
+        <div className="w-full h-full flex flex-col py-14 gap-20    max-w-[150rem] text-slate-200 px-7">
+
+            <div className='md:w-[400px] w-full h-fit border-2 font-cyberway tracking-[0.3em]  shadow-xl rounded-2xl   text-slate-100 text:base lg:text-2xl  display-2 text-center relative max-w-[80rem]  mx-auto font-bold   p-4 shadow-slate-800 '>
                 Blog
             </div>
             <div className='w-full h-full flex lg:flex-row flex-col justify-between items-center lg:gap-0 gap-20'>

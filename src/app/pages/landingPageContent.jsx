@@ -61,10 +61,10 @@ const LandingPageContent = () => {
           </motion.div>
         </div>
       </motion.div>
-      <div className="w-full h-[1%] lg:h-[2%] flex justify-end max-w-[150rem] mx-auto">
+      <div className="w-full h-[2%] md:flex hidden justify-end max-w-[150rem] mx-auto  ">
         <div className="rotate-90 w-fit  text-slate-200 h-fit place-self-end">
           <div className="flex gap-2">
-            <p className="place-self-center text-xs lg:text-sm font-cyberstar tracking-widest">
+            <p className="place-self-center text-xs lg:text-sm font-cyberstar tracking-widest ">
               scroll down
             </p>
             <div className="place-self-center">
