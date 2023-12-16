@@ -14,7 +14,7 @@ const BackgroundVideo = ({ src, speed }) => {
   useVideoPlaybackSpeed(videoRef, speed);
 
   return (
-    <div className="relative w-screen h-screen overflow-hidden">
+    <div className="relative w-screen md:h-screen h-[100dvh] overflow-hidden">
       <video
         ref={videoRef}
         autoPlay

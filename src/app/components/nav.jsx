@@ -87,7 +87,7 @@ const Navbar = ({ bgcolor }) => {
         }
       </motion.div>
       <div className="w-full lg:hidden visible">
-        <div className="z-20 fixed  top-0 right-0">
+        <div className="z-20 fixed  top-0 right-2">
           <Hamburger toggled={isOpen} toggle={setOpen} duration={1} color={"white"} />
         </div>
         {
