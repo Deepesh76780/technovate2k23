@@ -48,7 +48,7 @@ const LandingPageContent = () => {
         initial="hidden"
         animate="visible"
       >
-        <div className="pink_selector font-glitch lg:text-9xl text-6xl tracking-[0.15em] z-10 text-center text-slate-50 place-self-center w-full " style={{ transform: `scale(${scale})` }}>
+        <div className="pink_selector font-glitch lg:text-9xl text-5xl tracking-[0.15em] z-1 text-center text-slate-50 place-self-center w-full " style={{ transform: `scale(${scale})` }}>
           {hover ? "IIITNR FEST" : "Technovate"}
 
           <motion.div

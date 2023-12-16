@@ -11,10 +11,10 @@ import { Separator } from '@/components/ui/separator'
 const Blog = () => {
     return (
         <div className='w-full h-full flex flex-col py-14 gap-20 bg-black max-w-[150rem] text-slate-200 px-7'>
-            <div className=' w-fit h-fit border-2 font-cyberway tracking-[0.3em]  shadow-xl rounded-2xl   text-slate-100 text:xl lg:text-2xl  display-2 text-center relative max-w-[80rem]  mx-auto font-bold   p-4 shadow-slate-800 '>
+            <div className=' w-fit h-fit border-2 font-cyberway tracking-[0.3em]  shadow-xl rounded-2xl   text-slate-100 text:base lg:text-2xl  display-2 text-center relative max-w-[80rem]  mx-auto font-bold   p-4 shadow-slate-800 '>
                 Blog
             </div>
-            <div className='w-full h-full flex justify-between items-center'>
+            <div className='w-full h-full flex lg:flex-row flex-col justify-between items-center lg:gap-0 gap-20'>
                 <Card className="shadow-inner shadow-black bg-slate-900  transition-all duration-300 p-3 ">
                     <CardHeader>
                         <div className='relative h-[250px] w-full'>
@@ -33,7 +33,7 @@ const Blog = () => {
                         <p>Student Coordinator (2019-2020)</p>
                     </CardContent>
                 </Card>
-                <Separator className="w-[0.5px] h-[600px] bg-slate-500 mx-[1px]" />
+                <Separator className="lg:w-[0.5px] lg:h-[600px] h-[1px] w-full bg-slate-500 mx-[1px]" />
                 <Card className="shadow-inner shadow-black bg-slate-900 transition-all duration-300 p-3 ">
                     <CardHeader>
                         <div className='relative h-[250px] w-full'>

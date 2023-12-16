@@ -1,13 +1,16 @@
 "use client"
 import React from 'react'
 import {
-  Card,
+  Card, CardHeader, CardFooter, CardTitle, CardDescription, CardContent
 } from "@/components/ui/card"
 import Image from 'next/image'
 import { motion } from 'framer-motion'
+import { Badge } from "@/components/ui/badge"
+import { Separator } from "@/components/ui/separator"
 
 
-export default function EventCard() {
+
+export default function EventCard({ store }) {
 
   const item = {
     hidden: {
@@ -27,9 +30,9 @@ export default function EventCard() {
       animate="show"
       initial="hidden"
       variants={item}
-      className=" flex flex-row justify-between  lg:m-5 place-items-center w-full"  >
+      className=" flex md:flex-row flex-col md:gap-0 gap-5  justify-evenly  md:m-5 place-items-center w-full"  >
       <Card
-        className="card  bg-[#9c149c6e] h-full w-2/5 text-center shadow-inner shadow-black p-2  "
+        className="card  bg-[#9c149c6e] h-full lg:w-2/5 w-3/5 text-center shadow-inner shadow-black  lg:p-2 p-1 "
       >
         <Image
           src={"/past_star_images/ash_king.png"}
@@ -40,8 +43,32 @@ export default function EventCard() {
           priority
         />
       </Card>
-      <Card>
-        jai shree ram
+      <Separator className=" md:hidden visible h-[1px] w-full bg-slate-500 mx-[1px]" />
+      <Card className="flex flex-col gap-5">
+        <CardHeader>
+          {store.Event}
+          <Badge variant="outline" >
+            {store.Mode}
+          </Badge>
+        </CardHeader>
+        <CardTitle className="flex flex-col items-start">
+          {
+            store.Distribution.map((item, index) => {
+              return <div key={index}>
+                {item}
+              </div>
+            })
+          }
+        </CardTitle>
+        <CardFooter className="flex flex-col items-start">
+          {
+            store.Event_Heads.map((item, index) => {
+              return <div key={index}>
+                {item}
+              </div>
+            })
+          }
+        </CardFooter>
       </Card>
     </motion.div >
   )

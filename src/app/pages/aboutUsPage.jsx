@@ -14,11 +14,11 @@ export default function AboutUsPage() {
           }}
         >
         </div>
-        <div className=' w-fit  border-2 font-cyberway tracking-[0.3em] lg:mb-12  mb-8 shadow-xl rounded-2xl   text-slate-100 text-xl lg:text-2xl display-2 text-center relative max-w-[80rem]  mx-auto font-bold  bg-blackparent p-4 shadow-black '>
+        <div className=' w-fit  border-2 font-cyberway tracking-[0.3em] lg:mb-12  mb-8 shadow-xl rounded-2xl   text-slate-100 text-base lg:text-2xl display-2 text-center relative max-w-[80rem]  mx-auto font-bold  bg-blackparent p-4 shadow-black '>
           ABOUT US
         </div>
         <div className="w-full p-10">
-          <h1 className="pink_selector card font-cyberstar border-2 border-pink-500 text-slate-300 lg:text-base text-sm display-2 text-center relative max-w-[80rem]  mx-auto font-bold tracking-widest bg-blackparent p-10 shadow-pink-400 shadow-inner">
+          <h1 className="pink_selector card font-cyberstar border-2 border-pink-500 text-slate-300 lg:text-base text-xs display-2 text-center relative max-w-[80rem]  mx-auto font-bold tracking-widest bg-blackparent lg:p-10 p-4 shadow-pink-400 shadow-inner">
             Technovate at IIIT-NR is an annual fusion of technology and culture,
             featuring coding competitions, hacking contests,
             a battle of bands, and keynote sessions by innovation experts.

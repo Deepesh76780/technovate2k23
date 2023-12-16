@@ -32,6 +32,9 @@ dependencies:
   framer-motion:
     specifier: ^10.16.4
     version: 10.16.4(react-dom@18.2.0)(react@18.2.0)
+  hamburger-react:
+    specifier: ^2.5.0
+    version: 2.5.0(react@18.2.0)
   lucide-react:
     specifier: ^0.286.0
     version: 0.286.0(react@18.2.0)
@@ -2011,6 +2014,14 @@ packages:
 
   /graphemer@1.4.0:
     resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
+    dev: false
+
+  /hamburger-react@2.5.0(react@18.2.0):
+    resolution: {integrity: sha512-5GSXe+ucxTPJ0SkhIsPQ/PRDweZPIKya1lfahAuExx31SdheeUA4uOPfQIAirbKona8hvo79VDr5LJQzPXsdpw==}
+    peerDependencies:
+      react: ^16.8 || ^17 || ^18
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /has-bigints@1.0.2:

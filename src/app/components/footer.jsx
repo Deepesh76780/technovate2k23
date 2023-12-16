@@ -33,8 +33,7 @@ export default function Footer() {
         )}
       </div>
       <div className="flex flex-col font-cyberway tracking-[0.3rem] items-center justify-center gap-2 ">
-        <p className="text-slate-100 text-xs pink_selector">© 2024 Technovate - All Rights Reserved.</p>
-        <p className="text-slate-100 text-[0.4rem] pink_selector">Website Created and crafted by Deepesh Agrawal and Team</p>
+        <p className="text-slate-100 lg:text-xs text-[0.4rem] pink_selector">© 2024 Technovate - All Rights Reserved.</p>
       </div>
     </footer>
   )
