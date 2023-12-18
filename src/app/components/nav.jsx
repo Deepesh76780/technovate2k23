@@ -4,8 +4,8 @@ import React from "react";
 import { NavButton } from "./navButton";
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { Sling as Hamburger } from 'hamburger-react'
-import Audio from "./backgroundAudio";
+import { Spiral as Hamburger } from 'hamburger-react'
+import Image from "next/image";
 
 const container = {
   hidden: {
@@ -87,7 +87,14 @@ const Navbar = ({ bgcolor, resColor }) => {
       </motion.div>
       <div className="w-full lg:hidden visible">
         <div className="z-20 fixed flex flex-row place-items-center justify-between w-full px-4">
-          <Audio />
+          <Link href="/">
+            <Image
+              src='/logo/logo.png'
+              height={30}
+              width={30}
+              alt='logo'
+            />
+          </Link>
           <Hamburger toggled={isOpen} toggle={setOpen} duration={0.8} color={resColor} />
         </div>
         {

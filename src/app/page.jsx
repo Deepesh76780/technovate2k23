@@ -21,15 +21,15 @@ export default function Home() {
     if (loading && !toastShown) {
       const timeoutId = setTimeout(() => {
         setLoading(false);
-        toast('Secure your passes today', {
+        toast('👈 👀 Secure your passes today 🤝', {
           position: "bottom-right",
-          autoClose: 5000,
+          autoClose: 10000,
           hideProgressBar: false,
           closeOnClick: true,
           pauseOnHover: true,
           draggable: true,
           progress: undefined,
-          theme: "dark",
+          theme: "light",
         });
         setToastShown(true);
       }, 6000);
@@ -56,10 +56,12 @@ export default function Home() {
           <section className="cyberpunk w-full">
           </section>
           <Blog />
+          <section className="cyberpunk w-full">
+          </section>
           <Footer />
           <ToastContainer
             position="bottom-right"
-            autoClose={5000}
+            autoClose={10000}
             hideProgressBar={false}
             newestOnTop={false}
             closeOnClick
@@ -67,7 +69,7 @@ export default function Home() {
             pauseOnFocusLoss
             draggable
             pauseOnHover
-            theme="dark"
+            theme="light"
           />
         </>
       )}

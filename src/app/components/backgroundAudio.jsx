@@ -56,17 +56,6 @@ function Audio() {
           autoPlay
         />
       </motion.div>
-      <div className="md:hidden flex">
-        <Link href="/">
-          <Image
-            src='/logo/logo.png'
-            height={30}
-            width={30}
-            alt='logo'
-          />
-        </Link>
-      </div>
-
     </>
   );
 }

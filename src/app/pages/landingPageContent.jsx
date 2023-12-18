@@ -50,14 +50,13 @@ const LandingPageContent = () => {
       >
         <div className="pink_selector font-glitch lg:text-9xl text-5xl tracking-[0.15em] z-1 text-center text-slate-50 place-self-center w-full " style={{ transform: `scale(${scale})` }}>
           {hover ? "IIITNR FEST" : "Technovate"}
-
           <motion.div
-            className="pink_selector lg:text-2xl text-xl mt-2"
+            className="pink_selector font-Orbitron lg:text-2xl text-xl mt-2"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1.5, duration: 1 }}
           >
-            4th - 5th Feb
+            16th - 18th Feb
           </motion.div>
         </div>
       </motion.div>

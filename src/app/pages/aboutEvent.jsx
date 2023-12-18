@@ -2,12 +2,13 @@
 import React from 'react'
 import Marquee from "react-fast-marquee";
 import EventCard from "../components/celebCard";
+import { motion } from "framer-motion"
 
 const imgData = [{
   href: "/past_star_images/ash_king.png",
 },
 {
-  href: "/past_star_images/aashish_solanki.jpg",
+  href: "/past_star_images/aashish_solanki.webp",
 }
   ,
 {
@@ -30,9 +31,13 @@ export default function AboutEvent() {
           }}
         ></div>
         <div className="w-full flex flex-col lg:gap-28 gap-14">
-          <div className=' md:w-[400px] w-[85%]  stye border-2 font-cyberway tracking-[0.3em]  shadow-xl rounded-2xl   text-slate-100 text:base lg:text-2xl  display-2 text-center relative max-w-[80rem]  mx-auto font-bold  bg-blackparent p-4 shadow-black '>
+          <motion.div className=' md:w-[400px] w-[85%]  stye border-2 font-cyberway tracking-[0.3em]  shadow-xl rounded-2xl   text-slate-100 text:base lg:text-2xl  display-2 text-center relative max-w-[80rem]  mx-auto font-bold  bg-blackparent p-4 shadow-black '
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: 0.2 }}
+          >
             PAST PERFORMERS
-          </div>
+          </motion.div>
           <Marquee>
             {
               imgData.map((item, index) => {

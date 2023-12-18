@@ -12,7 +12,7 @@ const footerData = [
     icon: <BsFacebook />
   },
   {
-    link: "#",
+    link: "https://www.instagram.com/technovate_iiitnr/",
     icon: <BsInstagram />
   },
   {
@@ -23,7 +23,7 @@ const footerData = [
 
 export default function Footer() {
   return (
-    <footer className="  p-4 flex flex-col justify-center items-center  gap-4 w-full">
+    <footer className=" mt-10 p-4 flex flex-col justify-center items-center  gap-4 w-full">
       <div className="flex space-x-4 ">
         {footerData.map((item, index) => {
           return <Link href={item.link} className="text-slate-100 hover:text-pink-600" key={index}>

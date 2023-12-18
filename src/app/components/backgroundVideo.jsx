@@ -9,7 +9,7 @@ const useVideoPlaybackSpeed = (videoRef, playbackSpeed) => {
   }, [videoRef, playbackSpeed]);
 };
 
-const BackgroundVideo = ({ src, speed }) => {
+const BackgroundVideo = ({ src, speed, intro = false }) => {
   const videoRef = useRef();
   useVideoPlaybackSpeed(videoRef, speed);
 
@@ -20,7 +20,7 @@ const BackgroundVideo = ({ src, speed }) => {
         autoPlay
         loop
         muted
-        className="object-cover w-full h-full"
+        className={`${intro == true ? "md:object-contain  object-cover" : "object-cover"} w-full h-full ${intro == true ? "md:-rotate-90 " : ""}`}
       >
         <source src={src} type="video/mp4" />
       </video>

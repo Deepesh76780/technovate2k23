@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import { motion } from "framer-motion"
 
 export default function AboutUsPage() {
 
@@ -14,11 +15,23 @@ export default function AboutUsPage() {
           }}
         >
         </div>
-        <div className=' md:w-[400px] w-[85%] stye  border-2 font-cyberway tracking-[0.3em] lg:mb-12  mb-8 shadow-xl rounded-2xl   text-slate-100 text-base lg:text-2xl display-2 text-center relative max-w-[80rem]  mx-auto font-bold  bg-blackparent p-4 shadow-black '>
-          ABOUT US
-        </div>
-        <div className="w-full md:p-10 p-5 ">
-          <h1 className="pink_selector sty font-cyberstar border-2 border-pink-500 text-slate-300 lg:text-base text-xs display-2 text-center relative max-w-[80rem]  mx-auto font-bold tracking-widest bg-blackparent p-10 shadow-pink-400 shadow-inner">
+        <motion.div
+          className=' md:w-[400px] w-[85%] stye  border-2 font-cyberway tracking-[0.3em] lg:mb-12  mb-8 shadow-xl rounded-2xl   text-slate-100 text-base lg:text-2xl display-2 text-center relative max-w-[80rem]  mx-auto font-bold  bg-blackparent p-4 shadow-black '
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 0.2 }}
+
+        >
+          OUR STORY
+        </motion.div>
+        <div className="w-full md:p-10 p-5"
+
+        >
+          <motion.h1 className="pink_selector sty font-cyberstar border-2 border-pink-500 text-slate-300 lg:text-base text-xs display-2 text-center relative max-w-[80rem]  mx-auto font-bold tracking-widest bg-blackparent p-10 shadow-pink-400 shadow-inner"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: 0.5 }}
+          >
             Technovate at IIIT-NR is an annual fusion of technology and culture,
             featuring coding competitions, hacking contests,
             a battle of bands, and keynote sessions by innovation experts.
@@ -27,7 +40,7 @@ export default function AboutUsPage() {
             soul-stirring melodies, and EDM beats. The previous edition saw 5000 participants,
             and this year anticipates an even larger turnout of over 7000, making Technovate a
             vibrant oasis empowering students to celebrate their skills and passions.
-          </h1>
+          </motion.h1>
         </div>
       </section>
     </div>
