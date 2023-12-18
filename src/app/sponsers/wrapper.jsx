@@ -15,7 +15,7 @@ const Wrapper = ({ children }) => {
                 objectFit="center"
                 priority={true}
             />
-            <Navbar bgcolor={"bg-[#40dbb2]"} />
+            <Navbar bgcolor={"bg-[#40dbb2]"} resColor="#40dbb2" />
             <main className=" flex flex-col md:min-h-screen h-[100dvh] items-center justify-between overflow-x-hidden pt-16 md:px-9 p-5">
                 <div className="flex flex-row relative z-1 h-[70vh] md:w-[80%] w-full my-auto">
                     <div className='p-1 card h-full w-full border-2 shadow-inner shadow-emerald-300 bg-blackparent border-emerald-200'>

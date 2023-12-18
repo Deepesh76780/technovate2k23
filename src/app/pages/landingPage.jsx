@@ -3,7 +3,11 @@ import React from "react";
 import BackgroundVideo from "../components/backgroundVideo";
 import LandingPageContent from "./landingPageContent";
 
+
 const LandingPage = () => {
+
+
+
   return (
     <div>
       <BackgroundVideo

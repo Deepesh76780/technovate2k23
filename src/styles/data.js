@@ -53,17 +53,9 @@ export const team = [
     criteria: "technical",
     name: "Deepesh Agrawal",
     phone: "6268181226",
-    imgUrl: "/team/Shivam_Kushwaha_Technical_Events.JPG",
+    imgUrl: "/team/deepesh_agrawal.jpeg",
     linkedIn: "https://www.linkedin.com/in/deepesh-agrawal-238601198/",
   },
-  // {
-  //   id: 9,
-  //   criteria: "technical",
-  //   name: "Kapil Soni",
-  //   phone: "6268181226",
-  //   imgUrl: "/team/Shivam_Kushwaha_Technical_Events.JPG",
-  //   linkedIn: "https://www.linkedin.com/in/deepesh-agrawal-238601198/",
-  // },
   {
     id: 6,
     criteria: "technical",

@@ -14,7 +14,7 @@ export default function Wrapper({ children }) {
                 objectFit="center"
                 priority={true}
             />
-            <Navbar bgcolor={"bg-[#40d0db]"} />
+            <Navbar bgcolor={"bg-[#40d0db]"} resColor="#40d0db" />
             <main className="flex flex-col md:min-h-screen  h-[100dvh] justify-between w-full overflow-x-hidden pt-16 md:p-5 p-3 ">
                 <div className="relative z-1 h-[70vh] md:w-[43%] w-full my-auto">
                     <div className='p-1 card h-full w-full  border-2 shadow-inner bg-blackparent shadow-cyan-200 border-cyan-200 '>

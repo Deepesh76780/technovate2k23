@@ -5,6 +5,7 @@ import { NavButton } from "./navButton";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { Sling as Hamburger } from 'hamburger-react'
+import Audio from "./backgroundAudio";
 
 const container = {
   hidden: {
@@ -25,16 +26,14 @@ const container = {
 const responsive = {
   hidden: {
     opacity: 0,
-    x: 500,
+    y: 600,
   },
   visible: {
     opacity: 1,
-    x: 0,
+    y: 0,
     transition: {
-      type: "spring",
-      stiffness: 260,
-      damping: 60,
-      duration: 2,
+      type: "smooth",
+      duration: 1,
     },
   },
 
@@ -68,7 +67,7 @@ const navData = [
   }
 ]
 
-const Navbar = ({ bgcolor }) => {
+const Navbar = ({ bgcolor, resColor }) => {
   const [isOpen, setOpen] = useState(false)
   return (
     <>
@@ -87,8 +86,9 @@ const Navbar = ({ bgcolor }) => {
         }
       </motion.div>
       <div className="w-full lg:hidden visible">
-        <div className="z-20 fixed  top-0 right-2">
-          <Hamburger toggled={isOpen} toggle={setOpen} duration={1} color={"white"} />
+        <div className="z-20 fixed flex flex-row place-items-center justify-between w-full px-4">
+          <Audio />
+          <Hamburger toggled={isOpen} toggle={setOpen} duration={0.8} color={resColor} />
         </div>
         {
           isOpen ?
@@ -98,7 +98,7 @@ const Navbar = ({ bgcolor }) => {
               animate={"visible"}
               exit={{
                 opacity: 0,
-                x: 100,
+                y: 0,
               }}
               className="z-10 flex flex-col border-2 border-pink-700 h-full  fixed top-0 gap-5 place-items-center justify-around w-full bg-blackparent"
             >
@@ -112,7 +112,7 @@ const Navbar = ({ bgcolor }) => {
                 }
               </div>
             </motion.div >
-            : ""
+            : <></>
         }
       </div>
     </>

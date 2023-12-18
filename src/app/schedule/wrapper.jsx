@@ -7,7 +7,6 @@ import Navbar from "../components/nav";
 const Wrapper = ({ children }) => {
 
 
-    const navbarBgcolor = "bg-[#dba240]";
 
 
     return (
@@ -20,7 +19,7 @@ const Wrapper = ({ children }) => {
                 objectFit="center"
                 priority={true}
             />
-            <Navbar bgcolor={navbarBgcolor} />
+            <Navbar bgcolor={"bg-[#dba240]"} resColor="#dba240" />
             <main className="flex flex-col md:min-h-screen h-[100dvh] overflow-x-hidden pt-16 p-5 items-end ">
                 <div className="md:w-[45%] w-full bg-blackparent p-2 rounded-xl  relative z-1 h-[60vh] my-auto">
                     <div className="overflow-y-scroll cus h-full p-1">

@@ -12,11 +12,11 @@ const Blog = () => {
     return (
         <div className="w-full h-full flex flex-col py-14 gap-20    max-w-[150rem] text-slate-200 px-7">
 
-            <div className='md:w-[400px] w-full h-fit border-2 font-cyberway tracking-[0.3em]  shadow-xl rounded-2xl   text-slate-100 text:base lg:text-2xl  display-2 text-center relative max-w-[80rem]  mx-auto font-bold   p-4 shadow-slate-800 '>
+            <div className='md:w-[400px] stye w-full h-fit border-2 font-cyberway tracking-[0.3em]  shadow-xl rounded-2xl   text-slate-100 text:base lg:text-2xl  display-2 text-center relative max-w-[80rem]  mx-auto font-bold   p-4 shadow-slate-800 '>
                 Blog
             </div>
             <div className='w-full h-full flex lg:flex-row flex-col justify-between items-center lg:gap-0 gap-20'>
-                <Card className="border-2 border-slate-400  bg-blackparent  transition-all duration-300 p-3 ">
+                <Card className="border-2 cyberpunk border-slate-400 sty bg-blackparent transition-all duration-300 p-3 ">
                     <CardHeader>
                         <div className='relative h-[250px] w-full'>
                             <Image
@@ -34,8 +34,8 @@ const Blog = () => {
                         <p>Student Coordinator (2019-2020)</p>
                     </CardContent>
                 </Card>
-                <Separator className="lg:w-[1px] lg:h-[600px] h-[1px] w-full bg-slate-500 mx-[1px]" />
-                <Card className=" border-2 border-slate-400 bg-blackparent transition-all duration-300 p-3 ">
+                <Separator className="lg:w-[1px] lg:h-[600px]  h-[1px] w-full bg-slate-500 mx-[1px]" />
+                <Card className=" border-2 cyberpunk border-slate-400 sty bg-blackparent transition-all duration-300 p-3 ">
                     <CardHeader>
                         <div className='relative h-[250px] w-full'>
                             <Image
@@ -59,6 +59,7 @@ const Blog = () => {
                         </p>
                     </CardContent>
                 </Card>
+                <Separator className="lg:hidden  h-[1px] w-full bg-slate-500 mx-[1px]" />
             </div >
         </div >
 

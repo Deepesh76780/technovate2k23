@@ -41,7 +41,7 @@ const LandingPageContent = () => {
 
   return (
     <div className={`absolute top-0 left-0 w-full h-full ${hover ? "bg-black" : "bg-opacity-50"} z-10 overlay`}>
-      <Navbar bgcolor={"bg-[#e960a5a8]"} />
+      <Navbar bgcolor={"bg-[#e960a5a8]"} resColor={"#e960a5a8"} />
       <motion.div
         className="w-full lg:h-[80%]  h-[83%] flex overflow-x-hidden"
         variants={containerVariants}

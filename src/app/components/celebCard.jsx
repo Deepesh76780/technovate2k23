@@ -12,7 +12,7 @@ export default function EventCard({ Img }) {
         width={1000}
         height={1000}
         alt={"pronights stars"}
-        className="bg-contain w-full h-full"
+        className="bg-contain w-full h-full "
         priority={true}
       />
     </Card>

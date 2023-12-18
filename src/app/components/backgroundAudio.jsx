@@ -25,36 +25,49 @@ function Audio() {
   };
 
   return (
-    <motion.div
-      className="fixed bottom-1 left-4 z-10 md:flex hidden"
-      initial={{ opacity: 0, scale: 0.5 }}
-      animate={{ opacity: 1, scale: 1 }}
-      transition={{ duration: 1 }}
-    >
-      <button onClick={toggleAudio}>
-        <div className="flex flex-row gap-2 items-center justify-center">
-          {isPlaying ? (
-            <SpeakerWaveIcon className="text-slate-300 h-6 w-6" />
-          ) : (
-            <SpeakerXMarkIcon className="text-slate-300 h-6 w-6" />
-          )}
-          <Link href="/">
-            <Image
-              src='/logo/logo.png'
-              height={26}
-              width={26}
-              alt='logo'
-            />
-          </Link>
-        </div>
-      </button>
-      <audio
-        ref={audioRef}
-        src="/background_audio/get_you_to_moon.mp3"
-        loop
-        autoPlay
-      />
-    </motion.div>
+    <>
+      <motion.div
+        className="fixed bottom-1 left-4 z-10 hidden md:flex "
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 1 }}
+      >
+        <button onClick={toggleAudio}>
+          <div className="flex flex-row gap-2 items-center justify-center">
+            {isPlaying ? (
+              <SpeakerWaveIcon className="text-slate-300 h-6 w-6" />
+            ) : (
+              <SpeakerXMarkIcon className="text-slate-300 h-6 w-6" />
+            )}
+            <Link href="/">
+              <Image
+                src='/logo/logo.png'
+                height={26}
+                width={26}
+                alt='logo'
+              />
+            </Link>
+          </div>
+        </button>
+        <audio
+          ref={audioRef}
+          src="/background_audio/get_you_to_moon.mp3"
+          loop
+          autoPlay
+        />
+      </motion.div>
+      <div className="md:hidden flex">
+        <Link href="/">
+          <Image
+            src='/logo/logo.png'
+            height={30}
+            width={30}
+            alt='logo'
+          />
+        </Link>
+      </div>
+
+    </>
   );
 }
 
