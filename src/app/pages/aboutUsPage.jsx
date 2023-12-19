@@ -20,7 +20,7 @@ export default function AboutUsPage() {
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2 }}
-
+          viewport={true}
         >
           OUR STORY
         </motion.div>
@@ -31,6 +31,7 @@ export default function AboutUsPage() {
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
+            viewport={true}
           >
             Technovate at IIIT-NR is an annual fusion of technology and culture,
             featuring coding competitions, hacking contests,

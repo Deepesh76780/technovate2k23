@@ -95,7 +95,10 @@ export const culturalEvent = [
   {
     SNO: 1,
     Event: "Photography contest",
-    Event_Heads: ["Debashish Padhy", "Akshat Srivatava"],
+    Event_Heads: [
+      "Debashish Padhy - 8374344812",
+      "Akshat Srivatava - 7016358388",
+    ],
     Distribution: [
       "1st Prize : ₹3000",
       "2nd Prize : ₹2000",
@@ -105,11 +108,13 @@ export const culturalEvent = [
     ],
     No_of_Team_Mem: [1, null],
     Mode: "Online",
+    about:
+      "Photographers take photos throughout the technovate and the best one wins",
   },
   {
     SNO: 2,
     Event: "Art and Sketching",
-    Event_Heads: ["Shalini Singh", "Are Koushik"],
+    Event_Heads: ["Shalini Singh - 9893018267", "Are Koushik -  8465017840"],
     Distribution: [
       "1st Prize : ₹3000",
       "2nd Prize : ₹2000",
@@ -119,11 +124,12 @@ export const culturalEvent = [
     ],
     No_of_Team_Mem: [1, null],
     Mode: "Hybrid",
+    about: "...",
   },
   {
     SNO: 3,
     Event: "Singing Contest (SOLO)",
-    Event_Heads: ["Anoushka Koul", "Mohd.Kaif"],
+    Event_Heads: ["Anoushka Koul - 8449194200", "Mohd.Kaif - 9727833388"],
     Distribution: [
       "1st Prize : ₹5000",
       "2nd Prize : ₹3000",
@@ -132,11 +138,13 @@ export const culturalEvent = [
     ],
     No_of_Team_Mem: [1, null],
     Mode: "Offline",
+    about:
+      "Step into the spotlight and let your voice soar in the electrifying world of a singing competition. It's not just about hitting the right notes; it's about capturing hearts and leaving the audience breathless. So grab the mic, hit those high notes, and let the world hear the magic in your soul!",
   },
   {
     SNO: 4,
     Event: "Singing Contest (DUET)",
-    Event_Heads: ["Anoushka Koul", "Mohd.Kaif"],
+    Event_Heads: ["Anoushka Koul - 8449194200", "Mohd.Kaif - 9727833388"],
     Distribution: [
       "1st Prize : ₹7000",
       "2nd Prize : ₹5000",
@@ -145,11 +153,16 @@ export const culturalEvent = [
     ],
     No_of_Team_Mem: [2, null],
     Mode: "Offline",
+    about:
+      "Get your buddy up for a melodic rollercoaster, forge two voices into one, and make the echoes of duet brilliance linger in the hearts of all who bear witness.",
   },
   {
     SNO: 5,
     Event: "Dance Battle (Solo and Duet)",
-    Event_Heads: ["Aryan Kumar Baghel", "Ramarakshith Katta"],
+    Event_Heads: [
+      "Aryan Kumar Baghel - 7000978867",
+      "Ramarakshith Katta - 7036422159",
+    ],
     Distribution: [
       "1st Prize : ₹6000",
       "2nd Prize : ₹4000",
@@ -159,11 +172,15 @@ export const culturalEvent = [
     ],
     No_of_Team_Mem: [1, 2],
     Mode: "Offline",
+    about: "...",
   },
   {
     SNO: 6,
     Event: "Dance Battle (Group)",
-    Event_Heads: ["Aryan Kumar Baghel", "Ramarakshith Katta"],
+    Event_Heads: [
+      "Aryan Kumar Baghel - 7000978867",
+      "Ramarakshith Katta - 7036422159",
+    ],
     Distribution: [
       "1st Prize : ₹7000",
       "2nd Prize : ₹5000",
@@ -173,6 +190,8 @@ export const culturalEvent = [
     ],
     No_of_Team_Mem: null,
     Mode: "Offline",
+    about:
+      "Get ready to witness electrifying moves and fierce competition at our explosive group dance battle! Feel the heat as teams clash on the dance floor, showcasing their best beats, rhythms, and jaw-dropping choreography. Join us for an adrenaline-packed evening of non-stop entertainment and thrilling showdowns!",
   },
   {
     SNO: 7,
@@ -187,11 +206,15 @@ export const culturalEvent = [
     ],
     No_of_Team_Mem: null,
     Mode: "Offline",
+    about: "...",
   },
   {
     SNO: 8,
     Event: "Battle of Bands",
-    Event_Heads: ["Priyanshu Srivastava", "Avasarala Nirupam Laxmi Srujan"],
+    Event_Heads: [
+      "Priyanshu Srivastava - 9935062012",
+      "Avasarala Nirupam Laxmi - 6309552954",
+    ],
     Distribution: [
       "1st Prize : ₹11000",
       "2nd Prize : ₹7000",
@@ -201,11 +224,16 @@ export const culturalEvent = [
     ],
     No_of_Team_Mem: null,
     Mode: "Offline",
+    about:
+      "Get ready for an electrifying musical showdown! Bands from all over the country are set to unleash their talent in a clash of the best. With designated time slots for each, the stage will come alive with captivating performances. Our expert panel of judges is geared up to crown the top three, making it a night of unforgettable musical magic!    ",
   },
   {
     SNO: 9,
     Event: "Fashion Contest",
-    Event__Heads: ["Anjali Daheriya", "Thanisha Dewangan"],
+    Event_Heads: [
+      "Anjali Daheriya  - 9301465728",
+      "Thanisha Dewangan - 6232273027",
+    ],
     Distribution: [
       "1st Prize : ₹15000",
       "2nd Prize : ₹10000",
@@ -213,11 +241,13 @@ export const culturalEvent = [
     ],
     No_of_Team_Mem: [2, null],
     Mode: "Offline",
+    about:
+      "the fashion contest unfolds with a Western flair in round one, followed by an enchanting showcase of Indian tradition in round two, celebrating the fusion of global styles on a single runway",
   },
   {
     SNO: 10,
     Event: "Public Speaking Event",
-    Event_Heads: ["Kanika Malhotra", "Shreya Tiwari"],
+    Event_Heads: ["Kanika Malhotra - 8809374054", "Shreya Tiwari - 9425511225"],
     Distribution: [
       "1st Prize : ₹8000",
       "2nd Prize : ₹4000",
@@ -225,5 +255,6 @@ export const culturalEvent = [
     ],
     No_of_Team_Mem: [3, null],
     Mode: "Offline",
+    about: "...",
   },
 ];

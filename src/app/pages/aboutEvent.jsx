@@ -35,6 +35,7 @@ export default function AboutEvent() {
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.2 }}
+            viewport={true}
           >
             PAST PERFORMERS
           </motion.div>
