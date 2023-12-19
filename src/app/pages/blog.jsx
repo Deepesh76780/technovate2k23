@@ -23,9 +23,9 @@ const Blog = () => {
             </motion.div>
             <div className='w-full h-full flex xl:flex-row flex-col justify-between items-center xl:gap-0 gap-20'>
                 <motion.div
-                    initial={{ opacity: 0, scale: 0.5 }}
-                    whileInView={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 1 }}
+                    initial={{ opacity: 0, y: 40 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 1, delay: 0.4 }}
                 >
                     <Card className="border-2 cyberpunk border-slate-400 sty bg-blackparent transition-all duration-300 p-3 ">
                         <CardHeader>
@@ -48,9 +48,9 @@ const Blog = () => {
                 </motion.div>
                 <Separator className="xl:w-[1px] xl:h-[600px]  h-[1px] w-full bg-slate-500 mx-[1px]" />
                 <motion.div
-                    initial={{ opacity: 0, scale: 0.5 }}
-                    whileInView={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 1 }}
+                    initial={{ opacity: 0, y: 40 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 1, delay: 0.4 }}
                 >
                     <Card className=" border-2 cyberpunk border-slate-400 sty bg-blackparent transition-all duration-300 p-3 ">
                         <CardHeader>

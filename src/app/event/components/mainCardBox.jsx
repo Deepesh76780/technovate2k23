@@ -41,27 +41,27 @@ export default function EventCard({ store }) {
             width={500}
             height={500}
             className='h-full w-full'
-            alt={store.Event}
+            alt={"event"}
             priority
           />
         </Card>
         <Separator className="md:w-[0.5px] md:h-[300px] h-[1px] w-full  bg-slate-300 mx-[1px]" />
         <Card className="flex flex-col gap-5 md:w-[220px] w-full ">
           <CardHeader className="text-sm font-cyberstar">
-            {store.Event}
+            {store?.Event && store.Event}
             <Badge variant="destructive" >
-              {store.Mode}
+              Mode - {store?.Mode && store.Mode}
             </Badge>
           </CardHeader>
           <CardContent className="text-muted text-xs text-purple-200 underline font-glitch">
-            {store.about}
+            {store?.about && store.about}
           </CardContent>
           <CardTitle className="flex flex-col items-start text-xs font-Chakra" >
             <p className='text-[0.6rem] text-white'>
               rule book
             </p>
             {
-              store.Distribution.map((item, index) => {
+              store?.Distribution && store.Distribution.map((item, index) => {
                 return <div key={index}>
                   {item}
                 </div>
@@ -70,7 +70,7 @@ export default function EventCard({ store }) {
           </CardTitle>
 
           <CardFooter className="flex flex-col items-start text-xs text-purple-200 font-Chakra">
-            {store.Event_Heads &&
+            {store?.Event_Heads &&
               store.Event_Heads.map((item, index) => {
                 return <div key={index}>
                   {item}
