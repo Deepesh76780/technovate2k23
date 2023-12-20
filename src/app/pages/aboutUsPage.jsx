@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion"
+import Title from "../components/Title";
 
 export default function AboutUsPage() {
 
@@ -9,24 +10,11 @@ export default function AboutUsPage() {
     <div className="relative overflow-hidden w-full">
       <section className="lg:pt-32 lg:pb-32 pt-20 pb-20 relative">
         <div
-          className="absolute w-full h-full top-0 left-0 bg-cover bg-center bg-no-repeat  bg-fixed"
-          style={{
-            backgroundImage: `url(/png_images/test2.jpg)`,
-          }}
+          className="absolute w-full h-full top-0 left-0 bg-about-parallex bg-cover bg-center bg-no-repeat  bg-fixed"
         >
         </div>
-        <motion.div
-          className=' md:w-[400px] w-[85%] stye  border-2 font-cyberway tracking-[0.3em] lg:mb-12  mb-8 shadow-xl rounded-2xl   text-slate-100 text-base lg:text-2xl display-2 text-center relative max-w-[80rem]  mx-auto font-bold  bg-blackparent p-4 shadow-black '
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.2 }}
-          viewport={true}
-        >
-          OUR STORY
-        </motion.div>
-        <div className="w-full md:p-10 p-5"
-
-        >
+        <Title title="OUR STORY" />
+        <div className="w-full md:p-10 p-5">
           <motion.h1 className="pink_selector sty font-cyberstar border-2 border-pink-500 text-slate-300 lg:text-base text-xs display-2 text-center relative max-w-[80rem]  mx-auto font-bold tracking-widest bg-blackparent p-10 shadow-pink-400 shadow-inner"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}

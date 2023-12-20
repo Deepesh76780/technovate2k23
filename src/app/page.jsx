@@ -47,17 +47,13 @@ export default function Home() {
         <>
           <LandingPage />
           <AboutUsPage />
-          <section className="cyberpunk w-full">
-          </section>
+          <SeparatorHomePage />
           <IntroVideo />
-          <section className="cyberpunk w-full">
-          </section>
+          <SeparatorHomePage />
           <AboutEvent />
-          <section className="cyberpunk w-full">
-          </section>
+          <SeparatorHomePage />
           <Blog />
-          <section className="cyberpunk w-full">
-          </section>
+          <SeparatorHomePage />
           <Footer />
           <ToastContainer
             position="bottom-right"
@@ -76,4 +72,8 @@ export default function Home() {
     </main>
 
   );
+}
+
+function SeparatorHomePage() {
+  return <section className="cyberpunk w-full"></section>
 }

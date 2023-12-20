@@ -24,12 +24,12 @@ const containerVariants = {
 const LandingPageContent = () => {
   const [scrollY, setScrollY] = useState(0);
   const [hover, setHover] = useState(false);
+  const scale = (1 + scrollY / 500) > 6 ? 6 : (1 + scrollY / 500);
 
   useEffect(() => {
     const handleScroll = () => {
       setScrollY(window.scrollY);
     };
-
 
     window.addEventListener("scroll", handleScroll);
     return () => {
@@ -37,10 +37,9 @@ const LandingPageContent = () => {
     };
   }, []);
 
-  const scale = 1 + scrollY / 500;
 
   return (
-    <div className={`absolute top-0 left-0 w-full h-full ${hover ? "bg-black" : "bg-opacity-50"} z-10 overlay`}>
+    <div className={`absolute top-0 left-0 w-full h-full ${hover ? "bg-black" : "bg-opacity-50"} transition-all duration-500 z-10 overlay`}>
       <Navbar bgcolor={"bg-[#e960a5a8]"} resColor={"#e960a5a8"} />
       <motion.div
         className="w-full lg:h-[80%]  h-[83%] flex overflow-x-hidden"
@@ -51,7 +50,7 @@ const LandingPageContent = () => {
         <div className="pink_selector font-glitch lg:text-9xl text-5xl tracking-[0.15em] z-1 text-center text-slate-50 place-self-center w-full " style={{ transform: `scale(${scale})` }}>
           {hover ? "IIITNR FEST" : "Technovate"}
           <motion.div
-            className="pink_selector font-Orbitron lg:text-2xl text-xl mt-2"
+            className="pink_selector font-Chakra lg:text-2xl text-xl mt-2"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1.5, duration: 1 }}

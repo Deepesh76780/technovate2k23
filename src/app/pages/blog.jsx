@@ -8,19 +8,12 @@ import {
 import Image from 'next/image'
 import { Separator } from '@/components/ui/separator'
 import { motion } from "framer-motion"
+import Title from "../components/Title"
 
 const Blog = () => {
     return (
         <div className="w-full h-full flex flex-col py-14 gap-20    max-w-[150rem] text-slate-200 px-7">
-
-            <motion.div className='md:w-[400px] stye w-full h-fit border-2 font-cyberway tracking-[0.3em]  shadow-xl rounded-2xl   text-slate-100 text:base lg:text-2xl  display-2 text-center relative max-w-[80rem]  mx-auto font-bold   p-4 shadow-slate-800 '
-                initial={{ opacity: 0, y: 50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1, delay: 0.2 }}
-                viewport={true}
-            >
-                Blog
-            </motion.div>
+            <Title title="BLOG" />
             <div className='w-full h-full flex xl:flex-row flex-col justify-between items-center xl:gap-0 gap-20'>
                 <motion.div
                     initial={{ opacity: 0, y: 40 }}
@@ -34,6 +27,7 @@ const Blog = () => {
                                     alt="Yash Khare"
                                     src="/blog/yash.webp"
                                     fill
+                                    sizes="100vw"
                                 />
                             </div>
                             <CardDescription className="max-w-[500px] mt-8"><strong>Yash had two words for Technovate- Adventurous and exciting.</strong>
@@ -59,6 +53,7 @@ const Blog = () => {
                                     alt="Nitin"
                                     src="/blog/nitin.jpg"
                                     fill
+                                    sizes="100vw"
                                 />
                             </div>
                             <CardDescription className="max-w-[500px] mt-8"><strong>“Be confident and overconfident cause you are no longer a student, you are part of technovate.”</strong>
