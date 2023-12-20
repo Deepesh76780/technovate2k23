@@ -32,7 +32,7 @@ export default function PlayerInfo({ props }) {
       animate="show"
       initial="hidden"
       className={`flex md:flex-row flex-col items-center  justify-around text-sm text-slate-100 font-Michroma tracking-widest lg:gap-5 gap-3`}>
-      <Card className="text-center shadow-md overflow-hidden lg:h-[80%] h-[60%]  border-2 lg:w-2/5 w-full hover:scale-105 cursor-pointer transition-all duration-300 lg:my-auto card">
+      <Card className="text-center shadow-md overflow-hidden lg:h-[80%] h-52  border-2 lg:w-2/5 w-full hover:scale-105 cursor-pointer transition-all duration-300 lg:my-auto card">
         <Image
           src={props.imgUrl}
           width={1000}

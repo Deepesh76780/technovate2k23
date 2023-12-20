@@ -7,7 +7,6 @@ import LandingPageContent from "./landingPageContent";
 const LandingPage = () => {
 
 
-
   return (
     <div>
       <BackgroundVideo

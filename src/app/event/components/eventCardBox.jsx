@@ -36,12 +36,10 @@ export default function EventCard({ navigateUrl, eventName }) {
             width={1000}
             height={1000}
             className='card w-full h-24 md:h-32'
-            alt={"jai shree ram"}
+            alt={eventName}
           />
-          <CardFooter className="text-center mx-auto mt-2 uppercase text-[0.6rem] md:text-sm w-24 md:w-28 font-cyberstar tracking-widest p-1  md:p-2">
-            <p className='truncate'>
-              {eventName}
-            </p>
+          <CardFooter className="text-center mx-auto mt-2 uppercase text-[0.6rem] md:text-[0.6rem] w-24 md:w-28 font-cyberstar tracking-widest p-1  md:p-2">
+            {eventName}
           </CardFooter>
         </Card>
       </Link>

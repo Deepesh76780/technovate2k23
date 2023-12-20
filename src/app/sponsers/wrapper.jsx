@@ -4,6 +4,7 @@ import Image from "next/legacy/image";
 import Navbar from "../components/nav";
 import SideButton from "./components/sideButton";
 import { motion } from "framer-motion"
+import Marquee from "react-fast-marquee";
 
 const Wrapper = ({ children }) => {
     return (
