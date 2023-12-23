@@ -10,7 +10,7 @@ import Loading from '../app/pages/animateLoader';
 import Blog from '../app/pages/blog';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+import SmoothScrolling from "./components/smoothScroll"
 
 
 export default function Home() {
@@ -41,34 +41,36 @@ export default function Home() {
 
   return (
     <main className="flex flex-col min-h-[100dvh]  items-center justify-between overflow-x-hidden">
-      {loading ? (
-        <Loading />
-      ) : (
-        <>
-          <LandingPage />
-          <AboutUsPage />
-          <SeparatorHomePage />
-          <IntroVideo />
-          <SeparatorHomePage />
-          <AboutEvent />
-          <SeparatorHomePage />
-          <Blog />
-          <SeparatorHomePage />
-          <Footer />
-          <ToastContainer
-            position="bottom-right"
-            autoClose={10000}
-            hideProgressBar={false}
-            newestOnTop={false}
-            closeOnClick
-            rtl={false}
-            pauseOnFocusLoss
-            draggable
-            pauseOnHover
-            theme="light"
-          />
-        </>
-      )}
+      <SmoothScrolling>
+        {loading ? (
+          <Loading />
+        ) : (
+          <>
+            <LandingPage />
+            <AboutUsPage />
+            <SeparatorHomePage />
+            <IntroVideo />
+            <SeparatorHomePage />
+            <AboutEvent />
+            <SeparatorHomePage />
+            <Blog />
+            <SeparatorHomePage />
+            <Footer />
+            <ToastContainer
+              position="bottom-right"
+              autoClose={10000}
+              hideProgressBar={false}
+              newestOnTop={false}
+              closeOnClick
+              rtl={false}
+              pauseOnFocusLoss
+              draggable
+              pauseOnHover
+              theme="light"
+            />
+          </>
+        )}
+      </SmoothScrolling>
     </main>
 
   );
