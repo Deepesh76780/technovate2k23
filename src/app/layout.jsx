@@ -9,6 +9,8 @@ import { cyberstar } from "../styles/font";
 import { greek } from "../styles/font";
 import { glitch } from "../styles/font";
 import { cyberblack } from "../styles/font";
+import SmoothScrolling from "./smoothScroll";
+
 
 
 export const metadata = {
@@ -22,7 +24,7 @@ export default function RootLayout(props) {
     <html lang="en">
       <body className={`${inter.className} ${MichromaFont.variable} ${OrbitronFont.variable} ${Chakra_PetchFont.variable}       
       ${cyberway.variable} ${cyberstar.variable} ${cyberblack.variable} ${glitch.variable} ${greek.variable} `}>
-        {props.children}
+        <SmoothScrolling>{props.children}</SmoothScrolling>
         <Audio />
       </body>
     </html>

@@ -1,10 +1,19 @@
 export const team = [
   {
+    id: 12,
+    criteria: "HeadCoordinator",
+    name: "Dr. Satyanarayana Vollala",
+    phone: "XX",
+    imgUrl: "/team/vollala_sir.jpeg",
+    about: "overall coordinator",
+    linkedIn: "https://www.linkedin.com/in/satyanarayana-vollala-530833163/",
+  },
+  {
     id: 7,
     criteria: "HeadCoordinator",
     name: "Ravil Patel",
     phone: "9803043231",
-    about: "overall coordinator",
+    about: "marketing Head",
     imgUrl: "/team/RAVIL_MARKETING.jpeg",
     linkedIn: "www.linkedin.com/in/ravil-patel-b65062227",
   },
@@ -56,7 +65,7 @@ export const team = [
   },
   {
     id: 9,
-    criteria: "technical",
+    criteria: "HeadCoordinator",
     name: "Deepesh Agrawal",
     phone: "6268181226",
     about: "Website Head",
@@ -65,16 +74,16 @@ export const team = [
   },
   {
     id: 6,
-    criteria: "technical",
+    criteria: "HeadCoordinator",
     name: "priykrit Verma",
     phone: "9109562757",
-    about: "Technical Team",
+    about: "Technical Head",
     imgUrl: "/team/Priykrit_Varma_Technical.jpg",
     linkedIn: "https://www.linkedin.com/in/priykrit-varma-127aa5249/",
   },
   {
     id: 8,
-    criteria: "technical",
+    criteria: "HeadCoordinator",
     name: "shivam kushwaha",
     phone: "9198364979",
     about: "Technical Team",
@@ -267,5 +276,68 @@ export const culturalEvent = [
     No_of_Team_Mem: [3, null],
     Mode: "Offline",
     about: "...",
+  },
+];
+
+export const technicalEvent = [
+  {
+    SNO: 1,
+    Event: "Wall Street Waltz",
+    Event_Heads: ["Ravil Patel - 9893043231", "Abhinav Roy - 7974751882"],
+    about:
+      'Test your trading mettle in "Wall Street Waltz": a solo virtual stock market competition on StockGro, where the greenest portfolio wins!',
+  },
+  {
+    SNO: 2,
+    Event: "Pichathon",
+    Event_Heads: [
+      "Ashutosh Jaiswal - 9129093900",
+      "Karan Agrawal - 7077183484",
+    ],
+    about:
+      "In a high-stakes showdown, innovators unleash entrepreneurial skills, battling intense pitches and tackling real-life brand challenges to test their mettle and critical thinking.",
+  },
+  {
+    SNO: 3,
+    Event: "SpeedRun",
+    Event_Heads: ["Vineet - 9893395818", "Dhyanendra Tripathi - 7355206518"],
+    about:
+      "Code at the Speed of Thought: Unleash Your Programming Prowess in the Ultimate Coding Speedrun Challenge!",
+  },
+  {
+    SNO: 4,
+    Event: "Robolution",
+    Event_Heads: [
+      "Lakshya Garg - 9818791666",
+      "Bhavesh Gyanchandani - 9834304932",
+    ],
+    about: "Tech meets tact: simple robots, epic clashes",
+  },
+  {
+    SNO: 5,
+    Event: "DataPunk",
+    Event_Heads: ["Sanskar Singh - 7000486098", "Sanchit Namdeo - 8989846583"],
+    about: "Train, Test, Triumph... Unleash your inner DataPunk !!!",
+  },
+  {
+    SNO: 6,
+    Event: "Wired Wizardry",
+    Event_Heads: [
+      "Ishita Tegar - 8349402003",
+      "Shreyansh Kushwaha - 7869058506",
+    ],
+    about: "Wire up your wizardry, let circuits cast the spell of innovation!",
+  },
+  {
+    SNO: 7,
+    Event: "Hack Harbour",
+    Event_Heads: ["Alankrit Sharma - 7376961118", "Vandit Tyagi - 7840073450"],
+    about: "Decipher, Develop, Dominate: Hack the Harbour",
+  },
+  {
+    SNO: 8,
+    Event: "BrainWave",
+    Event_Heads: ["Ayush Yadav - 8529133411", "Harsh Shrivastava - 9907882155"],
+    about: "BrainWave: Where Minds Collide in the Ultimate Quiz Odyssey!",
   },
 ];

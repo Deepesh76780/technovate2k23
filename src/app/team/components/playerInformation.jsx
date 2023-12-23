@@ -1,9 +1,7 @@
 "use client"
 import React from 'react'
 import Image from 'next/image'
-import {
-  Card, CardHeader, CardFooter, CardTitle, CardDescription, CardContent
-} from "@/components/ui/card"
+import {Card, CardHeader, CardFooter, CardTitle, CardDescription} from "@/components/ui/card"
 import { BsLinkedin } from 'react-icons/bs'
 import { AiOutlineMail } from 'react-icons/ai'
 import { BiPhoneCall } from "react-icons/bi"
@@ -12,8 +10,8 @@ import Link from 'next/link'
 import { Separator } from "@/components/ui/separator"
 
 
-export default function PlayerInfo({ props }) {
-  const item = {
+function PlayerInfo({ props }) {
+  const itemVariants = {
     hidden: {
       opacity: 0,
     },
@@ -28,7 +26,7 @@ export default function PlayerInfo({ props }) {
 
   return (
     <motion.div
-      variants={item}
+      variants={itemVariants}
       animate="show"
       initial="hidden"
       className={`flex md:flex-row flex-col items-center  md:justify-around justify-evenly text-sm text-slate-100 font-Michroma tracking-widest lg:gap-5 md:gap-3 `}>
@@ -64,3 +62,5 @@ export default function PlayerInfo({ props }) {
     </motion.div >
   )
 }
+
+export default PlayerInfo;

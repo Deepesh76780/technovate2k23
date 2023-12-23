@@ -32,7 +32,6 @@ export default function LandingPage() {
       initial="hidden"
       animate="show"
       className="flex flex-row md:w-[40%]  w-full gap-4 text-purple-300 items-center justify-center place-self-center">
-      <Link className={`${style} ${pathname.startsWith("/team/technical") ? "shadow-pink-400 border-pink-400 text-pink-300" : "text-cyan-100 border-cyan-400 shadow-cyan-300"}`} href={"/team/technical"}>technical</Link>
       <Link className={`${style} ${pathname.startsWith("/team/outlook") ? "shadow-pink-400 border-pink-400 text-pink-300" : "text-cyan-100 border-cyan-400 shadow-cyan-300"}`} href={"/team/outlook"}>Outlook</Link>
       <Link className={`${style} ${pathname.startsWith("/team/HeadCoordinator") ? "shadow-pink-400 border-pink-400 text-pink-300" : "text-cyan-100 border-cyan-400 shadow-cyan-300"}`} href={"/team/HeadCoordinator"}>Head</Link>
       <Link className={`${style} ${pathname.startsWith("/team/sponsership") ? "shadow-pink-400 border-pink-400 text-pink-300" : "text-cyan-100 border-cyan-400 shadow-cyan-300"}`} href={"/team/sponsership"}>Sponsership</Link>

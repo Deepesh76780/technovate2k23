@@ -62,7 +62,7 @@ const LandingPageContent = () => {
         initial="hidden"
         animate="visible"
       >
-        <div className="pink_selector font-glitch lg:text-9xl text-5xl tracking-[0.15em] z-1 text-center text-slate-50 place-self-center w-full " style={{ transform: `scale(${scale})` }}>
+        <div className="pink_selector  font-glitch lg:text-9xl text-5xl tracking-[0.15em] z-1 text-center text-slate-50 place-self-center w-full " style={{ transform: `scale(${scale})` }}>
           {hover ? "IIITNR FEST" : "Technovate"}
           <motion.div
             className="pink_selector font-Chakra lg:text-2xl text-xl mt-2"
@@ -76,8 +76,8 @@ const LandingPageContent = () => {
       </motion.div>
       <div className="w-full h-[2%] md:flex hidden justify-end max-w-[150rem] mx-auto  ">
         <div className="rotate-90 w-fit  text-slate-200 h-fit place-self-end">
-          <div className="flex gap-2">
-            <p className="place-self-center text-xs lg:text-sm font-cyberstar tracking-widest ">
+          <div className="flex gap-2 animate-pulse">
+            <p className="place-self-center  text-xs lg:text-sm font-cyberstar tracking-widest ">
               scroll down
             </p>
             <div className="place-self-center">
@@ -92,8 +92,10 @@ const LandingPageContent = () => {
         transition={{ duration: 1, delay: 2 }}
         onMouseEnter={() => setHover(true)}
         onMouseLeave={() => setHover(false)}
-        className="pink_selector h-fit  border-2  hover:border-pink-500 hover:bg-black hover:rounded-xl hover:scale-125 hover:backdrop-hue-rotate-30 hover:text-pink-400 transition-all duration-500 cursor-pointer tracking-[0.3em] flex place-self-center text-center  border-slate-200 lg:text-2xl  text-xl  rounded-2xl font-cyberway  text-slate-50 lg:p-4 p-2 mx-auto w-fit backdrop-hue-rotate-90">
-        REGISTER
+        className="pink_selector h-fit  border-2   hover:border-pink-500 hover:bg-black hover:rounded-xl hover:scale-125 hover:backdrop-hue-rotate-30 hover:text-pink-400 transition-all duration-500 cursor-pointer tracking-[0.3em] flex place-self-center text-center  border-slate-200 lg:text-2xl  text-xl  rounded-2xl font-cyberway  text-slate-50 lg:p-4 p-2 mx-auto w-fit backdrop-hue-rotate-90">
+        <p>
+          REGISTER
+        </p>
       </motion.div>
       <motion.div
         className="pink_selector  text-white mx-auto w-fit tracking-[0.15em] mt-2  font-Chakra lg:text-lg text-sm  p-2"
