@@ -35,7 +35,7 @@ export default function SideButton() {
       className="flex md:w-[40%]  w-full gap-3 lg:gap-4 text-purple-300 items-center justify-center place-self-center">
       <Link className={`${style} ${pathname.startsWith("/event/pronight") ? "shadow-pink-400 border-pink-400 text-pink-300" : "border-purple-400 shadow-pink-300"}`} href={"/event/pronight"}>Pronight</Link>
       <Link className={`${style} ${pathname.startsWith("/event/cultural") ? "shadow-pink-400 border-pink-400 text-pink-300" : "border-purple-400 shadow-pink-300"}`} href={"/event/cultural"}>Cultural</Link>
-      <Link className={`${style} ${pathname.startsWith("/event/informal") ? "shadow-pink-400 border-pink-400 text-pink-300" : "border-purple-400 shadow-pink-300"}`} href={"/event/informal"}>informal</Link>
+      <Link className={`${style} ${pathname.startsWith("/event/informal") ? "shadow-pink-400 border-pink-400 text-pink-300" : "border-purple-400 shadow-pink-300"}`} href={"/event/informal"}>Sports</Link>
       <Link className={`${style} ${pathname.startsWith("/event/technical") ? "shadow-pink-400 border-pink-400 text-pink-300" : "border-purple-400 shadow-pink-300"}`} href={"/event/technical"}>technical</Link>
     </motion.div>
   )
