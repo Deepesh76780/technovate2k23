@@ -1,43 +1,41 @@
 "use client"
 import React from "react";
 import Image from "next/legacy/image";
-import SideButton from "./components/bottomButton";
 import Navbar from "../components/nav";
-import { usePathname } from "next/navigation";
+// import BottomButton from "./components/bottomButton";
+import BottomButton from "./bottomButton"
 import { motion } from "framer-motion"
 
-const ALLOWED_PATHNAMES = ["/event/cultural", "/event/pronight", "/event/informal", "/event/technical"];
 
-export default function Wrapper({ children }) {
-    const pathname = usePathname();
-    const isOverflow = ALLOWED_PATHNAMES.includes(pathname) ? "overflow-y-scroll" : "overflow-hidden";
+
+export default function Wrapper({ children, bgImage, resNavColor, navColor, borderColor, paths, layout }) {
 
     return (
-        <>
+        <React.Fragment>
             <Image
                 layout="fill"
                 className="object-cover"
-                src={"/background_images/events2.jpg"}
+                src={bgImage}
                 alt={"title"}
                 objectFit="center"
                 priority={true}
             />
-            <Navbar bgcolor={"bg-[#a85dd1e1]"} resColor="#a85dd1e1" />
+            <Navbar bgcolor={navColor} resColor={resNavColor} />
             <main className="flex flex-col h-[100dvh] md:min-h-screen  overflow-x-hidden pt-7 md:pt-16 md:px-16 px-6 md:p-5 p-1">
                 <div className="w-full  relative z-1 h-[70vh] my-auto">
                     <motion.div
-                        className={`p-1 styleEvent h-full w-full  bg-blackparent  text-white border-2 border-purple-400 shadow-md shadow-purple-400`}
+                        className={`p-1 styleEvent h-full w-full  bg-blackparent   border-2 ${borderColor}`}
                         initial={{ opacity: 0, x: -100 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 1, type: "just" }}
                     >
-                        <div className={`overflow-y-scroll overflow-x-hidden cus h-full w-full p-1 flex flex-row flex-wrap ${isOverflow} lg:gap-5 gap-2 justify-center place-items-center`}>
+                        <div className={`overflow-y-scroll overflow-x-hidden cus h-full w-full p-1 flex flex-row flex-wrap  lg:gap-5 gap-2 justify-center place-items-center`}>
                             {children}
                         </div>
                     </motion.div>
                 </div>
-                <SideButton />
+                <BottomButton paths={paths} layout={layout} />
             </main>
-        </>
+        </React.Fragment>
     );
 }

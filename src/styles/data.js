@@ -124,7 +124,7 @@ export const culturalEvent = [
   },
   {
     SNO: 2,
-    Event: "Art and Sketching",
+    Event: "Art and Sketching Event",
     Event_Heads: ["Shalini Singh - 9893018267", "Are Koushik -  8465017840"],
     Distribution: [
       "1st Prize : ₹3000",
@@ -221,7 +221,7 @@ export const culturalEvent = [
   },
   {
     SNO: 8,
-    Event: "Battle of Bands",
+    Event: "Battle of Bands Event",
     Event_Heads: [
       "Priyanshu Srivastava - 9935062012",
       "Avasarala Nirupam Laxmi - 6309552954",
@@ -240,7 +240,7 @@ export const culturalEvent = [
   },
   {
     SNO: 9,
-    Event: "Fashion Contest",
+    Event: "Fashion Show Contest",
     Event_Heads: [
       "Anjali Daheriya  - 9301465728",
       "Thanisha Dewangan - 6232273027",

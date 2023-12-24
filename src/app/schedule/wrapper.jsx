@@ -8,9 +8,6 @@ import { motion } from "framer-motion"
 
 const Wrapper = ({ children }) => {
 
-
-
-
     return (
         <React.Fragment>
             <Image

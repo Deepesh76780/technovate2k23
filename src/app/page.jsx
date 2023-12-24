@@ -42,7 +42,7 @@ export default function Home() {
   return (
     <main className="flex flex-col min-h-[100dvh]  items-center justify-between overflow-x-hidden">
       <SmoothScrolling>
-        {loading ? (
+        {/* {loading ? (
           <Loading />
         ) : (
           <>
@@ -69,7 +69,7 @@ export default function Home() {
               theme="light"
             />
           </>
-        )}
+        )} */}
       </SmoothScrolling>
     </main>
 

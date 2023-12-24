@@ -30,16 +30,16 @@ export default function EventCard({ navigateUrl, eventName }) {
       initial="hidden"
     >
       <Link href={`/event/${navigateUrl}`}>
-        <Card className="card bg-[#9c149c6e]  text-center shadow-inner shadow-black p-2 w-32 md:w-40  hover:scale-95    cursor-pointer transition-all duration-300">
+        <Card className="card bg-[#9c149c6e]  text-center shadow-inner shadow-black p-2 w-32 md:w-44  hover:scale-95  cursor-pointer transition-all duration-300">
           <Image
             src={"/past_star_images/ash_king.png"}
             width={1000}
             height={1000}
-            className='card w-full h-24 md:h-32'
+            className='card w-full h-24 md:h-36'
             alt={eventName}
           />
           <CardFooter className="mx-auto mt-2 uppercase text-xs w-full font-cyberstar tracking-widest p-1 md:p-2">
-            <p className='text-center mx-auto'>
+            <p className='text-center mx-auto text-white'>
               {eventName}
             </p>
           </CardFooter>
