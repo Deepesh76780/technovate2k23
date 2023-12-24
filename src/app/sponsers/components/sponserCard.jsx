@@ -30,7 +30,7 @@ export default function SponserCard({ sponserName }) {
             animate="show"
             initial="hidden"
         >
-            <Card className="text-center card shadow-inner border-2 hover:shadow-emerald-600 w-32 md:h-56 h-32 overflow-hidden  transition-all duration-300">
+            <Card className="text-center card shadow-inner border-2 hover:shadow-emerald-600 w-32 md:h-40 h-32 overflow-hidden  transition-all duration-300">
                 <CardTitle className='relative w-full h-[90%] '>
                     <Image
                         src={"/past_star_images/ash_king.png"}

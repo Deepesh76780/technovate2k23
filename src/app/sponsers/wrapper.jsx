@@ -25,7 +25,7 @@ const Wrapper = ({ children }) => {
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 1, type: "just" }}
                     >
-                        <div className=" overflow-y-scroll cus h-full w-full md:p-5 p-3 flex flex-row flex-wrap overflow-auto gap-10 justify-center">
+                        <div className=" overflow-y-scroll cus h-full w-full md:p-5 p-3 flex flex-row flex-wrap overflow-auto gap-6 justify-center">
                             {children}
                         </div>
                     </motion.div>
