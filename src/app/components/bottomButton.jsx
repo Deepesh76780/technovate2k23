@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import { usePathname } from "next/navigation"
 
 
+
 const style = "shadow-inner card border-2  text-center  md:text-xs  text-[0.4rem] font-cyberblack  tracking-widest md:p-3 p-1  uppercase  min-w-32 max-w-full hover:scale-110 transition-all duration-300"
 
 export default function BottomButton({ paths, layout }) {

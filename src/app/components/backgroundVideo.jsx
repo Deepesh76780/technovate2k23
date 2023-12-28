@@ -1,5 +1,6 @@
 "use client";
 import React, { useRef, useEffect } from "react";
+import { cn } from "../../../@/lib/utils";
 
 const useVideoPlaybackSpeed = (videoRef, playbackSpeed) => {
   useEffect(() => {
@@ -20,7 +21,7 @@ const BackgroundVideo = ({ src, speed, intro = false }) => {
         autoPlay
         loop
         muted
-        className={`${intro == true ? "md:object-contain  object-cover" : "object-cover"} w-full h-full ${intro == true ? "md:-rotate-90 " : ""}`}
+        className={cn("w-full h-full", intro == true ? "md:object-contain  object-covermd:-rotate-90" : "object-cover")}
       >
         <source src={src} type="video/mp4" />
       </video>

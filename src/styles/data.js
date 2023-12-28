@@ -1,5 +1,14 @@
 export const team = [
   {
+    id: 12,
+    criteria: "HeadCoordinator",
+    name: "Dr satyanarayana vollala",
+    phone: "7712474049",
+    about: "overall coordinator",
+    imgUrl: "/team/satyanarayana_vollala.jpg",
+    linkedIn: "www.linkedin.com/in/",
+  },
+  {
     id: 7,
     criteria: "HeadCoordinator",
     name: "Ravil Patel",
