@@ -69,7 +69,7 @@ const navData = [
   }
 ]
 
-const Navbar = ({ bgcolor, resColor }) => {
+const Navbar = ({ bgcolor }) => {
   const [isOpen, setOpen] = useState(false)
   return (
     <>
@@ -122,7 +122,7 @@ const Navbar = ({ bgcolor, resColor }) => {
                 initial={"hidden"}
                 animate={"visible"}
                 exit={"exit"}
-                className={`z-10 flex flex-col border-2 border-pink-700 h-[100dvh] fixed  top-0 gap-5 place-items-center justify-around w-full bg-blackparent`}
+                className={`z-10 flex flex-col border-2  border-pink-700 h-[100dvh] fixed  top-0 gap-5 place-items-center justify-around w-full bg-blackparent`}
               >
                 <div className="flex flex-col gap-10">
                   {

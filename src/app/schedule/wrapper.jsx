@@ -26,10 +26,13 @@ const Wrapper = ({ children }) => {
                     transition={{ duration: 1, type: "just" }}
                 >
                     <div className="overflow-y-scroll cus h-full p-1">
-                        {children}
+                        {/* {children} */}
+                        <p className='text-white text-center items-center' >
+                            coming soon . . .
+                        </p>
                     </div>
                 </motion.div>
-                <BottomButton />
+                {/* <BottomButton /> */}
             </main>
         </React.Fragment >
     )

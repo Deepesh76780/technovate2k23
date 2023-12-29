@@ -4,7 +4,7 @@ import { BsTwitter, BsFacebook, BsInstagram, BsLinkedin } from 'react-icons/bs'
 
 const footerData = [
   {
-    link: "#",
+    link: "https://twitter.com/technovateIIIT/status/1736086672771838254?t=sH-PP-60JdZ_nwbRM0fJAA&s=19",
     icon: <BsTwitter />
   },
   {
@@ -16,7 +16,7 @@ const footerData = [
     icon: <BsInstagram />
   },
   {
-    link: "#",
+    link: "https://www.linkedin.com/posts/technovate_iiitnr_technovate-technovateiiitnr-iterate-activity-7141854203169193984-KKc0?utm_source=share&utm_medium=member_android",
     icon: <BsLinkedin />
   },
 ]

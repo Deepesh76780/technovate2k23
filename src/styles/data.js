@@ -284,6 +284,7 @@ export const technicalEvent = [
     SNO: 1,
     Event: "Wall Street Waltz",
     Event_Heads: ["Ravil Patel - 9893043231", "Abhinav Roy - 7974751882"],
+    Distribution: ["₹5000"],
     about:
       'Test your trading mettle in "Wall Street Waltz": a solo virtual stock market competition on StockGro, where the greenest portfolio wins!',
   },
@@ -294,12 +295,14 @@ export const technicalEvent = [
       "Ashutosh Jaiswal - 9129093900",
       "Karan Agrawal - 7077183484",
     ],
+    Distribution: ["₹10000"],
     about:
       "In a high-stakes showdown, innovators unleash entrepreneurial skills, battling intense pitches and tackling real-life brand challenges to test their mettle and critical thinking.",
   },
   {
     SNO: 3,
     Event: "SpeedRun",
+    Distribution: ["₹10000"],
     Event_Heads: ["Vineet - 9893395818", "Dhyanendra Tripathi - 7355206518"],
     about:
       "Code at the Speed of Thought: Unleash Your Programming Prowess in the Ultimate Coding Speedrun Challenge!",
@@ -307,6 +310,7 @@ export const technicalEvent = [
   {
     SNO: 4,
     Event: "Robolution",
+    Distribution: ["₹40000"],
     Event_Heads: [
       "Lakshya Garg - 9818791666",
       "Bhavesh Gyanchandani - 9834304932",
@@ -316,28 +320,47 @@ export const technicalEvent = [
   {
     SNO: 5,
     Event: "DataPunk",
+    Distribution: ["₹10000"],
     Event_Heads: ["Sanskar Singh - 7000486098", "Sanchit Namdeo - 8989846583"],
     about: "Train, Test, Triumph... Unleash your inner DataPunk !!!",
   },
   {
     SNO: 6,
     Event: "Wired Wizardry",
-    Event_Heads: [
-      "Ishita Tegar - 8349402003",
-      "Shreyansh Kushwaha - 7869058506",
-    ],
+    Distribution: ["₹10000"],
+    Event_Heads: ["Ishita Tegar - 8349402003", "Karthik - 7842757138"],
     about: "Wire up your wizardry, let circuits cast the spell of innovation!",
   },
   {
     SNO: 7,
     Event: "Hack Harbour",
+    Distribution: ["₹34500"],
     Event_Heads: ["Alankrit Sharma - 7376961118", "Vandit Tyagi - 7840073450"],
     about: "Decipher, Develop, Dominate: Hack the Harbour",
   },
   {
     SNO: 8,
     Event: "BrainWave",
+    Distribution: ["₹8500"],
     Event_Heads: ["Ayush Yadav - 8529133411", "Harsh Shrivastava - 9907882155"],
     about: "BrainWave: Where Minds Collide in the Ultimate Quiz Odyssey!",
+  },
+
+  {
+    SNO: 9,
+    Event: "Unlock the Technoverse",
+    Distribution: ["₹10,000"],
+    Event_Heads: ["Aman Sahu - 95844 84662", "V. Jashwanth - 8919891146"],
+    about: "Unlock the Technoverse: Catch The Flag(CTF)",
+  },
+  {
+    SNO: 10,
+    Event: "AlgoSprint",
+    Distribution: ["₹10,000"],
+    Event_Heads: [
+      "Shivaibhav Dewangan - 8602237007",
+      "Gaurish Ojha - 6394079252",
+    ],
+    about: "AlgoSprint: Code, Compete, Conquer!",
   },
 ];

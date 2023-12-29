@@ -6,15 +6,9 @@ import Marquee from "react-fast-marquee";
 export default async function Sponsers() {
     return (
         <React.Fragment>
-            <SponserCard sponserName={"WorkZara"} />
-            <SponserCard sponserName={"WorkZara"} />
-            <SponserCard sponserName={"WorkZara"} />
-            <SponserCard sponserName={"WorkZara"} />
-            <SponserCard sponserName={"WorkZara"} />
-            <SponserCard sponserName={"WorkZara"} />
-            <SponserCard sponserName={"WorkZara"} />
-            <SponserCard sponserName={"WorkZara"} />
-            <SponserCard sponserName={"WorkZara"} />
+            <p className='text-white'>
+                coming soon . . .
+            </p>
         </React.Fragment>
     );
 }

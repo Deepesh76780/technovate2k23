@@ -21,7 +21,7 @@ const BackgroundVideo = ({ src, speed, intro = false }) => {
         autoPlay
         loop
         muted
-        className={cn("w-full h-full", intro == true ? "md:object-contain  object-covermd:-rotate-90" : "object-cover")}
+        className={cn("w-full h-full", intro == true ? "md:object-contain  object-cover md:-rotate-90" : "object-cover")}
       >
         <source src={src} type="video/mp4" />
       </video>
@@ -29,4 +29,4 @@ const BackgroundVideo = ({ src, speed, intro = false }) => {
   );
 };
 
-export default BackgroundVideo;
+export default React.memo(BackgroundVideo);
