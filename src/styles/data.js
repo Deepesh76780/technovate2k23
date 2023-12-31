@@ -364,3 +364,31 @@ export const technicalEvent = [
     about: "AlgoSprint: Code, Compete, Conquer!",
   },
 ];
+
+export const blogData = [
+  {
+    imageAlt: "Yash Khare",
+    imageHref: "/blog/yash.webp",
+    normalDesc:
+      "He also said a third word, hectic, which would be true if not for the enjoyment of planning and organising of the Technovate events, which to him was the best aspect . Through his experiences over the years he says, “Go out of your way to contribute as much as possible for the fest and donot limit yourselves to the role , Go beyond!”",
+    boldDesc: "Yash had two words for Technovate- Adventurous and exciting.",
+    about: [
+      "Yash Khare(2017-2021)",
+      "Outlook and Design (2018)",
+      "Student Coordinator (2019-2020)",
+    ],
+  },
+  {
+    imageAlt: "Nitin",
+    imageHref: "/blog/nitin.jpg",
+    normalDesc:
+      "Technovate 2020, had one of the best line ups but also faced the worst of times due to the pandemic which ended in lockdown and cancellation of the fest just after the ‘7 days to go’ poster was revealed. Nitin was at the center, he was the head coordinator and a first hand witness of the hardships that the team went through.",
+    boldDesc:
+      "“Be confident and overconfident cause you are no longer a student, you are part of technovate.”",
+    about: [
+      "Nitin Chandra (2017-2021)",
+      "Media Marketing (2018)",
+      "Student coordinator (2019-2020)",
+    ],
+  },
+];
