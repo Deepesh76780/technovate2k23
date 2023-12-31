@@ -63,7 +63,7 @@ const Navbar = ({ bgcolor }) => {
         {
           navData.map((item, index) => {
             return <Link href={item.href} key={index}>
-              <NavButton Title={item.title} subTitle={item.subTitle} bgcolor={bgcolor} />
+              <NavButton Title={item.title} subTitle={item.subTitle} bgcolor={bgcolor} href={item.href} />
             </Link>
           })
         }
