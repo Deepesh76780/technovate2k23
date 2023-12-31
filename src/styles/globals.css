@@ -83,58 +83,19 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-
-
 body {
   color: rgb(var(--foreground-rgb));
   background-color: #000000;
 
-}
-.btn {
-  border: 0;
-  outline: none;
-  background-color: var(--black-color);
-  cursor: pointer;
-  position: relative;
-  text-transform: uppercase;
-  color: var(--black-color);
-  clip-path: polygon(92% 0, 100% 25%, 100% 100%, 8% 100%, 0% 75%, 0 0);
 }
 
 .card{
   clip-path: polygon(92% 0, 100% 25%, 100% 100%, 8% 100%, 0% 75%, 0 0);
 }
 
-.btn__content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 5px;
-  left: 2px;
-  right: 2px;
-  bottom: 2px;
-  clip-path: polygon(92% 0, 100% 25%, 100% 100%, 8% 100%, 0% 75%, 0 0);
-  transition: background-color 0.5s;
+.shadow {
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073,
     0 0 50px #e60073, 0 0 60px #ff00ff, 0 0 70px #ff2dca;
-}
-
-.btn__label {
-  height: 15px;
-  font-size: 0.5rem;
-  position: absolute;
-  bottom: -4px;
-  right: 8%;
-  padding: 0 5px;
-  transition: background-color 0.5s;
-  z-index: 3;
-}
-
-.btn__content:hover {
-  background-color: var(--neon-cyan);
-  text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
-    0 0 50px #ffe44d, 0 0 60px #ffde4d, 0 0 70px #ffb24d, 0 0 80px #ffb84d;
 }
 
 .btn__content:hover + .btn__label {
@@ -146,13 +107,6 @@ body {
   color:black
 }
 
-#tsparticles {
-  position: fixed ;
-  background-repeat: no-repeat ;
-  background-size: cover ;
-  width: 100%;
-  height: 100%;
-}
 
 /* Divider */
 

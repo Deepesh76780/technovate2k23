@@ -45,26 +45,26 @@ export default function EventCard({ store }) {
           />
         </Card>
         <Separator className="md:w-[0.5px] md:h-[300px] h-px w-full  bg-slate-300 mx-[1px]" />
-        <Card className="flex flex-col gap-5 md:w-[520px]   w-full font-serif">
+        <Card className="flex flex-col gap-5 md:w-[520px]   w-full font-Chakra">
           <CardHeader className="text-lg text-white  ">
             {store?.Event && store.Event}
             <Badge variant="destructive" >
               {store?.Mode && `Mode - ${store.Mode}`}
             </Badge>
           </CardHeader>
-          <CardContent className="text-muted lg:text-base text-sm text-purple-200 underline ">
+          <CardContent className="text-muted lg:text-base text-sm text-purple-200 underline font-Chakra">
             {store?.about && store.about}
           </CardContent>
           <CardTitle className="flex flex-col items-start lg:text-base text-sm" >
             <div className='flex md:gap-5 gap-3 mb-2'>
-              <p className='lg:text-base text-sm text-black bg-purple-300 p-1 rounded-xl hover:bg-slate-50 px-3 hover:rounded-lg transition-all duration-700  cursor-pointer' >
+              <p className='lg:text-base text-sm text-black bg-purple-300 p-1 rounded-2xl hover:bg-slate-50 px-3 hover:rounded-xl transition-all duration-700 font-Chakra  cursor-pointer' >
                 rule book
               </p>
-              <p className='lg:text-base text-sm text-black bg-purple-300 p-1 rounded-xl hover:bg-slate-50  px-3 hover:rounded-lg transition-all duration-700 cursor-pointer'>
+              <p className='lg:text-base text-sm text-black bg-purple-300 p-1 rounded-2xl font-Chakra hover:bg-slate-50  px-3 hover:rounded-xl transition-all duration-700 cursor-pointer'>
                 register
               </p>
             </div>
-            <div className='text-white mt-2'>
+            <div className='text-white mt-2 font-Chakra'>
               Prices:
               {
                 store?.Distribution && store.Distribution.map((item, index) => {

@@ -22,7 +22,7 @@ const Blog = () => {
                 >
                     <Card className="border-2 cyberpunk border-slate-400 sty bg-blackparent transition-all duration-300 p-3 ">
                         <CardHeader>
-                            <div className='relative h-[250px]  w-full'>
+                            <div className='relative h-[300px]  w-full'>
                                 <Image
                                     alt="Yash Khare"
                                     src="/blog/yash.webp"
@@ -48,7 +48,7 @@ const Blog = () => {
                 >
                     <Card className=" border-2 cyberpunk border-slate-400 sty bg-blackparent transition-all duration-300 p-3 ">
                         <CardHeader>
-                            <div className='relative h-[250px] w-full'>
+                            <div className='relative h-[300px] w-full'>
                                 <Image
                                     alt="Nitin"
                                     src="/blog/nitin.jpg"

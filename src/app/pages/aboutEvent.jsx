@@ -33,7 +33,7 @@ export default function AboutEvent() {
         ></div>
         <div className="w-full flex flex-col lg:gap-28 gap-14">
           <Title title={"PAST PERFORMERS"} />
-          <Marquee direction='left'>
+          <Marquee direction='left' pauseOnClick={true}>
             {
               imgData.map((item, index) => {
                 return <EventCard Img={item.href} key={index} />
