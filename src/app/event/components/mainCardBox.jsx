@@ -7,10 +7,13 @@ import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { Badge } from "@/components/ui/badge"
 import { Separator } from "@/components/ui/separator"
+import { useRouter } from 'next/navigation'
 
 
 
 export default function EventCard({ store }) {
+
+  const router = useRouter()
 
   const item = {
     hidden: {
@@ -46,11 +49,18 @@ export default function EventCard({ store }) {
         </Card>
         <Separator className="md:w-[0.5px] md:h-[300px] h-px w-full  bg-slate-300 mx-[1px]" />
         <Card className="flex flex-col gap-5 md:w-[520px]   w-full font-Chakra">
-          <CardHeader className="text-lg text-white  ">
-            {store?.Event && store.Event}
-            <Badge variant="destructive" >
-              {store?.Mode && `Mode - ${store.Mode}`}
-            </Badge>
+          <CardHeader className="flex flex-row justify-between">
+            <div className='text-lg text-white'>
+              {store?.Event && store.Event}
+              <Badge variant="destructive" >
+                {store?.Mode && `Mode - ${store.Mode}`}
+              </Badge>
+            </div>
+            <button className='text-white text-[1.3rem]  cursor-pointer hover:scale-150 transition-all duration-500' title="go back" onClick={() => {
+              router.back()
+            }}>
+              &larr;
+            </button>
           </CardHeader>
           <CardContent className="text-muted lg:text-base text-sm text-purple-200 underline font-Chakra">
             {store?.about && store.about}
