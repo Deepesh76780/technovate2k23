@@ -20,7 +20,7 @@ const imageVariants = {
 
 export default function Loading() {
     return (
-        <div className='text-white lg:min-h-screen h-[100dvh] flex justify-center items-center'>
+        <div className='text-white min-h-[100dvh] flex justify-center items-center'>
             <motion.div className='relative h-24 w-24 scale-100' variants={imageVariants} animate="animate" initial="initial">
                 <Image src='/logo/logo.png' fill alt='logo' priority />
             </motion.div>

@@ -23,7 +23,7 @@ export default function Home() {
         setLoading(false);
         toast('👈 👀 Secure your passes today 🤝', {
           position: "bottom-right",
-          autoClose: 10000,
+          autoClose: 6000,
           hideProgressBar: false,
           closeOnClick: true,
           pauseOnHover: true,
@@ -41,36 +41,34 @@ export default function Home() {
 
   return (
     <main className="flex flex-col min-h-[100dvh]  items-center justify-between overflow-x-hidden">
-      <SmoothScrolling>
-        {loading ? (
-          <Loading />
-        ) : (
-          <>
-            <LandingPage />
-            <AboutUsPage />
-            <SeparatorHomePage />
-            <IntroVideo />
-            <SeparatorHomePage />
-            <AboutEvent />
-            <SeparatorHomePage />
-            <Blog />
-            <SeparatorHomePage />
-            <Footer />
-            <ToastContainer
-              position="bottom-right"
-              autoClose={10000}
-              hideProgressBar={false}
-              newestOnTop={false}
-              closeOnClick
-              rtl={false}
-              pauseOnFocusLoss
-              draggable
-              pauseOnHover
-              theme="light"
-            />
-          </>
-        )}
-      </SmoothScrolling>
+      {loading ? (
+        <Loading />
+      ) : (
+        <SmoothScrolling>
+          <LandingPage />
+          <AboutUsPage />
+          <SeparatorHomePage />
+          <IntroVideo />
+          <SeparatorHomePage />
+          <AboutEvent />
+          <SeparatorHomePage />
+          <Blog />
+          <SeparatorHomePage />
+          <Footer />
+          <ToastContainer
+            position="bottom-right"
+            autoClose={10000}
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+            theme="light"
+          />
+        </SmoothScrolling>
+      )}
     </main>
 
   );

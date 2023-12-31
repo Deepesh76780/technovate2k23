@@ -21,7 +21,9 @@ const BackgroundVideo = ({ src, speed, intro = false }) => {
         autoPlay
         loop
         muted
-        className={cn("w-full h-full", intro == true ? "md:object-contain  object-cover md:-rotate-90" : "object-cover")}
+        className={cn("w-full h-full object-cover", {
+          "md:object-contain  object-cover md:-rotate-90": intro,
+        })}
       >
         <source src={src} type="video/mp4" />
       </video>

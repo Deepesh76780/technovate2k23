@@ -8,10 +8,6 @@ const footerData = [
     icon: <BsTwitter />
   },
   {
-    link: "#",
-    icon: <BsFacebook />
-  },
-  {
     link: "https://www.instagram.com/technovate_iiitnr/",
     icon: <BsInstagram />
   },

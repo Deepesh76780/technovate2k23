@@ -28,7 +28,7 @@ export default function AboutEvent() {
     <div className="relative overflow-hidden w-full">
       <section className="lg:pt-32 lg:pb-32 pb-20 pt-20 relative">
         <div
-          className="absolute w-full h-full top-0 left-0 bg-event-parallex bg-cover bg-center bg-no-repeat  bg-fixed"
+          className="absolute w-full h-full top-0 left-0 bg-event-parallex bg-cover bg-center bg-no-repeat opacity-90  bg-fixed"
 
         ></div>
         <div className="w-full flex flex-col lg:gap-28 gap-14">

@@ -77,7 +77,7 @@ const Navbar = ({ bgcolor }) => {
         variants={container}
         initial={"hidden"}
         animate={"visible"}
-        className="p-2 z-1 lg:flex  justify-between fixed gap-5 mt-1 w-full lg:visible hidden"
+        className="p-2 z-50 lg:flex  justify-between fixed gap-5 mt-1 w-full lg:visible hidden"
       >
         {
           navData.map((item, index) => {
