@@ -41,13 +41,13 @@ function PlayerInfo({ props }) {
       </Card >
       <Separator className="md:w-[0.5px] md:h-[300px] h-[1px] w-full  bg-slate-300 mx-[1px]" />
       <Card className="flex flex-col md:gap-2 gap-1">
-        <CardHeader className="flex flex-col md:gap-2 gap-1  font-cyberstar tracking-[0.2em]">
-          <CardTitle className="md:text-xl text-xs  underline">{props.name}</CardTitle>
-          <CardDescription className="md:text-lg text-xs">{props.about}</CardDescription>
+        <CardHeader className="flex flex-col md:gap-2 gap-1  font-Chakra tracking-[0.2em]">
+          <CardTitle className="md:text-xl text-xs  underline font-Chakra">{props.name}</CardTitle>
+          <CardDescription className="md:text-lg text-xs font-Chakra">{props.about}</CardDescription>
         </CardHeader>
         <CardFooter className="flex flex-col items-start gap-2">
           <div className='flex gap-2 place-items-center'>
-            <BiPhoneCall className='md:h-5 md:w-5 h-3 w-3' /> <p className='md:text-lg text-xs'>{props.phone}</p>
+            <BiPhoneCall className='md:h-5 md:w-5 h-3 w-3' /> <p className='md:text-lg text-xs font-Chakra'>{props.phone}</p>
           </div>
           <div className='flex flex-row gap-2'>
             <Link href={props.linkedIn} >

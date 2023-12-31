@@ -33,12 +33,12 @@ export default function EventCard({ store }) {
         variants={item}
         className=" flex md:flex-row flex-col lg:justify-evenly justify-evenly  place-items-center w-full md:gap-0 gap-3">
         <Card
-          className="card  bg-[#9c149c6e] h-[60vh] lg:w-[36%] md:w-[20%] w-3/5 text-center shadow-inner shadow-black  lg:p-2 p-1 place-self-start"
+          className=" bg-[#9c149c6e] h-[30vh] md:h-[60vh] lg:w-[36%] md:w-[20%] w-full text-center shadow-inner shadow-black  lg:p-2 p-1 place-self-start"
         >
           <Image
-            src={"/past_star_images/ash_king.png"}
-            width={500}
-            height={500}
+            src={"/events/technical/algosprint_mobile.png"}
+            width={1500}
+            height={1500}
             className='h-full w-full'
             alt={"event"}
             priority
