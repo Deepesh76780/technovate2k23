@@ -75,10 +75,10 @@ export const team = [
   {
     id: 6,
     criteria: "HeadCoordinator",
-    name: "priykrit Verma",
+    name: "priykrit Varma",
     phone: "9109562757",
     about: "Technical Head",
-    imgUrl: "/team/Priykrit_Varma_Technical.jpg",
+    imgUrl: "/team/Priykrit_Varma_Technical.jpeg",
     linkedIn: "https://www.linkedin.com/in/priykrit-varma-127aa5249/",
   },
   {

@@ -69,7 +69,7 @@ const NavResponsive = ({ navData, bgColor }) => {
                                 {
                                     navData.map((item, index) => {
                                         return <Link href={item.href} key={index}>
-                                            <NavButton Title={item.title} subTitle={item.subTitle} bgcolor={bgColor} />
+                                            <NavButton Title={item.title} subTitle={item.subTitle} bgcolor={bgColor} href={item.href} />
                                         </Link>
                                     })
                                 }

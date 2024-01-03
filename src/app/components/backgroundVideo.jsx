@@ -15,14 +15,14 @@ const BackgroundVideo = ({ src, speed, intro = false }) => {
   useVideoPlaybackSpeed(videoRef, speed);
 
   return (
-    <div className="relative w-screen md:h-screen h-[100dvh] overflow-hidden">
+    <div className={cn("relative w-screen h-[100dvh] overflow-hidden")}>
       <video
         ref={videoRef}
         autoPlay
         loop
         muted
         className={cn("w-full h-full object-cover", {
-          "md:object-contain  object-cover md:-rotate-90": intro,
+          "md:object-contain  md:-rotate-90 shadow-2xl shadow-blue-500": intro,
         })}
       >
         <source src={src} type="video/mp4" />
