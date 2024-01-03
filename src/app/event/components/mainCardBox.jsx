@@ -39,7 +39,7 @@ export default function EventCard({ store }) {
           className=" bg-[#9c149c6e] h-[30vh] md:h-[60vh] lg:w-[36%] md:w-[20%] w-full text-center shadow-inner shadow-black  lg:p-2 p-1 place-self-start"
         >
           <Image
-            src={"/events/technical/algosprint_mobile.png"}
+            src={store.imgUrl ?? "/events/technical/algosprint_mobile.png"}
             width={1500}
             height={1500}
             className='h-full w-full'

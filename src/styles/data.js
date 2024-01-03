@@ -283,6 +283,7 @@ export const technicalEvent = [
   {
     SNO: 1,
     Event: "Wall Street Waltz",
+    imgUrl: "/events/technical/wall street waltz(mobile).png",
     Event_Heads: ["Ravil Patel - 9893043231", "Abhinav Roy - 7974751882"],
     Distribution: ["₹5000"],
     about:
@@ -296,6 +297,7 @@ export const technicalEvent = [
       "Karan Agrawal - 7077183484",
     ],
     Distribution: ["₹10000"],
+    imgUrl: "/events/technical/venture vista(mobile).png",
     about:
       "In a high-stakes showdown, innovators unleash entrepreneurial skills, battling intense pitches and tackling real-life brand challenges to test their mettle and critical thinking.",
   },
@@ -304,6 +306,7 @@ export const technicalEvent = [
     Event: "SpeedRun",
     Distribution: ["₹10000"],
     Event_Heads: ["Vineet - 9893395818", "Dhyanendra Tripathi - 7355206518"],
+    imgUrl: "/events/technical/speedrun(mobile).png",
     about:
       "Code at the Speed of Thought: Unleash Your Programming Prowess in the Ultimate Coding Speedrun Challenge!",
   },
@@ -315,12 +318,14 @@ export const technicalEvent = [
       "Lakshya Garg - 9818791666",
       "Bhavesh Gyanchandani - 9834304932",
     ],
+    imgUrl: "/events/technical/robolution(mobile).png",
     about: "Tech meets tact: simple robots, epic clashes",
   },
   {
     SNO: 5,
     Event: "DataPunk",
     Distribution: ["₹10000"],
+    imgUrl: "/events/technical/datapunk(mobile).png",
     Event_Heads: ["Sanskar Singh - 7000486098", "Sanchit Namdeo - 8989846583"],
     about: "Train, Test, Triumph... Unleash your inner DataPunk !!!",
   },
@@ -328,6 +333,7 @@ export const technicalEvent = [
     SNO: 6,
     Event: "Wired Wizardry",
     Distribution: ["₹10000"],
+    imgUrl: "/events/technical/WIRED_mobile.png",
     Event_Heads: ["Ishita Tegar - 8349402003", "Karthik - 7842757138"],
     about: "Wire up your wizardry, let circuits cast the spell of innovation!",
   },
@@ -335,6 +341,7 @@ export const technicalEvent = [
     SNO: 7,
     Event: "Hack Harbour",
     Distribution: ["₹34500"],
+    imgUrl: "/events/technical/hack-o-harbour_mobile.png",
     Event_Heads: ["Alankrit Sharma - 7376961118", "Vandit Tyagi - 7840073450"],
     about: "Decipher, Develop, Dominate: Hack the Harbour",
   },
@@ -342,20 +349,23 @@ export const technicalEvent = [
     SNO: 8,
     Event: "BrainWave",
     Distribution: ["₹8500"],
+    imgUrl: "/events/technical/brainwave_mobile.png",
     Event_Heads: ["Ayush Yadav - 8529133411", "Harsh Shrivastava - 9907882155"],
     about: "BrainWave: Where Minds Collide in the Ultimate Quiz Odyssey!",
   },
 
   {
     SNO: 9,
-    Event: "Unlock the Technoverse",
+    Event: "UTT",
     Distribution: ["₹10,000"],
+    imgUrl: "/events/technical/CTF_mobile.png",
     Event_Heads: ["Aman Sahu - 95844 84662", "V. Jashwanth - 8919891146"],
     about: "Unlock the Technoverse: Catch The Flag(CTF)",
   },
   {
     SNO: 10,
     Event: "AlgoSprint",
+    imgUrl: "/events/technical/algosprint_mobile.png",
     Distribution: ["₹10,000"],
     Event_Heads: [
       "Shivaibhav Dewangan - 8602237007",

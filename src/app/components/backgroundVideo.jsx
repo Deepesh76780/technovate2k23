@@ -22,7 +22,7 @@ const BackgroundVideo = ({ src, speed, intro = false }) => {
         loop
         muted
         className={cn("w-full h-full object-cover", {
-          "md:object-contain  md:-rotate-90 shadow-2xl shadow-blue-500": intro,
+          "md:object-contain  md:-rotate-90 shadow-2xl": intro,
         })}
       >
         <source src={src} type="video/mp4" />

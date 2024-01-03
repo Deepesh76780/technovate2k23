@@ -8,7 +8,7 @@ import {
 import Image from 'next/image'
 import Link from 'next/link'
 
-export default function EventCard({ navigateUrl, eventName }) {
+export default function EventCard({ navigateUrl, eventName, imgUrl }) {
 
   const item = {
     hidden: {
@@ -30,9 +30,9 @@ export default function EventCard({ navigateUrl, eventName }) {
       initial="hidden"
     >
       <Link href={`/event/${navigateUrl}`}>
-        <Card className="card bg-[#9c149c6e]  text-center shadow-inner shadow-black p-2 w-32 md:w-44  hover:scale-95  cursor-pointer transition-all duration-300">
+        <Card className="bg-[#9c149c6e]  text-center shadow-inner shadow-black p-2 w-32 md:w-44  hover:scale-95  cursor-pointer transition-all duration-300">
           <Image
-            src={"/events/technical/algosprint_mobile.png"}
+            src={imgUrl ?? "/events/technical/algosprint_mobile.png"}
             width={1000}
             height={1000}
             className='w-full h-24 md:h-36'
