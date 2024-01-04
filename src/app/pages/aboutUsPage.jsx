@@ -14,8 +14,8 @@ export default function AboutUsPage() {
         >
         </div>
         <Title title="OUR STORY" />
-        <div className="w-full md:p-10 p-5 mt-20">
-          <motion.h1 className="pink_selector sty font-Chakra border-2  border-pink-500 text-slate-300 lg:text-base text-xs display-2 text-center relative max-w-[60rem]  mx-auto font-bold tracking-widest bg-blackparent p-10 shadow-pink-400 shadow-inner"
+        <div className="w-full md:p-10 p-3 mt-[4.5rem]">
+          <motion.h1 className="pink_selector sty font-Chakra border-2  border-pink-500 text-slate-300 lg:text-base text-xs display-2 text-center relative max-w-[60rem]  mx-auto font-bold tracking-widest bg-blackparent md:p-10 py-10 px-5 shadow-pink-400 shadow-inner"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
