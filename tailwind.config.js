@@ -32,6 +32,7 @@ module.exports = {
         glitch: ["var(--my-glitch)"],
         greek: ["var(--my-greek)"],
         cyberstar: ["var(--my-cyberstar)"],
+        blackop:["var(--font-Blackops)"]
       },
       backgroundColor: {
         blackparent: "#00000080",

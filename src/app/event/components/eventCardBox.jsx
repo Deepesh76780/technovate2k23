@@ -38,8 +38,8 @@ export default function EventCard({ navigateUrl, eventName, imgUrl }) {
             className='w-full h-24 md:h-36'
             alt={eventName}
           />
-          <CardFooter className="mx-auto mt-2 uppercase text-xs w-full font-cyberstar tracking-widest p-1 md:p-2">
-            <p className='text-center mx-auto text-white'>
+          <CardFooter className="mx-auto mt-2 uppercase text-[0.6rem] md:text-xs  w-full font-cyberstar tracking-widest p-1 md:p-2">
+            <p className='text-center mx-auto text-white font-blackop'>
               {eventName}
             </p>
           </CardFooter>

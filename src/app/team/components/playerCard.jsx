@@ -10,7 +10,7 @@ import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { Suspense } from 'react'
 
-export default function PlayerCard({ navigateUrl, playerTask, imgUrl }) {
+export default function PlayerCard({ navigateUrl, playerName, imgUrl }) {
   const item = {
     hidden: {
       opacity: 0,
@@ -39,11 +39,11 @@ export default function PlayerCard({ navigateUrl, playerTask, imgUrl }) {
               width={1000}
               height={1000}
               className='w-full h-48 md:h-52'
-              alt={playerTask}
+              alt={playerName}
             />
-            <CardFooter className="mx-auto font-cyberstar tracking-widest uppercase bg-cyan-200 p-1 px-5 text-sm w-full">
-              <p className='truncate mx-auto'>
-                {playerTask}
+            <CardFooter className="mx-auto font-cyberstar tracking-widest uppercase bg-cyan-200 p-1 px-5 text-xs md:text-sm w-full">
+              <p className='truncate mx-auto font-blackop'>
+                {playerName}
               </p>
             </CardFooter>
           </Card>

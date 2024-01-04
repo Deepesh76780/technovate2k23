@@ -56,10 +56,10 @@ export default function EventCard({ store }) {
                 {store?.Mode && `Mode - ${store.Mode}`}
               </Badge>
             </div>
-            <button className='text-white text-[1.3rem]  cursor-pointer hover:scale-150 transition-all duration-500' title="go back" onClick={() => {
+            <button className='text-white md:text-[1rem] text-[0.8rem]  cursor-pointer hover:scale-125 transition-all duration-500' title="go back" onClick={() => {
               router.back()
             }}>
-              &larr;
+              &larr; back
             </button>
           </CardHeader>
           <CardContent className="text-muted lg:text-base text-sm text-purple-200 underline font-Chakra">

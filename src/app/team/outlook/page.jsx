@@ -10,7 +10,7 @@ export default function page() {
   return (
 
     data.map((item) => {
-      return <PlayerCard key={item.id} navigateUrl={`outlook/${item.id}`} playerTask={item.name} imgUrl={item.imgUrl} />
+      return <PlayerCard key={item.id} navigateUrl={`outlook/${item.id}`} playerName={item.name} imgUrl={item.imgUrl} />
     })
 
   )

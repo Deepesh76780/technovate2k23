@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import { Michroma } from "next/font/google";
 import { Chakra_Petch } from "next/font/google";
 import { Orbitron } from "next/font/google";
+import {Black_Ops_One} from "next/font/google"
 import localFont from "next/font/local";
 
 export const cyberway = localFont({
@@ -50,6 +51,12 @@ export const OrbitronFont = Orbitron({
   display: "swap",
   weight: "400",
   variable: "--font-Orbitron",
+});
+export const BlackOps = Black_Ops_One({
+  subsets: ["latin"],
+  display: "swap",
+  weight: "400",
+  variable: "--font-Blackops",
 });
 
 export const Chakra_PetchFont = Chakra_Petch({
