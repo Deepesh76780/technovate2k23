@@ -33,12 +33,12 @@ export default function PlayerCard({ navigateUrl, playerName, imgUrl }) {
       >
 
         <Link href={`/team/${navigateUrl}`}>
-          <Card className="card text-center shadow-md overflow-hidden  border-2  w-44 hover:scale-105 cursor-pointer transition-all duration-300">
+          <Card className="card text-center shadow-md overflow-hidden  border-2  w-48 hover:scale-105 cursor-pointer transition-all duration-300">
             <Image
               src={imgUrl}
               width={1000}
               height={1000}
-              className='w-full h-48 md:h-52'
+              className='w-full h-48 md:h-52 '
               alt={playerName}
             />
             <CardFooter className="mx-auto font-cyberstar tracking-widest uppercase bg-cyan-200 p-1 px-5 text-xs md:text-sm w-full">

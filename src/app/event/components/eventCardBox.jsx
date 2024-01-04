@@ -30,12 +30,12 @@ export default function EventCard({ navigateUrl, eventName, imgUrl }) {
       initial="hidden"
     >
       <Link href={`/event/${navigateUrl}`}>
-        <Card className="bg-[#9c149c6e]  text-center shadow-inner shadow-black p-2 w-32 md:w-44  hover:scale-95  cursor-pointer transition-all duration-300">
+        <Card className="bg-[#9c149c6e]  text-center shadow-inner shadow-black p-2 w-full md:w-72   hover:scale-95  cursor-pointer transition-all duration-300">
           <Image
             src={imgUrl ?? "/events/technical/algosprint_mobile.png"}
             width={1000}
             height={1000}
-            className='w-full h-24 md:h-36'
+            className='w-full h-24 md:h-36 object-cover'
             alt={eventName}
           />
           <CardFooter className="mx-auto mt-2 uppercase text-[0.6rem] md:text-xs  w-full font-cyberstar tracking-widest p-1 md:p-2">

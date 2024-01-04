@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/legacy/image";
 import BottomButton from "./component/bottomButton"
+import ComingSoonText from "../components/comingSoon"
 import Navbar from "../components/nav";
 import { motion } from "framer-motion"
 
@@ -25,14 +26,12 @@ const Wrapper = ({ children }) => {
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 1, type: "just" }}
                 >
-                    <div className="overflow-y-scroll cus h-full p-1">
+                    <div className="overflow-y-scroll cus h-full p-1 flex justify-center items-center">
                         {/* {children} */}
-                        <p className='text-white text-center items-center' >
-                            coming soon . . .
-                        </p>
+                       <ComingSoonText/>
                     </div>
                 </motion.div>
-                {/* <BottomButton /> */}
+                <BottomButton />
             </main>
         </React.Fragment >
     )

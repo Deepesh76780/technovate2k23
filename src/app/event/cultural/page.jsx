@@ -9,6 +9,7 @@ export default function page() {
         return <EventCard
           navigateUrl={`/cultural/${item.SNO}`}
           eventName={item.Event}
+          imgUrl={item.imgUrl}
           key={item.SNO}
         />
       })}

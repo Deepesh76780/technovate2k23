@@ -22,9 +22,10 @@ export default function Footer() {
     <footer className=" mt-10 p-4 flex flex-col justify-center items-center  gap-4 w-full">
       <div className="flex space-x-4 ">
         {footerData.map((item, index) => {
-          return <Link href={item.link} className="text-slate-100 hover:text-pink-600" key={index}>
+          return <a target='_blank' href={item.link} className="text-slate-100 hover:text-pink-600" key={index}>
             {item.icon}
-          </Link>
+            </a>
+ 
         }
         )}
       </div>

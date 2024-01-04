@@ -21,7 +21,9 @@ const BlogCard = ({ blogData: props }) => {
                         <Image
                             alt={props.imageAlt}
                             src={props.imageHref}
-                            fill
+                            className="object-cover w-full h-full"
+                            height={1000}
+                            width={1000}
                             sizes="100vw"
                         />
                     </div>

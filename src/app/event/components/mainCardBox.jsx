@@ -36,7 +36,7 @@ export default function EventCard({ store }) {
         variants={item}
         className=" flex md:flex-row flex-col lg:justify-evenly justify-evenly  place-items-center w-full md:gap-0 gap-3">
         <Card
-          className=" bg-[#9c149c6e] h-[30vh] md:h-[60vh] lg:w-[36%] md:w-[20%] w-full text-center shadow-inner shadow-black  lg:p-2 p-1 place-self-start"
+          className=" bg-[#9c149c6e] h-[30vh] md:h-[60vh] lg:w-[41%] md:w-[20%] w-full text-center shadow-inner shadow-black  lg:p-2 p-1 place-self-start"
         >
           <Image
             src={store.imgUrl ?? "/events/technical/algosprint_mobile.png"}
@@ -50,16 +50,16 @@ export default function EventCard({ store }) {
         <Separator className="md:w-[0.5px] md:h-[300px] h-px w-full  bg-slate-300 mx-[1px]" />
         <Card className="flex flex-col gap-5 md:w-[520px]   w-full font-Chakra">
           <CardHeader className="flex flex-row justify-between">
-            <div className='text-lg text-white'>
+            <div className='text-xl text-white'>
               {store?.Event && store.Event}
               <Badge variant="destructive" >
                 {store?.Mode && `Mode - ${store.Mode}`}
               </Badge>
             </div>
-            <button className='text-white md:text-[1rem] text-[0.8rem]  cursor-pointer hover:scale-125 transition-all duration-500' title="go back" onClick={() => {
+            <button className='text-white border-2 p-2  md:text-[1rem] rounded-3xl text-[0.8rem]  cursor-pointer hover:scale-125 transition-all duration-500' title="go back" onClick={() => {
               router.back()
             }}>
-              &larr; back
+              &larr; 
             </button>
           </CardHeader>
           <CardContent className="text-muted lg:text-base text-sm text-purple-200 underline font-Chakra">
@@ -75,7 +75,7 @@ export default function EventCard({ store }) {
               </p>
             </div>
             <div className='text-white mt-2 font-Chakra'>
-              Prices:
+              Prizes:
               {
                 store?.Distribution && store.Distribution.map((item, index) => {
                   return <div key={index} >

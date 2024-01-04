@@ -3,8 +3,8 @@ import Wrapper from "../components/wrapper";
 const eventLinks = [
   { name: 'Pronight', href: '/event/pronight' },
   { name: 'Cultural', href: '/event/cultural' },
-  { name: 'Sports', href: '/event/sport' },
   { name: 'Technical', href: '/event/technical' },
+  { name: 'Sports', href: '/event/sport' },
 ];
 
 export default function EventLayout({ children }) {

@@ -135,6 +135,7 @@ export const culturalEvent = [
     SNO: 2,
     Event: "Art and Sketching Event",
     Event_Heads: ["Shalini Singh - 9893018267", "Are Koushik -  8465017840"],
+    imgUrl: "/events/cultural/ASM.png",
     Distribution: [
       "1st Prize : ₹3000",
       "2nd Prize : ₹2000",
