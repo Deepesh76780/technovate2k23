@@ -4,7 +4,7 @@ export const team = [
       "criteria": "HeadCoordinator",
       "name": "Dr. Satyanarayana",
       "phone": "7712474049",
-      "about": "Overall Coordinator",
+      "about": "Faculty Coordinator",
       "imgUrl": "/team/satyanarayana_vollala.jpg",
       "linkedIn": "www.linkedin.com/in/satyanarayana-vollala-530833163"
   },
@@ -30,7 +30,7 @@ export const team = [
       "id": 4,
       "criteria": "HeadCoordinator",
       "name": "Ravil Patel",
-      "phone": "9803043231",
+      "phone": "9893043231",
       "about": "Marketing Head",
       "imgUrl": "/team/RAVIL_MARKETING.jpeg",
       "linkedIn": "www.linkedin.com/in/ravil-patel-b65062227"
