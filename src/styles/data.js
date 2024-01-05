@@ -1,7 +1,7 @@
 export const team = [
   {
       "id": 1,
-      "criteria": "HeadCoordinator",
+      "criteria": "OrganisingComittee",
       "name": "Dr. Satyanarayana",
       "phone": "7712474049",
       "about": "Faculty Coordinator",
@@ -10,7 +10,7 @@ export const team = [
   },
   {
       "id": 2,
-      "criteria": "HeadCoordinator",
+      "criteria": "OrganisingComittee",
       "name": "Aryansh Verma",
       "phone": "9617494339",
       "about": "Sponsership Head",
@@ -19,7 +19,7 @@ export const team = [
   },
   {
       "id": 3,
-      "criteria": "HeadCoordinator",
+      "criteria": "OrganisingComittee",
       "name": "Jay Padia",
       "phone": "8956796716",
       "about": "Sponserhip Head",
@@ -28,7 +28,7 @@ export const team = [
   },
   {
       "id": 4,
-      "criteria": "HeadCoordinator",
+      "criteria": "OrganisingComittee",
       "name": "Ravil Patel",
       "phone": "9893043231",
       "about": "Marketing Head",
@@ -37,7 +37,7 @@ export const team = [
   },
   {
       "id": 5,
-      "criteria": "HeadCoordinator",
+      "criteria": "Lead",
       "name": "Gautam Gupta",
       "about": "Mareting Head",
       "phone": "9414066706",
@@ -46,7 +46,7 @@ export const team = [
   },
   {
       "id": 6,
-      "criteria": "HeadCoordinator",
+      "criteria": "OrganisingComittee",
       "name": "Abhijeet Jharbadee",
       "phone": "8319097205",
       "about": "Outlook Head",
@@ -55,7 +55,7 @@ export const team = [
   },
   {
       "id": 7,
-      "criteria": "HeadCoordinator",
+      "criteria": "OrganisingComittee",
       "name": "Deependra Singh Bhow",
       "phone": "6260613425",
       "about": "Outlook Head",
@@ -64,7 +64,7 @@ export const team = [
   },
   {
       "id": 8,
-      "criteria": "HeadCoordinator",
+      "criteria": "Lead",
       "name": "Nidhi Bhaskar",
       "phone": "8109006158",
       "about": "Design Head",
@@ -73,7 +73,7 @@ export const team = [
   },
   {
       "id": 9,
-      "criteria": "HeadCoordinator",
+      "criteria": "Lead",
       "name": "Deepesh Agrawal",
       "phone": "6268181226",
       "about": "Website Head",
@@ -82,7 +82,7 @@ export const team = [
   },
   {
       "id": 10,
-      "criteria": "HeadCoordinator",
+      "criteria": "Lead",
       "name": "Kapil Soni", 
       "phone": "8770554637",
       "about": "Website Head",
@@ -91,7 +91,7 @@ export const team = [
   },
   {
       "id": 11,
-      "criteria": "HeadCoordinator",
+      "criteria": "Lead",
       "name": "Aman Kumar",
       "phone": "8081338665",
       "about": "Hospitality Head",
@@ -100,7 +100,7 @@ export const team = [
   },
   {
       "id": 12,
-      "criteria": "HeadCoordinator",
+      "criteria": "Lead",
       "name": "Aditya Thakur",
       "phone": "9131571609",
       "about": "Hospitality Head",
@@ -109,7 +109,7 @@ export const team = [
   },
   {
       "id": 13,
-      "criteria": "HeadCoordinator",
+      "criteria": "OrganisingComittee",
       "name": "Shivam Kushwaha",
       "phone": "9198364979",
       "about": "Technical Events Head",
@@ -118,7 +118,7 @@ export const team = [
   },
   {
       "id": 14,
-      "criteria": "HeadCoordinator",
+      "criteria": "Lead",
       "name": "Priykrit Varma",
       "phone": "9109562757",
       "about": "Technical Events Head",
@@ -127,7 +127,7 @@ export const team = [
   },
   {
       "id": 15,
-      "criteria": "HeadCoordinator",
+      "criteria": "OrganisingComittee",
       "name": "Aditya Oza",
       "phone": "8866856028",
       "about": "Cultural Events Head",
@@ -136,7 +136,7 @@ export const team = [
   },
   {
       "id": 16,
-      "criteria": "HeadCoordinator",
+      "criteria": "Lead",
       "name": "Akshat Shree Mishra",
       "phone": "6265636412",
       "about": "Cultural Events Head",
@@ -145,7 +145,7 @@ export const team = [
   },
   {
       "id": 17,
-      "criteria": "HeadCoordinator",
+      "criteria": "Lead",
       "name": "Rimjhim",
       "phone": "9839676977",
       "about": "Cultural Events Head",
@@ -154,7 +154,7 @@ export const team = [
   },
   {
       "id": 18,
-      "criteria": "HeadCoordinator",
+      "criteria": "Lead",
       "name": "Suyash Gupta",
       "phone": "9178993199",
       "about": "Sports Events Head",
@@ -163,7 +163,7 @@ export const team = [
   },
   {
       "id": 19,
-      "criteria": "HeadCoordinator",
+      "criteria": "Lead",
       "name": "Yash",
       "phone": "6203763329", 
       "about": "Sports Events Head",
@@ -172,7 +172,7 @@ export const team = [
   },
   {
       "id": 20,
-      "criteria": "HeadCoordinator",
+      "criteria": "Lead",
       "name": "Apurva Sahu ", 
       "phone": "8081338665",
       "about": "VideoEditing Team Head",
@@ -181,7 +181,7 @@ export const team = [
   },
   {
       "id": 21,
-      "criteria": "HeadCoordinator",
+      "criteria": "Lead",
       "name": "Kanika Malhotra ",
       "phone": "8809374054",
       "about": "Content Team Head",
@@ -190,7 +190,7 @@ export const team = [
   },
   {
       "id": 22,
-      "criteria": "HeadCoordinator",
+      "criteria": "Lead",
       "name": "Tanvi Kori",
       "phone": "6261200465",
       "about": "Content Head",

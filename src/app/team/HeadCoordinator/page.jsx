@@ -5,7 +5,7 @@ import { team } from "../../../styles/data"
 
 export default function page() {
 
-  const data = team.filter(item => item.criteria === "HeadCoordinator")
+  const data = team.filter(item => item.id !== 1)
 
   return (
 
