@@ -125,7 +125,7 @@ export const team = [
     phone: "8081338665",
     about: "Cultural Head",
     linkedIn: "https://www.linkedin.com/in/aman-kumar-a402a7229/",
-    imgUrl: "/team/aman_kumar.jpeg",
+    imgUrl: "/team/Rimjhim_CulturalHead.jpg",
   },
   {
     id: 14,
@@ -134,7 +134,7 @@ export const team = [
     phone: "8081338665",
     about: "Cultural Head",
     linkedIn: "https://www.linkedin.com/in/aman-kumar-a402a7229/",
-    imgUrl: "/team/aman_kumar.jpeg",
+    imgUrl: "/team/Akshat_Shree_Mishra_Cultural_head.jpg",
   },
   {
     id: 15,
@@ -152,7 +152,7 @@ export const team = [
     phone: "8081338665",
     about: "Design Head",
     linkedIn: "https://www.linkedin.com/in/aman-kumar-a402a7229/",
-    imgUrl: "/team/Aditya_thakur.jpeg",
+    imgUrl: "/team/NIDHI.jpg",
   },
   {
     id: 17,
@@ -161,7 +161,7 @@ export const team = [
     phone: "8081338665",
     about: "Sports Head",
     linkedIn: "https://www.linkedin.com/in/aman-kumar-a402a7229/",
-    imgUrl: "/team/Aditya_thakur.jpeg",
+    imgUrl: "/team/Suyash_69_Sports_Head.png",
   },
   {
     id: 18,
@@ -188,7 +188,7 @@ export const team = [
     phone: "8081338665",
     about: "Content Head",
     linkedIn: "https://www.linkedin.com/in/aman-kumar-a402a7229/",
-    imgUrl: "/team/Aditya_thakur.jpeg",
+    imgUrl: "/team/Kanika Malhotra_Content Lead.jpg",
   },
   {
     id: 21,
@@ -197,7 +197,7 @@ export const team = [
     phone: "8081338665",
     about: "Content Head",
     linkedIn: "https://www.linkedin.com/in/aman-kumar-a402a7229/",
-    imgUrl: "/team/Aditya_thakur.jpeg",
+    imgUrl: "/team/Tanvi.jpg",
   },
   
 ];

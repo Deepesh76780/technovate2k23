@@ -9,7 +9,7 @@ const IntroVideo = () => {
       <Card className="w-3/5 font-Chakra hidden md:block">
         <div className="flex flex-col justify-center items-center gap-2">
           <h1 className="text-3xl md:text-4xl text-white font-bold text-center">
-            Glimpse To <span className="text-pink-400">Technovate 2022</span>
+            Glimpse Of <span className="text-pink-400">Technovate 2022</span>
           </h1>
           <p className="text-white text-center text-lg md:text-2xl">
             The annual techno-cultural fest of <span className="text-pink-400">IIIT Naya Raipur</span>

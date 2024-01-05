@@ -37,7 +37,7 @@ export default function EventCard({ store }) {
         animate="show"
         initial="hidden"
         variants={item}
-        className=" flex md:flex-row flex-col lg:justify-evenly justify-evenly  place-items-center w-full md:gap-0 gap-3"
+        className=" flex md:flex-row flex-col lg:justify-evenly h-full justify-evenly  place-items-center w-full md:gap-0 gap-3"
       >
         <button
           className="text-white md:absolute md:right-5 hover:bg-white hover:text-black pb-0.5 relative hidden md:block md:top-10 border-2 px-2  md:text-[1rem] rounded-full text-[0.8rem]  cursor-pointer  transition-all duration-500"
@@ -59,7 +59,7 @@ export default function EventCard({ store }) {
           />
         </Card>
         <Separator className="md:w-[0.5px] md:h-[300px] h-px w-full  bg-slate-300 mx-[1px]" />
-        <Card className="flex flex-col gap-5 md:w-[520px]   w-full font-Chakra">
+        <Card className="flex flex-col gap-5 md:w-[520px]   w-full font-Chakra overflow-y-scroll h-full custom">
           <CardHeader className="flex flex-row justify-between">
             <div className="text-xl text-white">
               {store?.Event && store.Event}
@@ -74,7 +74,7 @@ export default function EventCard({ store }) {
                   router.back();
                 }}
               >
-                &larr;  back
+                  ◄ Back
               </button>
           </CardHeader>
           <CardContent className="text-muted lg:text-base text-sm text-purple-200 underline font-Chakra">

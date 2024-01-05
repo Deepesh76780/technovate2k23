@@ -39,7 +39,7 @@ export default function PlayerCard({ navigateUrl, playerName, imgUrl, playerTask
               className='w-full h-48 md:h-52 scale-100 hover:scale-125 transition-all duration-300 '
               alt={playerName}
             />
-            <CardFooter className="bg-cyan-200 py-1 tracking-wider text-[0.5rem] md:text-xs w-full">
+            <CardFooter className="bg-cyan-200 py-1 tracking-wider text-[0.7rem] md:text-xs w-full">
               <p className='truncate mx-auto font-Orbitron '>
                 {playerTask}
               </p>
