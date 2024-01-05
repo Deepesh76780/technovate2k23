@@ -8,7 +8,7 @@ import BottomButton from "./bottomButton"
 
 
 
-export default function Wrapper({ children, bgImage, navColor, borderColor, paths, layout }) {
+export default function Wrapper({ children, bgImage, navColor, borderColor, paths, layout ,flexClass}) {
 
     return (
         <React.Fragment>
@@ -29,7 +29,7 @@ export default function Wrapper({ children, bgImage, navColor, borderColor, path
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 1, type: "just" }}
                     >
-                        <div className="overflow-y-scroll  overflow-x-hidden cus h-full w-full p-1 flex flex-row flex-wrap  lg:gap-5 gap-2 justify-center place-items-center">
+                        <div className={cn("overflow-y-scroll  overflow-x-hidden cus h-full w-full p-1 flex flex-row flex-wrap  lg:gap-5 gap-2 justify-center place-items-center",flexClass)}>
                             {children}
                         </div>
                     </motion.div>

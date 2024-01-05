@@ -1,10 +1,8 @@
 import Wrapper from "../components/wrapper";
 
 const teamLinks = [
-  { name: 'Outlook', href: '/team/outlook' },
-  { name: 'Head', href: '/team/HeadCoordinator' },
-  { name: 'Sponsership', href: '/team/sponsership' },
-  { name: 'Marketing', href: '/team/marketing' },
+  { name: 'Overall Heads', href: '/team/HeadCoordinator' },
+  { name: 'Volunteer', href: '/team/volunteer' },
 ];
 
 
@@ -17,6 +15,7 @@ export default function TeamLayout({ children }) {
       borderColor="border-cyan-400"
       paths={teamLinks}
       layout={"text-cyan-100 border-cyan-400 shadow-cyan-300"}
+      flexClass={"lg:gap-7"}
     >
       {children}
     </Wrapper>
