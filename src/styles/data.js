@@ -66,7 +66,7 @@ export const team = [
       "id": 8,
       "criteria": "HeadCoordinator",
       "name": "Nidhi Bhaskar",
-      "phone": "8081338665",
+      "phone": "8109006158",
       "about": "Design Head",
       "linkedIn": "www.linkedin.com/in/nidhi-bhaskar-682148229/",
       "imgUrl": "/team/NIDHI.jpg"
@@ -83,8 +83,8 @@ export const team = [
   {
       "id": 10,
       "criteria": "HeadCoordinator",
-      "name": "Kapil Soni",
-      "phone": "6268181226",
+      "name": "Kapil Soni", 
+      "phone": "8770554637",
       "about": "Website Head",
       "imgUrl": "/team/Kapil_soni.jpeg",
       "linkedIn": "www.linkedin.com/in/kapil-soni-07b979228"
@@ -102,7 +102,7 @@ export const team = [
       "id": 12,
       "criteria": "HeadCoordinator",
       "name": "Aditya Thakur",
-      "phone": "8081338665",
+      "phone": "9131571609",
       "about": "Hospitality Head",
       "linkedIn": "www.linkedin.com/in/aditya-thakur-828201229/",
       "imgUrl": "/team/Aditya_thakur.jpeg"
@@ -138,7 +138,7 @@ export const team = [
       "id": 16,
       "criteria": "HeadCoordinator",
       "name": "Akshat Shree Mishra",
-      "phone": "8081338665",
+      "phone": "6265636412",
       "about": "Cultural Events Head",
       "linkedIn": "www.linkedin.com/in/akshat-shree-mishra-82a805244",
       "imgUrl": "/team/Akshat_Shree_Mishra_Cultural_head.jpg"
@@ -147,7 +147,7 @@ export const team = [
       "id": 17,
       "criteria": "HeadCoordinator",
       "name": "Rimjhim",
-      "phone": "8081338665",
+      "phone": "9839676977",
       "about": "Cultural Events Head",
       "linkedIn": "www.linkedin.com/in/rimjhim-sharma-966b38257/",
       "imgUrl": "/team/Rimjhim_CulturalHead.jpg"
@@ -156,7 +156,7 @@ export const team = [
       "id": 18,
       "criteria": "HeadCoordinator",
       "name": "Suyash Gupta",
-      "phone": "8081338665",
+      "phone": "9178993199",
       "about": "Sports Events Head",
       "linkedIn": "www.linkedin.com/in/suyash-gupta-067861234/?/",
       "imgUrl": "/team/Suyash_69_Sports_Head.png"
@@ -165,7 +165,7 @@ export const team = [
       "id": 19,
       "criteria": "HeadCoordinator",
       "name": "Yash",
-      "phone": "8081338665",
+      "phone": "6203763329", 
       "about": "Sports Events Head",
       "linkedIn": "www.linkedin.com/in/yash-raj-164222290/",
       "imgUrl": "/team/Yash_Sports.jpg"
@@ -173,7 +173,7 @@ export const team = [
   {
       "id": 20,
       "criteria": "HeadCoordinator",
-      "name": "Apurva Sahu ",
+      "name": "Apurva Sahu ", 
       "phone": "8081338665",
       "about": "VideoEditing Team Head",
       "linkedIn": "www.linkedin.com/in/apurva-sahu-a4481425a/",
@@ -183,7 +183,7 @@ export const team = [
       "id": 21,
       "criteria": "HeadCoordinator",
       "name": "Kanika Malhotra ",
-      "phone": "8081338665",
+      "phone": "8809374054",
       "about": "Content Team Head",
       "linkedIn": "www.linkedin.com/in/kanika-malhotra-852956256/?",
       "imgUrl": "/team/Kanika Malhotra_Content Lead.jpg"
@@ -192,7 +192,7 @@ export const team = [
       "id": 22,
       "criteria": "HeadCoordinator",
       "name": "Tanvi Kori",
-      "phone": "8081338665",
+      "phone": "6261200465",
       "about": "Content Head",
       "linkedIn": "www.linkedin.com/in/tanvi-k-893516264/",
       "imgUrl": "/team/Tanvi.jpg"
