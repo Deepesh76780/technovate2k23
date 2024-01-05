@@ -4,7 +4,7 @@ const eventLinks = [
   { name: "Pronight", href: "/event/pronight" },
   { name: "Cultural", href: "/event/cultural" },
   { name: "Technical", href: "/event/technical" },
-  { name: "Sports", href: "/event/sport" },
+  { name: "Sports", href: "/event/sports" },
 ];
 
 export default function EventLayout({ children }) {

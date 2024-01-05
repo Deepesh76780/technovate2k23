@@ -45,7 +45,7 @@ export default function PlayerCard({ navigateUrl, playerName, imgUrl, playerTask
               </p>
             </CardFooter>
             <CardFooter className="mx-auto font-cyberstar tracking-widest uppercase bg-cyan-200 p-1 px-5 text-xs md:text-sm w-full">
-              <p className='truncate mx-auto font-blackop'>
+              <p className='mx-auto font-blackop line-clamp-2 h-[40px] flex items-center justify-center'>
                 {playerName}
               </p>
             </CardFooter>

@@ -74,9 +74,9 @@ function PlayerInfo({ props }) {
             <p className="md:text-lg text-sm font-Chakra">{props.phone}</p>
           </div>
           <div className="flex flex-row gap-2">
-            <Link href={props.linkedIn}>
+            <a href={`https:/${props.linkedIn}`} target="_blank">
               <BsLinkedin className="h-5 w-5 hover:scale-125 transition-all duration-300" />
-            </Link>
+            </a>
             <Link href="#">
               <AiOutlineMail className="h-5 w-5 hover:scale-125 transition-all duration-300" />
             </Link>
