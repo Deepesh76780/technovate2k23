@@ -37,7 +37,7 @@ export default function EventCard({ store }) {
         animate="show"
         initial="hidden"
         variants={item}
-        className=" flex md:flex-row flex-col lg:justify-evenly h-full justify-evenly  place-items-center w-full md:gap-0 gap-3"
+        className=" flex md:flex-row flex-col lg:justify-evenly justify-evenly  place-items-center w-full md:gap-0 gap-3"
       >
         <button
           className="text-white md:absolute md:right-5 hover:bg-white hover:text-black pb-0.5 relative hidden md:block md:top-10 border-2 px-2  md:text-[1rem] rounded-full text-[0.8rem]  cursor-pointer  transition-all duration-500"
