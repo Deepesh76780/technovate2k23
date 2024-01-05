@@ -7,6 +7,6 @@ export default function Page({ params }) {
   const data = culturalEvent.find(item => item.SNO === +params.slug)
 
   return (
-    <EventCard store={data} />
+    <EventCard store={data} rulebook="https://drive.google.com/file/d/17lsDh0F2krP1_TtGRf5lMJE_Z5F6ESzV/view?usp=sharing"/>
   )
 }

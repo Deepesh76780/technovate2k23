@@ -15,7 +15,7 @@ import { Separator } from "@/components/ui/separator";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 
-export default function EventCard({ store }) {
+export default function EventCard({ store,rulebook }) {
   const router = useRouter();
 
   const item = {
@@ -82,14 +82,14 @@ export default function EventCard({ store }) {
           </CardContent>
           <CardTitle className="flex flex-col items-start lg:text-base text-sm">
             <div className="flex md:gap-5 gap-3 mb-2">
-              <Link href="#">
+              <Link href={rulebook} target="_blank">
                 <p className="lg:text-base text-sm text-black bg-purple-300 p-1 rounded-2xl hover:bg-slate-50 px-3 hover:rounded-xl transition-all duration-700 font-Chakra  cursor-pointer">
-                  rule book
+                  Rule Book
                 </p>
               </Link>
               <Link href="#">
-                <p className="lg:text-base text-sm text-black bg-purple-300 p-1 rounded-2xl font-Chakra hover:bg-slate-50  px-3 hover:rounded-xl transition-all duration-700 cursor-pointer">
-                  register
+                <p className="lg:text-base text-sm text-black cursor-default bg-purple-300 p-1 rounded-2xl font-Chakra hover:bg-slate-50  px-3 hover:rounded-xl transition-all duration-700 cursor-pointer">
+                  Register
                 </p>
               </Link>
             </div>
