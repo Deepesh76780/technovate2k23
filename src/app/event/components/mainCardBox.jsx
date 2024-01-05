@@ -40,13 +40,13 @@ export default function EventCard({ store }) {
         className=" flex md:flex-row flex-col lg:justify-evenly justify-evenly  place-items-center w-full md:gap-0 gap-3"
       >
         <button
-          className="text-white md:absolute md:right-5 hover:bg-white hover:text-black   relative hidden md:block md:top-10 border-2 px-2  md:text-[1rem] rounded-full text-[0.8rem]  cursor-pointer  transition-all duration-500"
+          className="text-white md:absolute md:right-5 hover:bg-white hover:text-black pb-0.5 relative hidden md:block md:top-10 border-2 px-2  md:text-[1rem] rounded-full text-[0.8rem]  cursor-pointer  transition-all duration-500"
           title="go back"
           onClick={() => {
             router.back();
           }}
         >
-          &larr;
+          ◄ Back
         </button>
         <Card className=" bg-[#9c149c6e] h-[30vh] md:h-[60vh] lg:w-[41%] md:w-[20%] w-full text-center shadow-inner shadow-black  lg:p-2 p-1 place-self-start">
           <Image

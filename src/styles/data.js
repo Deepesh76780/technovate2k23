@@ -123,11 +123,10 @@ export const culturalEvent = [
       "1st Prize : ₹3000",
       "2nd Prize : ₹2000",
       "3rd Prize : ₹1000",
-      "Banner Standees : ₹500",
-      "Flex and other utilities : ₹1000",
     ],
     No_of_Team_Mem: [1, null],
     Mode: "Online",
+    imgUrl: "/events/cultural/PC.jpg",
     about:
       "Photographers take photos throughout the technovate and the best one wins",
   },
@@ -155,10 +154,10 @@ export const culturalEvent = [
       "1st Prize : ₹5000",
       "2nd Prize : ₹3000",
       "3rd Prize : ₹2000",
-      "Banner Standees : ₹1000",
     ],
     No_of_Team_Mem: [1, null],
     Mode: "Offline",
+    imgUrl: "/events/cultural/Singing.jpg",
     about:
       "Step into the spotlight and let your voice soar in the electrifying world of a singing competition. It's not just about hitting the right notes; it's about capturing hearts and leaving the audience breathless. So grab the mic, hit those high notes, and let the world hear the magic in your soul!",
   },
@@ -170,9 +169,9 @@ export const culturalEvent = [
       "1st Prize : ₹7000",
       "2nd Prize : ₹5000",
       "3rd Prize : ₹3000",
-      "Banner Standees : ₹1000",
     ],
     No_of_Team_Mem: [2, null],
+    imgUrl: "/events/cultural/Singing.jpg",
     Mode: "Offline",
     about:
       "Get your buddy up for a melodic rollercoaster, forge two voices into one, and make the echoes of duet brilliance linger in the hearts of all who bear witness.",
@@ -187,11 +186,10 @@ export const culturalEvent = [
     Distribution: [
       "1st Prize : ₹6000",
       "2nd Prize : ₹4000",
-      "3rd Prize : ₹2000",
-      "Banner Standees : ₹500",
-      "Flex and other utilities : ₹500",
+      "3rd Prize : ₹2000"
     ],
     No_of_Team_Mem: [1, 2],
+    imgUrl: "/events/cultural/Dance.jpg",
     Mode: "Offline",
     about: "...",
   },
@@ -205,12 +203,11 @@ export const culturalEvent = [
     Distribution: [
       "1st Prize : ₹7000",
       "2nd Prize : ₹5000",
-      "3rd Prize : ₹3000",
-      "Banner Standees : ₹500",
-      "Flex : ₹1000",
+      "3rd Prize : ₹3000"
     ],
     No_of_Team_Mem: null,
     Mode: "Offline",
+    imgUrl: "/events/cultural/Dance.jpg",
     about:
       "Get ready to witness electrifying moves and fierce competition at our explosive group dance battle! Feel the heat as teams clash on the dance floor, showcasing their best beats, rhythms, and jaw-dropping choreography. Join us for an adrenaline-packed evening of non-stop entertainment and thrilling showdowns!",
   },
@@ -221,11 +218,10 @@ export const culturalEvent = [
     Distribution: [
       "1st Prize : ₹10000",
       "2nd Prize : ₹6000",
-      "3rd Prize : ₹4000",
-      "Banner Standees : ₹500",
-      "Flex : ₹500",
+      "3rd Prize : ₹4000"
     ],
     No_of_Team_Mem: null,
+    imgUrl: "/events/cultural/ASM.png",
     Mode: "Offline",
     about: "...",
   },
@@ -239,12 +235,11 @@ export const culturalEvent = [
     Distribution: [
       "1st Prize : ₹11000",
       "2nd Prize : ₹7000",
-      "3rd Prize : ₹4000",
-      "Banner Standees : ₹500",
-      "Flex and other req : ₹10000",
+      "3rd Prize : ₹4000"
     ],
     No_of_Team_Mem: null,
     Mode: "Offline",
+    imgUrl: "/events/cultural/BOB.jpg",
     about:
       "Get ready for an electrifying musical showdown! Bands from all over the country are set to unleash their talent in a clash of the best. With designated time slots for each, the stage will come alive with captivating performances. Our expert panel of judges is geared up to crown the top three, making it a night of unforgettable musical magic!    ",
   },
@@ -261,6 +256,7 @@ export const culturalEvent = [
       "3rd Prize : ₹5000",
     ],
     No_of_Team_Mem: [2, null],
+    imgUrl: "/events/cultural/FC.jpg",
     Mode: "Offline",
     about:
       "the fashion contest unfolds with a Western flair in round one, followed by an enchanting showcase of Indian tradition in round two, celebrating the fusion of global styles on a single runway",
@@ -275,6 +271,7 @@ export const culturalEvent = [
       "3rd Prize : ₹2000",
     ],
     No_of_Team_Mem: [3, null],
+    imgUrl: "/events/cultural/PS.jpg",
     Mode: "Offline",
     about: "...",
   },
@@ -287,17 +284,19 @@ export const technicalEvent = [
     imgUrl: "/events/technical/wall street waltz(mobile).png",
     Event_Heads: ["Ravil Patel - 9893043231", "Abhinav Roy - 7974751882"],
     Distribution: ["₹5000"],
+    Mode: "Online",
     about:
       'Test your trading mettle in "Wall Street Waltz": a solo virtual stock market competition on StockGro, where the greenest portfolio wins!',
   },
   {
     SNO: 2,
-    Event: "Pichathon",
+    Event: "Venture Vista",
     Event_Heads: [
       "Ashutosh Jaiswal - 9129093900",
       "Karan Agrawal - 7077183484",
     ],
     Distribution: ["₹10000"],
+    Mode: "Offline",
     imgUrl: "/events/technical/venture vista(mobile).png",
     about:
       "In a high-stakes showdown, innovators unleash entrepreneurial skills, battling intense pitches and tackling real-life brand challenges to test their mettle and critical thinking.",
@@ -308,6 +307,7 @@ export const technicalEvent = [
     Distribution: ["₹10000"],
     Event_Heads: ["Vineet - 9893395818", "Dhyanendra Tripathi - 7355206518"],
     imgUrl: "/events/technical/speedrun(mobile).png",
+    Mode: "Offline",
     about:
       "Code at the Speed of Thought: Unleash Your Programming Prowess in the Ultimate Coding Speedrun Challenge!",
   },
@@ -320,6 +320,7 @@ export const technicalEvent = [
       "Bhavesh Gyanchandani - 9834304932",
     ],
     imgUrl: "/events/technical/robolution(mobile).png",
+    Mode: "Offline",
     about: "Tech meets tact: simple robots, epic clashes",
   },
   {
@@ -328,6 +329,7 @@ export const technicalEvent = [
     Distribution: ["₹10000"],
     imgUrl: "/events/technical/datapunk(mobile).png",
     Event_Heads: ["Sanskar Singh - 7000486098", "Sanchit Namdeo - 8989846583"],
+    Mode: "Online",
     about: "Train, Test, Triumph... Unleash your inner DataPunk !!!",
   },
   {
@@ -337,14 +339,16 @@ export const technicalEvent = [
     imgUrl: "/events/technical/WIRED_mobile.png",
     Event_Heads: ["Ishita Tegar - 8349402003", "Karthik - 7842757138"],
     about: "Wire up your wizardry, let circuits cast the spell of innovation!",
+    Mode: "Offline",
   },
   {
     SNO: 7,
-    Event: "Hack Harbour",
+    Event: "Hack-o-Harbour",
     Distribution: ["₹34500"],
     imgUrl: "/events/technical/hack-o-harbour_mobile.png",
     Event_Heads: ["Alankrit Sharma - 7376961118", "Vandit Tyagi - 7840073450"],
     about: "Decipher, Develop, Dominate: Hack the Harbour",
+    Mode: "Offline",
   },
   {
     SNO: 8,
@@ -353,15 +357,17 @@ export const technicalEvent = [
     imgUrl: "/events/technical/brainwave_mobile.png",
     Event_Heads: ["Ayush Yadav - 8529133411", "Harsh Shrivastava - 9907882155"],
     about: "BrainWave: Where Minds Collide in the Ultimate Quiz Odyssey!",
+    Mode: "Offline",
   },
 
   {
     SNO: 9,
-    Event: "UTT",
+    Event: "Unlock The Technoverse",
     Distribution: ["₹10,000"],
     imgUrl: "/events/technical/CTF_mobile.png",
     Event_Heads: ["Aman Sahu - 95844 84662", "V. Jashwanth - 8919891146"],
     about: "Unlock the Technoverse: Catch The Flag(CTF)",
+    Mode: "Online",
   },
   {
     SNO: 10,
@@ -373,6 +379,7 @@ export const technicalEvent = [
       "Gaurish Ojha - 6394079252",
     ],
     about: "AlgoSprint: Code, Compete, Conquer!",
+    Mode: "Offline",
   },
 ];
 
