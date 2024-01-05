@@ -14,7 +14,7 @@ export const team = [
     name: "Aryansh Verma",
     phone: "9617494339",
     about: "Sponsership Head",
-    imgUrl: "/team/Aryansh_Verma_Overall_Coordinator.jpg",
+    imgUrl: "/team/Aryansh.jpg",
     linkedIn: "www.linkedin.com/in/aryanshverma25",
   },
   {
