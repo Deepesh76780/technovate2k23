@@ -1,10 +1,10 @@
 import Wrapper from "../components/wrapper";
 
 const teamLinks = [
-  { name: 'Overall Heads', href: '/team/HeadCoordinator' },
-  { name: 'Volunteer', href: '/team/volunteer' },
+  { name: "Oranising Comittee", href: "/team/OrganisingComittee" },
+  { name: "Team Heads", href: "/team/HeadCoordinator" },
+  { name: "Volunteer", href: "/team/volunteer" },
 ];
-
 
 export default function TeamLayout({ children }) {
   return (

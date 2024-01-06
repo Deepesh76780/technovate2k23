@@ -35,7 +35,7 @@ const navData = [
     subTitle: "2"
   },
   {
-    href: "/team/HeadCoordinator",
+    href: "/team/OrganisingComittee",
     title: "Team",
     subTitle: "0"
   },
