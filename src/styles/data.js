@@ -739,6 +739,7 @@ export const volunteerData = [
       "Tanisha Jain ",
       "Thakur Mahima Nuruti",
       "Virat Patel ",
+      "Aayush Kulkarni"
     ],
   },
   {
