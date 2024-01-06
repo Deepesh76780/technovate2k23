@@ -36,7 +36,7 @@ export default function PlayerCard({ navigateUrl, playerName, imgUrl, playerTask
               src={imgUrl}
               width={1500}
               height={1500}
-              className='w-full h-48 md:h-52 scale-100 hover:scale-125 transition-all duration-300 '
+              className='w-full h-48 md:h-52 scale-125 hover:scale-100 transition-all duration-300 '
               alt={playerName}
             />
             <CardFooter className="bg-cyan-200 py-1 tracking-wider text-[0.7rem] md:text-xs w-full">
@@ -44,8 +44,8 @@ export default function PlayerCard({ navigateUrl, playerName, imgUrl, playerTask
                 {playerTask}
               </p>
             </CardFooter>
-            <CardFooter className="mx-auto font-cyberstar tracking-widest uppercase bg-cyan-200 p-1 px-5 text-xs md:text-sm w-full">
-              <p className='mx-auto font-blackop line-clamp-2 h-[40px] flex items-center justify-center'>
+            <CardFooter className="mx-auto font-cyberstar  uppercase bg-cyan-200 p-1 px-5 text-xs md:text-[0.8rem] w-full">
+              <p className='mx-auto font-blackop line-clamp-2 h-[32px] flex items-center justify-center'>
                 {playerName}
               </p>
             </CardFooter>

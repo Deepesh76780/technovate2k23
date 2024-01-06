@@ -113,7 +113,7 @@ const LandingPageContent = () => {
       </motion.div>
 
       <motion.div
-        className="pink_selector  text-white mx-auto w-fit tracking-[0.15em] mt-2  font-Chakra lg:text-lg text-sm  p-2 border-2 border-slate-200 text-slate-50 bg-[#000000a1] rounded-full"
+        className="pink_selector   mx-auto w-fit tracking-[0.15em] mt-3  font-Michroma font-semibold  lg:text-lg text-sm  p-2   text-slate-50 rounded-full"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 2, duration: 1 }}

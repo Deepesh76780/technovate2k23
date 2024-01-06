@@ -1,8 +1,8 @@
 export const team = [
   {
     id: 1,
-    criteria: "OrganisingComittee",
-    name: "Dr. Satyanarayana",
+    criteria: "Lead",
+    name: "Dr. Satyanarayana Vollala",
     phone: "7712474049",
     about: "Faculty Coordinator",
     imgUrl: "/team/satyanarayana_vollala.jpg",
@@ -10,7 +10,7 @@ export const team = [
   },
   {
     id: 2,
-    criteria: "OrganisingComittee",
+    criteria: "Lead",
     name: "Aryansh Verma",
     phone: "9617494339",
     about: "Sponsership Head",
@@ -19,7 +19,7 @@ export const team = [
   },
   {
     id: 3,
-    criteria: "OrganisingComittee",
+    criteria: "Lead",
     name: "Jay Padia",
     phone: "8956796716",
     about: "Sponserhip Head",
@@ -28,7 +28,7 @@ export const team = [
   },
   {
     id: 4,
-    criteria: "OrganisingComittee",
+    criteria: "Lead",
     name: "Ravil Patel",
     phone: "9893043231",
     about: "Marketing Head",
@@ -46,7 +46,7 @@ export const team = [
   },
   {
     id: 6,
-    criteria: "OrganisingComittee",
+    criteria: "Lead",
     name: "Abhijeet Jharbadee",
     phone: "8319097205",
     about: "Outlook Head",
@@ -55,7 +55,7 @@ export const team = [
   },
   {
     id: 7,
-    criteria: "OrganisingComittee",
+    criteria: "Lead",
     name: "Deependra Singh Bhow",
     phone: "6260613425",
     about: "Outlook Head",
@@ -109,7 +109,7 @@ export const team = [
   },
   {
     id: 13,
-    criteria: "OrganisingComittee",
+    criteria: "Lead",
     name: "Shivam Kushwaha",
     phone: "9198364979",
     about: "Technical Events Head",
@@ -127,7 +127,7 @@ export const team = [
   },
   {
     id: 15,
-    criteria: "OrganisingComittee",
+    criteria: "Lead",
     name: "Aditya Oza",
     phone: "8866856028",
     about: "Cultural Events Head",
@@ -595,15 +595,6 @@ export const sportsEvent = [
 
 export const volunteerData = [
   {
-    name: "Content Writing Team",
-    data: [
-      "Anuja Singh Pandaw ",
-      "M Karthikeya Prachodhan ",
-      "Shreya Tiwari ",
-      "Shivanshu Vishwakarma",
-    ],
-  },
-  {
     name: "Cultural Events Team",
     data: [
       "Akshat Srivastava",
@@ -624,6 +615,34 @@ export const volunteerData = [
       "Thanisha Dewangan ",
     ],
   },
+  {
+    name: "Marketing, Media and PR Team",
+    data: [
+      "Alankrit Sharma",
+      "Ankitan Kumar",
+      "Aryan Kumar Baghel",
+      "Khuman Singh Sonwani",
+      "Priyanshu Srivastava ",
+      "Raj Bhattacharya ",
+      "Rithwik Eluri",
+      "Shashwati Bhattacharya",
+      "Swastika Satya",
+      "Adya Pandey ",
+      "Alok Mishra ",
+      "Anshul Pratap Lakra",
+      "Anwita Chakraborty ",
+      "Arnav Ticku",
+      "Kartik pandey",
+      "Keshavee Bisen ",
+      "Meenal Patle ",
+      "Sayyed Raahim Adnan Ali ",
+      "Shashank Mishra",
+      "Taran Pal Singh ",
+      "Tejas keshwani ",
+      "VAISHNAVI SHRIVASTAVA",
+    ],
+  },
+ 
   {
     name: "Designing Team",
     data: [
@@ -662,33 +681,8 @@ export const volunteerData = [
       "Mubashshir ",
     ],
   },
-  {
-    name: "Marketing, Media and PR Team",
-    data: [
-      "Alankrit Sharma",
-      "Ankitan Kumar",
-      "Aryan Kumar Baghel",
-      "Khuman Singh Sonwani",
-      "Priyanshu Srivastava ",
-      "Raj Bhattacharya ",
-      "Rithwik Eluri",
-      "Shashwati Bhattacharya",
-      "Swastika Satya",
-      "Adya Pandey ",
-      "Alok Mishra ",
-      "Anshul Pratap Lakra",
-      "Anwita Chakraborty ",
-      "Arnav Ticku",
-      "Kartik pandey",
-      "Keshavee Bisen ",
-      "Meenal Patle ",
-      "Sayyed Raahim Adnan Ali ",
-      "Shashank Mishra",
-      "Taran Pal Singh ",
-      "Tejas keshwani ",
-      "VAISHNAVI SHRIVASTAVA",
-    ],
-  },
+  { name: "Website Team", data: ["Manu Sai", "Rishabh Malav", "Yash Raj"] },
+ 
   {
     name: "Outlook Team",
     data: [
@@ -783,5 +777,13 @@ export const volunteerData = [
       "Shubhang Nande",
     ],
   },
-  { name: "Website Team", data: ["Manu Sai", "Rishabh Malav", "Yash Raj"] },
+  {
+    name: "Content Writing Team",
+    data: [
+      "Anuja Singh Pandaw ",
+      "M Karthikeya Prachodhan ",
+      "Shreya Tiwari ",
+      "Shivanshu Vishwakarma",
+    ],
+  },
 ];

@@ -70,16 +70,16 @@ function PlayerInfo({ props }) {
         </CardHeader>
         <CardFooter className="flex flex-col items-start gap-2">
           <div className="flex gap-2 place-items-center">
-            <BiPhoneCall className="md:h-5 md:w-5 h-5 w-4" />{" "}
+            <BiPhoneCall className="md:h-5 md:w-5 h-5 w-4" />
             <p className="md:text-lg text-sm font-Chakra">{props.phone}</p>
           </div>
           <div className="flex flex-row gap-2">
-            <a href={`https:/${props.linkedIn}`} target="_blank">
+            <a href={`https://${props.linkedIn}`} target="_blank" >
               <BsLinkedin className="h-5 w-5 hover:scale-125 transition-all duration-300" />
             </a>
-            <Link href="#">
+            <a href="#" target="_blank">
               <AiOutlineMail className="h-5 w-5 hover:scale-125 transition-all duration-300" />
-            </Link>
+            </a>
             <button
               className="text-white md:hidden block   px-2   rounded-full text-[0.8rem]  cursor-pointer  transition-all duration-500"
               title="go back"
