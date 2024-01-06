@@ -31,7 +31,7 @@ const BottomButton = React.memo(({ paths, layout }) => {
             animate="show"
             className="flex md:w-[40%]  w-full gap-3 lg:gap-4 items-center justify-center place-self-center">
             {paths?.map((item, index) => {
-                return <Link className={cn("shadow-inner card border-2  text-center  md:text-xs  text-[0.4rem] font-cyberblack  tracking-widest md:p-3 p-1  uppercase  min-w-32 max-w-full hover:scale-110 transition-all duration-300",
+                return <Link className={cn("shadow-inner card border-2  text-center  md:text-xs  text-[0.6rem] font-cyberblack  tracking-widest md:p-3 p-1  uppercase  min-w-32 max-w-full hover:scale-110 transition-all duration-300",
                     pathname.startsWith(item.href) ? "shadow-pink-400 border-pink-400 text-pink-300" : layout
                 )} href={item.href} key={index}>{item.name}</Link>
             })}

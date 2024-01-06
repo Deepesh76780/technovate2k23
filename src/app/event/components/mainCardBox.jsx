@@ -88,7 +88,7 @@ export default function EventCard({ store,rulebook }) {
                 </p>
               </Link>
               <Link href="#">
-                <p className="lg:text-base text-sm text-black cursor-default bg-purple-300 p-1 rounded-2xl font-Chakra hover:bg-slate-50  px-3 hover:rounded-xl transition-all duration-700 cursor-pointer">
+                <p className="lg:text-base text-sm text-black opacity-60 bg-purple-300 p-1 rounded-2xl font-Chakra px-3 transition-all duration-700 cursor-pointer" aria-disabled>
                   Register
                 </p>
               </Link>

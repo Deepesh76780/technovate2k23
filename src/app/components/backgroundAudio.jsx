@@ -27,7 +27,7 @@ function Audio() {
   return (
     <>
       <motion.div
-        className="fixed bottom-1 left-4 z-10  flex "
+        className="fixed bottom-1 right-1 md:left-4 z-10  flex "
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1 }}
@@ -35,11 +35,11 @@ function Audio() {
         <button onClick={toggleAudio}>
           <div className="flex flex-row gap-2 items-center justify-center">
             {isPlaying ? (
-              <SpeakerWaveIcon className="text-slate-300 h-6 w-6" />
+              <SpeakerWaveIcon className="text-slate-300 h-4 w-4 md:h-6 md-w-6" />
             ) : (
-              <SpeakerXMarkIcon className="text-slate-300 h-6 w-6" />
+              <SpeakerXMarkIcon className="text-slate-300 h-4 w-4 md:h-6 md-w-6" />
             )}
-            <Link href="/">
+            <Link href="/" className="hidden lg:block">
               <Image
                 src='/logo/logo.png'
                 height={26}
@@ -51,6 +51,7 @@ function Audio() {
         </button>
         <audio
           ref={audioRef}
+          defaultValue={true}
           src="/background_audio/get_you_to_moon.mp3"
           loop
           autoPlay

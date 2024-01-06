@@ -14,9 +14,7 @@ export default function RootLayout(props) {
       <body className={`${inter.className} ${MichromaFont.variable} ${BlackOps.variable} ${OrbitronFont.variable} ${Chakra_PetchFont.variable}       
       ${cyberway.variable} ${cyberstar.variable} ${cyberblack.variable} ${glitch.variable} ${greek.variable} `}>
         {props.children}
-        <div className="md:block hidden aria-hidden">
           <Audio />
-        </div>
       </body>
     </html>
   );

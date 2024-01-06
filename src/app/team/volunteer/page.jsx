@@ -11,7 +11,6 @@ export default function page() {
   const volunteerlist = volunteerData
     .filter((item) => item.name === data)
     .map((item) => item.data);
-    console.log(volunteerlist)
   return (
     <div className="w-full h-full md:flex md:flex-row items-center flex flex-col-reverse justify-center gap-2 ">
       <div className="h-full md:w-2/6 md:flex md:flex-col grid grid-cols-3 flex-wrap  w-full items-center justify-center md:gap-2 gap-2">
