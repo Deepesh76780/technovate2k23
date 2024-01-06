@@ -37,7 +37,7 @@ const IntroVideo = () => {
           <p className="text-white text-center text-lg md:text-2xl ">
             Apply For&nbsp;
             <a
-              className=" text-pink-400 shadow-inner campusA cursor-pointer text-2xl scale-100   transition-all duration-300"
+              className=" text-pink-400 shadow-inner campusA cursor-pointer text-2xl scale-100  hover:underline transition-all duration-300"
               onMouseEnter={() => sethover(true)}
               onMouseLeave={() => sethover(false)}
             >
