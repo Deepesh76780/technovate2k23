@@ -7,7 +7,7 @@ const sponsershipLinks = [
 export default function SponserLayout({ children }) {
   return (
     <Wrapper
-      bgImage="/background_images/sponsers1.jpg"
+      bgImage="/background_images/sponsers1.webp"
       resNavColor="#40dbb2"
       navColor="bg-[#40dbb2]"
       borderColor="border-emerald-400"

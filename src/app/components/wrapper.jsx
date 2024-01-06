@@ -14,7 +14,7 @@ export default function Wrapper({ children, bgImage, navColor, borderColor, path
         <React.Fragment>
             <Image
                 layout="fill"
-                className="object-cover"
+                className="object-cover opacity-80"
                 src={bgImage}
                 alt={"title"}
                 objectFit="center"
