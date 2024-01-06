@@ -41,7 +41,7 @@ export default function page() {
         </p>
         <div className="text-white   mx-6 mt-10 grid md:grid-cols-4 grid-cols-1 justify-items-start justify-stretch  gap-3" >
           {volunteerlist[0].map((item, index) => (
-            <li key={index} className=" rounded-2xl md:text-base text-sm h-fit font-Chakra ">{item}</li>
+            <li key={index} className=" rounded-2xl md:text-base text-sm h-fit font-Chakra list-disc ">{item}</li>
           ))}
         </div>
       </div>
