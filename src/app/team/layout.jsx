@@ -1,7 +1,7 @@
 import Wrapper from "../components/wrapper";
 
 const teamLinks = [
-  { name: "organizing commite", href: "/team/organizingCommite" },
+  { name: "Organizing Committee", href: "/team/organizingCommittee" },
   { name: "Team Heads", href: "/team/HeadCoordinator" },
   { name: "Volunteer", href: "/team/volunteer" },
 ];
