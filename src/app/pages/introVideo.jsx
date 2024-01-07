@@ -9,7 +9,7 @@ const IntroVideo = () => {
   const [hover, sethover] = useState(false);
 
   return (
-    <div className="relative min-h-[100dvh]  bg-[#00000071] flex py-auto items-center justify-evenly w-full md:px-4 ">
+    <div className="relative min-h-[100dvh] hidden  bg-[#00000071] md:flex py-auto items-center justify-evenly w-full md:px-4 ">
       <AnimatePresence>
         {hover && (
           <motion.p
@@ -68,16 +68,6 @@ const IntroVideo = () => {
             />
           </video>
         </div>
-        <video
-          autoPlay
-          loop
-          muted
-          className={cn(
-            "md:object-cover shadow-2xl min-h-screen w-screen block md:hidden"
-          )}
-        >
-          <source src={"/background_videos/intro_video.mp4"} type="video/mp4" />
-        </video>
       </div>
     </div>
   );

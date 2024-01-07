@@ -63,7 +63,9 @@ function HomePage() {
       <AboutUsPage />
       <SeparatorHomePage />
       <IntroVideo />
+      <div className="hidden md:block w-full">
       <SeparatorHomePage />
+      </div>
       <AboutEvent />
       <SeparatorHomePage />
       <Blog />
