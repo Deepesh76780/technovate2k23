@@ -82,12 +82,12 @@ export default function EventCard({ store,rulebook }) {
           </CardContent>
           <CardTitle className="flex flex-col items-start lg:text-base text-sm">
             <div className="flex md:gap-5 gap-3 mb-2">
-              <a href={rulebook} target="_blank">
+              <a href={store.brochure} target="_blank">
                 <p className="lg:text-base text-sm text-black bg-purple-300 p-1 rounded-2xl hover:bg-slate-50 px-3 hover:rounded-xl transition-all duration-700 font-Chakra  cursor-pointer">
                   Rule Book
                 </p>
               </a>
-              <a href={store.register ?? "#"}>
+              <a href={store.register} target="_blank">
                 <p className="lg:text-base text-sm text-black  bg-purple-300 p-1 hover:bg-slate-50 px-3 hover:rounded-xl rounded-2xl font-Chakra  transition-all duration-700 cursor-pointer" >
                   Register
                 </p>
