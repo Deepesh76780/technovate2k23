@@ -40,7 +40,7 @@ export default function Home() {
 
 
   return (
-    <main className="flex flex-col min-h-[100dvh]  items-center justify-between overflow-x-hidden">
+    <main className="flex  flex-col min-h-[100dvh]  items-center justify-between overflow-x-hidden">
       {loading ? (
         <Loading />
       ) : (
