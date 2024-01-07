@@ -25,7 +25,7 @@ const IntroVideo = () => {
           </motion.p>
         )}
       </AnimatePresence>
-      <Card className="w-3/5 z-20 font-Chakra hidden md:block">
+      <Card className="w-3/5 z-20 font-Chakra hidden md:block ">
         <div className="flex flex-col justify-center items-center gap-2">
           <h1 className="text-3xl md:text-4xl text-white font-bold text-center">
             Glimpse Of <span className="text-pink-400">Technovate 2022</span>
@@ -41,7 +41,7 @@ const IntroVideo = () => {
               onMouseEnter={() => sethover(true)}
               onMouseLeave={() => sethover(false)}
             >
-              campus ambassador
+              campus ambassador &#8599;
             </a>
           </p>
         </div>
@@ -53,7 +53,7 @@ const IntroVideo = () => {
             loop
             muted
             className={cn(
-              "w-full  h-full object-cover transition-all  duration-300 z-20",
+              "w-full  h-full object-cover transition-all bg-black duration-300 z-20",
               {
                 "md:object-contain  shadow-2xl border-2 h-[60vh]  hidden md:block": true,
                 "border-pink-500 ": hover,

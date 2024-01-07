@@ -2,9 +2,6 @@
 import React, { useRef, useState } from "react";
 import { SpeakerWaveIcon } from "@heroicons/react/24/solid";
 import { SpeakerXMarkIcon } from "@heroicons/react/24/solid";
-import { motion } from "framer-motion";
-import Image from 'next/image'
-import Link from "next/link";
 
 function Audio() {
   const [isPlaying, setIsPlaying] = useState(true);
@@ -26,27 +23,14 @@ function Audio() {
 
   return (
     <>
-      <motion.div
-        className="fixed bottom-1 right-1 md:left-4 z-10  flex "
-        initial={{ opacity: 0, scale: 0.5 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 1 }}
-      >
-        <button onClick={toggleAudio}>
+      <button onClick={toggleAudio}>
           <div className="flex flex-row gap-2 items-center justify-center">
             {isPlaying ? (
               <SpeakerWaveIcon className="text-slate-300 h-4 w-4 md:h-6 md:w-6" />
             ) : (
               <SpeakerXMarkIcon className="text-slate-300 h-4 w-4 md:h-6 md:w-6" />
             )}
-            <Link href="/" className="hidden lg:block">
-              <Image
-                src='/logo/logo.png'
-                height={26}
-                width={26}
-                alt='logo'
-              />
-            </Link>
+           
           </div>
         </button>
         <audio
@@ -56,7 +40,6 @@ function Audio() {
           loop
           autoPlay
         />
-      </motion.div>
     </>
   );
 }

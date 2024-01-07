@@ -5,6 +5,7 @@ import Link from "next/link";
 import React from "react";
 import { NavButton } from "./navButton";
 import { useState } from "react";
+import Audio from "./backgroundAudio";
 
 const NavResponsive = ({ navData, bgColor }) => {
   const [isOpen, setOpen] = useState(false);
@@ -27,11 +28,8 @@ const NavResponsive = ({ navData, bgColor }) => {
   };
 
   return (
-    <div className="w-full lg:hidden visible">
-      <div className="z-20 fixed flex flex-row place-items-center justify-between w-full px-4 ">
-        <Link href="/">
-          <Image src="/logo/logo.png" height={30} width={30} alt="logo" />
-        </Link>
+    <div className="w-full lg:hidden visible ">
+      <div className="z-20 fixed right-0 w-fit px-4 ">
         <>
           <div className="nav" onClick={() => setOpen(!isOpen)}>
             <input type="checkbox" />

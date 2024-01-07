@@ -1,7 +1,8 @@
 import "../styles/globals.css";
-import Audio from "./components/backgroundAudio";
 import { Chakra_PetchFont, MichromaFont, OrbitronFont, BlackOps,inter, cyberway, cyberstar, greek, glitch, cyberblack } from "../styles/font"
 import Providers from './providers';
+import {AudioWrappperDesktop} from "./audioWrapperDesktop";
+
 
 
 export const metadata = {
@@ -16,7 +17,7 @@ export default function RootLayout(props) {
       ${cyberway.variable} ${cyberstar.variable} ${cyberblack.variable} ${glitch.variable} ${greek.variable} `}>
         <Providers>
       {props.children}
-          <Audio />
+        <AudioWrappperDesktop />
         </Providers>
       </body>
     </html>
