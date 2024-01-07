@@ -454,7 +454,7 @@ export const culturalEvent = [
     No_of_Team_Mem: [3, null],
     imgUrl: "/events/cultural/PS.jpg",
     Mode: "Offline",
-    about: "...",
+    about: "",
     register:"https://unstop.com/p/orators-conclave-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-859671",
     brochure:"https://drive.google.com/file/d/15baq5w9JGpAWnDS2-unJ0Cu96_IxAsLc/view?usp=drive_link"
   },
@@ -470,7 +470,7 @@ export const technicalEvent = [
     Mode: "Online",
     about:
       'Test your trading mettle in "Wall Street Waltz": a solo virtual stock market competition on StockGro, where the greenest portfolio wins!',
-      register:"",
+      register:"https://unstop.com/p/wall-street-waltz-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-860893",
       brochure:""
   },
   {
@@ -486,7 +486,7 @@ export const technicalEvent = [
     about:
       "In a high-stakes showdown, innovators unleash entrepreneurial skills, battling intense pitches and tackling real-life brand challenges to test their mettle and critical thinking.",
       register:"https://unstop.com/p/pitchathon-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-854353",
-      brochure:""
+      brochure:"https://drive.google.com/file/d/1PCQrYmQvj2jTpTvylG6HZoihNQDQs6DU/view?usp=drive_link"
   },
   {
     SNO: 3,
@@ -498,7 +498,7 @@ export const technicalEvent = [
     about:
       "Code at the Speed of Thought: Unleash Your Programming Prowess in the Ultimate Coding Speedrun Challenge!",
       register:"https://unstop.com/p/coding-speedrun-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-854382",
-      brochure:""
+      brochure:"https://drive.google.com/file/d/1b1IsGF3Bg68HUeuLKOR1Fd5phM_jCBpu/view?usp=drive_link"
   },
   {
     SNO: 4,
@@ -512,7 +512,7 @@ export const technicalEvent = [
     Mode: "Offline",
     about: "Tech meets tact: simple robots, epic clashes",
     register:"https://unstop.com/p/robolution-20-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-854013",
-    brochure:""
+    brochure:"https://drive.google.com/file/d/1xq4uXbmwc8NcYX6dtk2W5Eaf4ntyqg6p/view?usp=drive_link"
   },
   {
     SNO: 5,
@@ -523,7 +523,7 @@ export const technicalEvent = [
     Mode: "Online",
     about: "Train, Test, Triumph... Unleash your inner DataPunk !!!",
     register:"https://unstop.com/p/data-punk-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-854930",
-    brochure:""
+    brochure:"https://drive.google.com/file/d/1Gxwggk_FDM7v67bYVfy9rU56HQdClklV/view?usp=drive_link"
   },
   {
     SNO: 6,
@@ -534,7 +534,7 @@ export const technicalEvent = [
     about: "Wire up your wizardry, let circuits cast the spell of innovation!",
     Mode: "Offline",
     register:"https://unstop.com/p/wired-wizardry-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-854484",
-    brochure:""
+    brochure:"https://drive.google.com/file/d/1Gxwggk_FDM7v67bYVfy9rU56HQdClklV/view?usp=drive_link"
   },
   {
     SNO: 7,
@@ -545,18 +545,18 @@ export const technicalEvent = [
     about: "Decipher, Develop, Dominate: Hack the Harbour",
     Mode: "Offline",
     register:"https://unstop.com/p/hack-harbor-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-854140",
-    brochure:""
+    brochure:"https://drive.google.com/file/d/14n8sK509Q11fUgh5AmDd2E_LKc0GqQjj/view?usp=sharing"
   },
   {
     SNO: 8,
-    Event: "BrainWave",
+    Event: "Quiz Runner 2049",
     Distribution: ["₹8500"],
     imgUrl: "/events/technical/brainwave_mobile.png",
     Event_Heads: ["Ayush Yadav - 8529133411", "Harsh Shrivastava - 9907882155"],
     about: "BrainWave: Where Minds Collide in the Ultimate Quiz Odyssey!",
     Mode: "Offline",
     register:"https://unstop.com/p/quiz-runner-2049-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-854529",
-    brochure:""
+    brochure:"https://drive.google.com/file/d/1nFTeDUamrdtCyW4tKu5_TVGc5vlprn6H/view?usp=drive_link"
   },
 
   {
@@ -568,7 +568,7 @@ export const technicalEvent = [
     about: "Unlock the Technoverse: Catch The Flag(CTF)",
     Mode: "Online",
     register:"https://unstop.com/p/unlock-the-technoverse-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-854934",
-    brochure:""
+    brochure:"https://drive.google.com/file/d/18s0T6zaphLr9YUxpgFjXtDD6Lfq4x4uO/view?usp=drive_link"
   },
   {
     SNO: 10,
@@ -582,7 +582,7 @@ export const technicalEvent = [
     about: "AlgoSprint: Code, Compete, Conquer!",
     Mode: "Offline",
     register:"https://unstop.com/p/algo-sprint-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-854928",
-    brochure:""
+    brochure:"https://drive.google.com/file/d/1WRPNjBlxiiUwzu2RJ_NSyX7K2u8JBWrO/view?usp=drive_link"
   },
 ];
 
@@ -623,7 +623,7 @@ export const sportsEvent = [
     Distribution: ["₹15000"],
     Mode: "Offline",
     about: "",
-    register:"",
+    register:"https://unstop.com/college-fests/technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-183351/amp",
     brochure:"https://drive.google.com/file/d/1m7Y3Vv_UT6lav3Qyi9wH8TQhkKUn1Exp/view?usp=drive_link"
   },
   {
@@ -637,7 +637,7 @@ export const sportsEvent = [
     Distribution: ["₹10000"],
     Mode: "Offline",
     about: "",
-    register:"",
+    register:"https://unstop.com/college-fests/technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-183351/amp",
     brochure:"https://drive.google.com/file/d/11UsTF3TBTroFN87CmWt917wSbNNTYwPR/view?usp=drive_link"
   },
   {
@@ -681,7 +681,7 @@ export const sportsEvent = [
     Distribution: ["₹6000"],
     Mode: "Offline",
     about: "",
-    register:"",
+    register:"https://unstop.com/college-fests/technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-183351/amp",
     brochure:"https://drive.google.com/file/d/1HVBdTB36mOmq0hRKMoO-fKxtKjCybj7H/view?usp=drive_link"
   },
   {

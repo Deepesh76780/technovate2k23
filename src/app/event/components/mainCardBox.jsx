@@ -14,9 +14,8 @@ import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { useRouter } from "next/navigation";
 
-export default function EventCard({ store,rulebook }) {
+export default function EventCard({ store, rulebook }) {
   const router = useRouter();
-
   const item = {
     hidden: {
       opacity: 0,
@@ -38,13 +37,14 @@ export default function EventCard({ store,rulebook }) {
         variants={item}
         className=" flex md:flex-row flex-col lg:justify-evenly justify-evenly  place-items-center w-full md:gap-0 gap-3"
       >
-        <button
-          className="text-white md:absolute md:right-32 hover:bg-white hover:text-black pb-0.5 relative hidden md:block md:top-10 border-2 px-2  md:text-[1rem] rounded-full text-[0.8rem]  cursor-pointer  transition-all duration-500"
-          title={"Event rules"}
-        >
-          General rule
-        </button>
-
+        <a href={rulebook} target="_blank">
+          <button
+            className="text-white md:absolute md:right-32 hover:bg-white hover:text-black pb-0.5 relative hidden md:block md:top-10 border-2 px-2  md:text-[1rem] rounded-full text-[0.8rem]  cursor-pointer  transition-all duration-500"
+            title={"Event rules"}
+          >
+            General rule
+          </button>
+        </a>
         <button
           className="text-white md:absolute md:right-5 hover:bg-white hover:text-black pb-0.5 relative hidden md:block md:top-10 border-2 px-2  md:text-[1rem] rounded-full text-[0.8rem]  cursor-pointer  transition-all duration-500"
           title="go back"
@@ -73,15 +73,15 @@ export default function EventCard({ store,rulebook }) {
                 {store?.Mode && `Mode - ${store.Mode}`}
               </Badge>
             </div>
-              <button
-                className="text-white md:hidden block   px-2   rounded-full text-[0.8rem]  cursor-pointer  transition-all duration-500"
-                title="go back"
-                onClick={() => {
-                  router.back();
-                }}
-              >
-                  ◄ Back
-              </button>
+            <button
+              className="text-white md:hidden block   px-2   rounded-full text-[0.8rem]  cursor-pointer  transition-all duration-500"
+              title="go back"
+              onClick={() => {
+                router.back();
+              }}
+            >
+              ◄ Back
+            </button>
           </CardHeader>
           <CardContent className="text-muted lg:text-base text-sm text-purple-200 underline font-Chakra">
             {store?.about && store.about}
@@ -94,13 +94,12 @@ export default function EventCard({ store,rulebook }) {
                 </p>
               </a>
               <a href={store.register} target="_blank">
-                <p className="lg:text-base text-sm text-black  bg-purple-300 p-1 hover:bg-slate-50 px-3 hover:rounded-xl rounded-2xl font-Chakra  transition-all duration-700 cursor-pointer" >
+                <p className="lg:text-base text-sm text-black  bg-purple-300 p-1 hover:bg-slate-50 px-3 hover:rounded-xl rounded-2xl font-Chakra  transition-all duration-700 cursor-pointer">
                   Register
                 </p>
               </a>
-              
             </div>
-           
+
             <div className="text-white mt-2 font-Chakra">
               Prizes:
               {store?.Distribution &&
@@ -116,12 +115,14 @@ export default function EventCard({ store,rulebook }) {
                 return <div key={index}>{item}</div>;
               })}
           </CardFooter>
-          <button
-                className="text-white md:hidden block hover:bg-white hover:text-black w-full mb-2 border-2 px-2   rounded-full text-[0.8rem]  cursor-pointer  transition-all duration-500"
-                title="go back"
-              >
-                  General Rules
+          <a href={rulebook} target="_blank">
+            <button
+              className="text-white md:hidden block hover:bg-white hover:text-black w-full mb-2 border-2 px-2   rounded-full text-[0.8rem]  cursor-pointer  transition-all duration-500"
+              title="go back"
+            >
+              General Rules
             </button>
+          </a>
         </Card>
       </motion.div>
     </>
