@@ -199,6 +199,81 @@ export const team = [
   },
 ];
 
+export const organizingCommite = [
+  {
+    id: 1,
+    criteria: "OrganisingComittee",
+    name: "Dr. Satyanarayana",
+    phone: "7712474049",
+    about: "Faculty Coordinator",
+    imgUrl: "/team/satyanarayana_vollala.jpg",
+    linkedIn: "www.linkedin.com/in/satyanarayana-vollala-530833163",
+  },
+  {
+    id: 2,
+    criteria: "OrganisingComittee",
+    name: "Aryansh Verma",
+    phone: "9617494339",
+    about: "Sponsership Head",
+    imgUrl: "/team/Aryansh.jpg",
+    linkedIn: "www.linkedin.com/in/aryanshverma25",
+  },
+  {
+    id: 3,
+    criteria: "OrganisingComittee",
+    name: "Jay Padia",
+    phone: "8956796716",
+    about: "Sponserhip Head",
+    imgUrl: "/team/Jay.jpg",
+    linkedIn: "www.linkedin.com/in/jay-padia/",
+  },
+  {
+    id: 4,
+    criteria: "OrganisingComittee",
+    name: "Ravil Patel",
+    phone: "9893043231",
+    about: "Marketing Head",
+    imgUrl: "/team/RAVIL_MARKETING.jpeg",
+    linkedIn: "www.linkedin.com/in/ravil-patel-b65062227",
+  },
+  {
+    id: 5,
+    criteria: "OrganisingComittee",
+    name: "Abhijeet Jharbadee",
+    phone: "8319097205",
+    about: "Outlook Head",
+    imgUrl: "/team/Abhijeet_Jharbade_Outlook.jpg",
+    linkedIn: "www.linkedin.com/in/abhijeet-jharbade-084992228",
+  },
+  {
+    id: 6,
+    criteria: "OrganisingComittee",
+    name: "Deependra Singh Bhow",
+    phone: "6260613425",
+    about: "Outlook Head",
+    imgUrl: "/team/deep.jpg",
+    linkedIn: "www.linkedin.com/in/deependra-singh-bhow-956864238",   
+  },
+  {
+    id: 7,
+    criteria: "OrganisingComittee",
+    name: "Shivam Kushwaha",
+    phone: "9198364979",
+    about: "Technical Events Head",
+    imgUrl: "/team/Shivam_Kushwaha_Technical_Events.JPG",
+    linkedIn: "www.linkedin.com/in/shivam-kushwaha21",
+  },
+  {
+    id: 8,
+    criteria: "OrganisingComittee",
+    name: "Aditya Oza",
+    phone: "8866856028",
+    about: "Cultural Events Head",
+    imgUrl: "/team/Aditya_Oza_Overall_Coordinator.jpg",
+    linkedIn: "www.linkedin.com/in/aditya-oza-abcd/",
+  },
+];
+
 export const culturalEvent = [
   {
     SNO: 1,
@@ -642,7 +717,7 @@ export const volunteerData = [
       "VAISHNAVI SHRIVASTAVA",
     ],
   },
- 
+
   {
     name: "Designing Team",
     data: [
@@ -682,7 +757,7 @@ export const volunteerData = [
     ],
   },
   { name: "Website Team", data: ["Manu Sai", "Rishabh Malav", "Yash Raj"] },
- 
+
   {
     name: "Outlook Team",
     data: [
@@ -739,7 +814,7 @@ export const volunteerData = [
       "Tanisha Jain ",
       "Thakur Mahima Nuruti",
       "Virat Patel ",
-      "Aayush Kulkarni"
+      "Aayush Kulkarni",
     ],
   },
   {

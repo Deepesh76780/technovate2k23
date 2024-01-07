@@ -35,9 +35,9 @@ function Audio() {
         <button onClick={toggleAudio}>
           <div className="flex flex-row gap-2 items-center justify-center">
             {isPlaying ? (
-              <SpeakerWaveIcon className="text-slate-300 h-4 w-4 md:h-6 md-w-6" />
+              <SpeakerWaveIcon className="text-slate-300 h-4 w-4 md:h-6 md:w-6" />
             ) : (
-              <SpeakerXMarkIcon className="text-slate-300 h-4 w-4 md:h-6 md-w-6" />
+              <SpeakerXMarkIcon className="text-slate-300 h-4 w-4 md:h-6 md:w-6" />
             )}
             <Link href="/" className="hidden lg:block">
               <Image
