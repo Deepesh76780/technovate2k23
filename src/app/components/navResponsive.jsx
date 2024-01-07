@@ -72,7 +72,10 @@ const NavResponsive = ({ navData, bgColor }) => {
                   </Link>
                 );
               })}
-              <a href="" target="_blank">
+              <a
+                href="https://unstop.com/competitions/campus-ambassador-program-technovate-2024-international-institute-of-information-technology-iiit-naya-raipu-848020"
+                target="_blank"
+              >
                 <button
                   className={
                     "border-2    shadow-inner  cursor-pointer relative uppercase card text-white   w-[220px]  text-[0.8rem]   h-[55px]"
