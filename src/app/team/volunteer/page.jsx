@@ -13,7 +13,7 @@ export default function page() {
     .map((item) => item.data);
   return (
     <div className="w-full h-full md:flex md:flex-row items-center flex flex-col-reverse justify-center gap-2 ">
-      <div className="h-full md:w-2/6 md:flex md:flex-col grid grid-cols-3 flex-wrap  w-full items-center justify-center md:gap-2 gap-2">
+      <div className="h-[75%] md:h-full md:w-2/6 md:flex md:flex-col grid grid-cols-3 flex-wrap  w-full items-center justify-center md:gap-2 gap-1">
         {volunteerData.map((item) => {
           return (
             <Badge
@@ -34,11 +34,11 @@ export default function page() {
         })}
       </div>
       <Separator className="md:w-[0.5px] md:h-[300px] h-[1px] w-full  bg-slate-300 mx-[1px] " />
-      <div className="cus h-full w-5/6  overflow-y-scroll custom flex flex-col  items-center">
+      <div className="cus  h-full w-5/6   overflow-y-scroll custom flex flex-col  items-center">
         <p className="text-center font-Michroma tracking-wider md:text-2xl text-sm underline text-white ">
           {data}
         </p>
-        <div className="text-white   mx-6 mt-10 grid md:grid-cols-4 grid-cols-1 justify-items-start justify-stretch  gap-3" >
+        <div className="text-white    mx-6 mt-10 grid md:grid-cols-4 grid-cols-1 justify-items-start justify-stretch  gap-3" >
           {volunteerlist[0].map((item, index) => (
             <li key={index} className=" rounded-2xl md:text-base text-sm h-fit font-Chakra list-disc ">{item}</li>
           ))}
