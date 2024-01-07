@@ -175,7 +175,7 @@ export const team = [
     criteria: "Lead",
     name: "Apurva Sahu ",
     phone: "8081338665",
-    about: "VideoEditing Team Head",
+    about: "Video Editing Team Head",
     linkedIn: "www.linkedin.com/in/apurva-sahu-a4481425a/",
     imgUrl: "/team/Apurva_Video.jpg",
   },
@@ -193,7 +193,7 @@ export const team = [
     criteria: "Lead",
     name: "Tanvi Kori",
     phone: "6261200465",
-    about: "Content Head",
+    about: "Content Team Head",
     linkedIn: "www.linkedin.com/in/tanvi-k-893516264/",
     imgUrl: "/team/Tanvi.jpg",
   },
@@ -292,6 +292,8 @@ export const culturalEvent = [
     imgUrl: "/events/cultural/PC.jpg",
     about:
       "Photographers take photos throughout the technovate and the best one wins",
+    register:"https://unstop.com/p/photography-contest-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-856688",
+    brochure:"https://drive.google.com/file/d/1fb2Cbr3C64Rq5-2h-lG7wKgewS3v8m3o/view?usp=sharing"
   },
   {
     SNO: 2,
@@ -308,6 +310,8 @@ export const culturalEvent = [
     No_of_Team_Mem: [1, null],
     Mode: "Hybrid",
     about: "...",
+    register:"https://unstop.com/p/rang-mela-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-856638",
+    brochure:"https://drive.google.com/file/d/1P4vxLzL-0M7loQzgqfCnh3ljWRLIYkZy/view?usp=drive_link"
   },
   {
     SNO: 3,
@@ -323,6 +327,8 @@ export const culturalEvent = [
     imgUrl: "/events/cultural/Singing.jpg",
     about:
       "Step into the spotlight and let your voice soar in the electrifying world of a singing competition. It's not just about hitting the right notes; it's about capturing hearts and leaving the audience breathless. So grab the mic, hit those high notes, and let the world hear the magic in your soul!",
+      register:"https://unstop.com/p/solo-and-duet-music-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-856622",
+      brochure:"https://drive.google.com/file/d/1Fzh4O1bbiPaQjIBD5iqse_Z8MCg-R2_4/view?usp=drive_link"
   },
   {
     SNO: 4,
@@ -338,6 +344,8 @@ export const culturalEvent = [
     Mode: "Offline",
     about:
       "Get your buddy up for a melodic rollercoaster, forge two voices into one, and make the echoes of duet brilliance linger in the hearts of all who bear witness.",
+      register:"https://unstop.com/p/solo-and-duet-music-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-856622",
+      brochure:"https://drive.google.com/file/d/1Fzh4O1bbiPaQjIBD5iqse_Z8MCg-R2_4/view?usp=drive_link"
   },
   {
     SNO: 5,
@@ -355,6 +363,8 @@ export const culturalEvent = [
     imgUrl: "/events/cultural/Dance.jpg",
     Mode: "Offline",
     about: "...",
+    register:"https://unstop.com/p/dance-battle-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-859684",
+    brochure:"https://drive.google.com/file/d/11iOoA9An9Np86a8z1T9pDHvCScCDBkBM/view?usp=drive_link"
   },
   {
     SNO: 6,
@@ -373,6 +383,8 @@ export const culturalEvent = [
     imgUrl: "/events/cultural/Dance.jpg",
     about:
       "Get ready to witness electrifying moves and fierce competition at our explosive group dance battle! Feel the heat as teams clash on the dance floor, showcasing their best beats, rhythms, and jaw-dropping choreography. Join us for an adrenaline-packed evening of non-stop entertainment and thrilling showdowns!",
+      register:"https://unstop.com/p/dance-battle-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-859684",
+      brochure:"https://drive.google.com/file/d/11iOoA9An9Np86a8z1T9pDHvCScCDBkBM/view?usp=drive_link"
   },
   {
     SNO: 7,
@@ -387,6 +399,8 @@ export const culturalEvent = [
     imgUrl: "/events/cultural/ASM.png",
     Mode: "Offline",
     about: "...",
+    register:"https://unstop.com/p/nukkad-natak-contest-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-859691",
+    brochure:"https://drive.google.com/file/d/14yYxsYWBb5nwVLY2go8HxJ0C0fNblSMW/view?usp=drive_link"
   },
   {
     SNO: 8,
@@ -405,6 +419,8 @@ export const culturalEvent = [
     imgUrl: "/events/cultural/BOB.jpg",
     about:
       "Get ready for an electrifying musical showdown! Bands from all over the country are set to unleash their talent in a clash of the best. With designated time slots for each, the stage will come alive with captivating performances. Our expert panel of judges is geared up to crown the top three, making it a night of unforgettable musical magic!    ",
+      register:"https://unstop.com/p/battle-of-bands-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-856582",
+      brochure:"https://drive.google.com/file/d/1X16tESC-iJLBsa_cWnQOD95HtgUN9FuA/view?usp=drive_link"
   },
   {
     SNO: 9,
@@ -423,6 +439,8 @@ export const culturalEvent = [
     Mode: "Offline",
     about:
       "the fashion contest unfolds with a Western flair in round one, followed by an enchanting showcase of Indian tradition in round two, celebrating the fusion of global styles on a single runway",
+      register:"https://unstop.com/p/fashion-show-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-856670",
+      brochure:"https://drive.google.com/file/d/11quQzIEycD5UjCEHir-_mnDIqxoc8k51/view?usp=drive_link"
   },
   {
     SNO: 10,
@@ -437,6 +455,8 @@ export const culturalEvent = [
     imgUrl: "/events/cultural/PS.jpg",
     Mode: "Offline",
     about: "...",
+    register:"https://unstop.com/p/orators-conclave-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-859671",
+    brochure:"https://drive.google.com/file/d/15baq5w9JGpAWnDS2-unJ0Cu96_IxAsLc/view?usp=drive_link"
   },
 ];
 
@@ -450,6 +470,8 @@ export const technicalEvent = [
     Mode: "Online",
     about:
       'Test your trading mettle in "Wall Street Waltz": a solo virtual stock market competition on StockGro, where the greenest portfolio wins!',
+      register:"",
+      brochure:""
   },
   {
     SNO: 2,
@@ -463,6 +485,8 @@ export const technicalEvent = [
     imgUrl: "/events/technical/venture vista(mobile).png",
     about:
       "In a high-stakes showdown, innovators unleash entrepreneurial skills, battling intense pitches and tackling real-life brand challenges to test their mettle and critical thinking.",
+      register:"https://unstop.com/p/pitchathon-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-854353",
+      brochure:""
   },
   {
     SNO: 3,
@@ -473,6 +497,8 @@ export const technicalEvent = [
     Mode: "Offline",
     about:
       "Code at the Speed of Thought: Unleash Your Programming Prowess in the Ultimate Coding Speedrun Challenge!",
+      register:"https://unstop.com/p/coding-speedrun-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-854382",
+      brochure:""
   },
   {
     SNO: 4,
@@ -485,6 +511,8 @@ export const technicalEvent = [
     imgUrl: "/events/technical/robolution(mobile).png",
     Mode: "Offline",
     about: "Tech meets tact: simple robots, epic clashes",
+    register:"https://unstop.com/p/robolution-20-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-854013",
+    brochure:""
   },
   {
     SNO: 5,
@@ -494,6 +522,8 @@ export const technicalEvent = [
     Event_Heads: ["Sanskar Singh - 7000486098", "Sanchit Namdeo - 8989846583"],
     Mode: "Online",
     about: "Train, Test, Triumph... Unleash your inner DataPunk !!!",
+    register:"https://unstop.com/p/data-punk-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-854930",
+    brochure:""
   },
   {
     SNO: 6,
@@ -503,6 +533,8 @@ export const technicalEvent = [
     Event_Heads: ["Ishita Tegar - 8349402003", "Karthik - 7842757138"],
     about: "Wire up your wizardry, let circuits cast the spell of innovation!",
     Mode: "Offline",
+    register:"https://unstop.com/p/wired-wizardry-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-854484",
+    brochure:""
   },
   {
     SNO: 7,
@@ -512,6 +544,8 @@ export const technicalEvent = [
     Event_Heads: ["Alankrit Sharma - 7376961118", "Vandit Tyagi - 7840073450"],
     about: "Decipher, Develop, Dominate: Hack the Harbour",
     Mode: "Offline",
+    register:"https://unstop.com/p/hack-harbor-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-854140",
+    brochure:""
   },
   {
     SNO: 8,
@@ -521,6 +555,8 @@ export const technicalEvent = [
     Event_Heads: ["Ayush Yadav - 8529133411", "Harsh Shrivastava - 9907882155"],
     about: "BrainWave: Where Minds Collide in the Ultimate Quiz Odyssey!",
     Mode: "Offline",
+    register:"https://unstop.com/p/quiz-runner-2049-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-854529",
+    brochure:""
   },
 
   {
@@ -531,6 +567,8 @@ export const technicalEvent = [
     Event_Heads: ["Aman Sahu - 95844 84662", "V. Jashwanth - 8919891146"],
     about: "Unlock the Technoverse: Catch The Flag(CTF)",
     Mode: "Online",
+    register:"https://unstop.com/p/unlock-the-technoverse-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-854934",
+    brochure:""
   },
   {
     SNO: 10,
@@ -543,6 +581,8 @@ export const technicalEvent = [
     ],
     about: "AlgoSprint: Code, Compete, Conquer!",
     Mode: "Offline",
+    register:"https://unstop.com/p/algo-sprint-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-854928",
+    brochure:""
   },
 ];
 
@@ -583,6 +623,8 @@ export const sportsEvent = [
     Distribution: ["₹15000"],
     Mode: "Offline",
     about: "",
+    register:"",
+    brochure:"https://drive.google.com/file/d/1m7Y3Vv_UT6lav3Qyi9wH8TQhkKUn1Exp/view?usp=drive_link"
   },
   {
     SNO: 2,
@@ -595,6 +637,8 @@ export const sportsEvent = [
     Distribution: ["₹10000"],
     Mode: "Offline",
     about: "",
+    register:"",
+    brochure:"https://drive.google.com/file/d/11UsTF3TBTroFN87CmWt917wSbNNTYwPR/view?usp=drive_link"
   },
   {
     SNO: 3,
@@ -607,7 +651,8 @@ export const sportsEvent = [
     ],
     Distribution: ["₹3000"],
     Mode: "Offline",
-    about: "",
+    about: "https://unstop.com/p/chess-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-859762",
+    brochure:"https://drive.google.com/file/d/1Z3agokLu4shW-38wOvj3lvfVxoHYzHa8/view?usp=drive_link"
   },
   {
     SNO: 4,
@@ -621,6 +666,8 @@ export const sportsEvent = [
     Distribution: ["₹10000"],
     Mode: "Offline",
     about: "",
+    register:"https://unstop.com/p/cricket-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-860349",
+    brochure:"https://drive.google.com/file/d/1N8BYJP7hOCc14ry__6JZYlX88sbi97ce/view?usp=drive_link"
   },
   {
     SNO: 5,
@@ -634,6 +681,8 @@ export const sportsEvent = [
     Distribution: ["₹6000"],
     Mode: "Offline",
     about: "",
+    register:"",
+    brochure:"https://drive.google.com/file/d/1HVBdTB36mOmq0hRKMoO-fKxtKjCybj7H/view?usp=drive_link"
   },
   {
     SNO: 6,
@@ -647,6 +696,8 @@ export const sportsEvent = [
     Distribution: ["₹10000"],
     Mode: "Offline",
     about: "",
+    register:"https://unstop.com/p/volleyball-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-860639",
+    brochure:"https://drive.google.com/file/d/1FjR_9I5eAOT3wyVFeZPC3s4nF8qcQtmO/view?usp=drive_link"
   },
   {
     SNO: 7,
@@ -656,6 +707,8 @@ export const sportsEvent = [
     Distribution: ["₹3500"],
     Mode: "Online",
     about: "",
+    register:"https://unstop.com/p/bgmi-battlegrounds-mobile-india-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-859862",
+    brochure:"https://drive.google.com/file/d/1nZQPVZ8yWNnaYdg3VNHkUu0HorI8JXo4/view?usp=drive_link"
   },
   {
     SNO: 8,
@@ -665,6 +718,8 @@ export const sportsEvent = [
     Distribution: ["₹5000"],
     Mode: "Online",
     about: "",
+    register:"https://unstop.com/p/valorant-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-859835",
+    brochure:"https://drive.google.com/file/d/1GE9hKM7mYUJvWFEcIV4TWTo5eSP0m2Wr/view?usp=drive_link"
   },
 ];
 
@@ -734,6 +789,24 @@ export const volunteerData = [
       "Kaushal Ranjan",
       "Meenal Patle",
       "Parth Patel ",
+    ],
+  },
+  {
+    name: "Sports Team",
+    data: [
+      "Mayank Chandra", 
+      "Aditya Singh ",
+      "Deependra Singh Bhow ",
+      "Aditya Jha ",
+      "Arnav Pandey ",
+      "Ojash Verma ",
+      "Shaurya Malhan", 
+      "Ravikant Shrivas", 
+      "Rahul Meshram ",
+      "Apurva Sahu ",
+      "Kusum Patel ",
+      "Neha Dhruw ",
+      "Ravi Vinayak"
     ],
   },
   {
@@ -840,7 +913,6 @@ export const volunteerData = [
       "Dhyanendra Tripathi",
       "Harsh Shrivastava",
       "Ishita ",
-      "Karthik",
     ],
   },
   {
