@@ -72,7 +72,11 @@ const NavResponsive = ({ navData, bgColor }) => {
                   </Link>
                 );
               })}
-              <a href="#" className=" text-pink-400 font-blackop tracking-wider shadow-2xl shadow-pink-500  bg-blackparent p-2 rounded-2xl border-2   cursor-pointer text-xl scale-100  ">
+              <a
+                href="https://unstop.com/competitions/campus-ambassador-program-technovate-2024-international-institute-of-information-technology-iiit-naya-raipu-848020"
+                className=" text-pink-400 font-blackop tracking-wider shadow-2xl shadow-pink-500  bg-blackparent p-2 rounded-2xl border-2   cursor-pointer text-xl scale-100  "
+                target="_blank"
+              >
                 * campus ambassador *
               </a>
             </div>
