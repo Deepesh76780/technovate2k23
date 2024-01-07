@@ -13,7 +13,6 @@ import { motion } from "framer-motion";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { useRouter } from "next/navigation";
-import Link from "next/link";
 
 export default function EventCard({ store,rulebook }) {
   const router = useRouter();
@@ -39,6 +38,13 @@ export default function EventCard({ store,rulebook }) {
         variants={item}
         className=" flex md:flex-row flex-col lg:justify-evenly justify-evenly  place-items-center w-full md:gap-0 gap-3"
       >
+        <button
+          className="text-white md:absolute md:right-32 hover:bg-white hover:text-black pb-0.5 relative hidden md:block md:top-10 border-2 px-2  md:text-[1rem] rounded-full text-[0.8rem]  cursor-pointer  transition-all duration-500"
+          title={"Event rules"}
+        >
+          General rule
+        </button>
+
         <button
           className="text-white md:absolute md:right-5 hover:bg-white hover:text-black pb-0.5 relative hidden md:block md:top-10 border-2 px-2  md:text-[1rem] rounded-full text-[0.8rem]  cursor-pointer  transition-all duration-500"
           title="go back"
@@ -92,7 +98,9 @@ export default function EventCard({ store,rulebook }) {
                   Register
                 </p>
               </a>
+              
             </div>
+           
             <div className="text-white mt-2 font-Chakra">
               Prizes:
               {store?.Distribution &&
@@ -108,6 +116,12 @@ export default function EventCard({ store,rulebook }) {
                 return <div key={index}>{item}</div>;
               })}
           </CardFooter>
+          <button
+                className="text-white md:hidden block hover:bg-white hover:text-black w-full mb-2 border-2 px-2   rounded-full text-[0.8rem]  cursor-pointer  transition-all duration-500"
+                title="go back"
+              >
+                  General Rules
+            </button>
         </Card>
       </motion.div>
     </>
