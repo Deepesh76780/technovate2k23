@@ -10,11 +10,13 @@ import Loading from "../app/pages/animateLoader";
 import Blog from "../app/pages/blog";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import {isMobile} from 'react-device-detect';
 import SmoothScrolling from "./components/smoothScroll";
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
   const [toastShown, setToastShown] = useState(false);
+  console.log(isMobile)
 
   useEffect(() => {
     if (loading && !toastShown) {
@@ -39,17 +41,16 @@ export default function Home() {
 
   return (
     <>
-      <main className="hidden md:flex  flex-col min-h-[100dvh]  items-center justify-between overflow-x-hidden">
+      <main className="flex  flex-col min-h-[100dvh]  items-center justify-between overflow-x-hidden">
         {loading ? (
           <Loading />
         ) : (
+          !isMobile?
           <SmoothScrolling>
             <HomePage />
           </SmoothScrolling>
+          : <HomePage />
         )}
-      </main>
-      <main className="flex md:hidden flex-col min-h-[100dvh]  items-center justify-between overflow-x-hidden">
-        {loading ? <Loading /> : <HomePage />}
       </main>
     </>
   );
