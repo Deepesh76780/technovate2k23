@@ -48,7 +48,7 @@ function PlayerInfo({ props }) {
       >
         ◄ Back
       </button>
-      <Card className="text-center shadow-md overflow-hidden lg:h-[60vh] h-52  border-2 lg:w-2/5 w-full  transition-all duration-300 lg:my-auto card">
+      <Card className="text-center shadow-md overflow-hidden lg:h-[60vh] h-64  border-2 lg:w-2/5 w-full  transition-all duration-300 lg:my-auto card">
         <Image
           src={props.imgUrl}
           width={1000}
