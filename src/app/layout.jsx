@@ -6,8 +6,14 @@ import {AudioWrappperDesktop} from "./audioWrapperDesktop";
 
 
 export const metadata = {
-  title: "Technovate | 2024",
+  title: {
+    default:"Technovate | 2024",
+    template:"%s - Technovate | 2024"
+  },
   description: "Technovate is the annual technical fest of IIIT Naya Raipur.",
+  twitter: {
+    card: "summary_large_image",
+  },
 };
 
 export default function RootLayout(props) {

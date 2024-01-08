@@ -1,5 +1,10 @@
 import Wrapper from "../components/wrapper";
 
+export const metadata = {
+  title:"Event",
+}
+
+
 const eventLinks = [
   { name: "Pronight", href: "/event/pronight" },
   {

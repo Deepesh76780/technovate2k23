@@ -1,5 +1,9 @@
 import Wrapper from "../components/wrapper";
 
+export const metadata = {
+  title:"Team",
+}
+
 const teamLinks = [
   { name: "Organizing Committee", href: "/team/organizingCommittee" },
   { name: "Team Heads", href: "/team/HeadCoordinator" },

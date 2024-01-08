@@ -1,4 +1,10 @@
 import Wrapper from "../components/wrapper";
+
+export const metadata = {
+  title:"Sponser",
+}
+
+
 const sponsershipLinks = [
   { name: 'Sponser', href: '/sponsers/overall_sponser' },
   { name: 'Event Sponser', href: '/sponsers/event_sponser' },

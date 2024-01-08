@@ -1,5 +1,10 @@
 import Wrapper from "../components/wrapper";
 
+export const metadata = {
+  title:"Schedule",
+}
+
+
 const teamLinks = [
   { name: "Level 1", href: "/schedule/day1" },
   { name: "Level 2", href: "/schedule/day2" },
