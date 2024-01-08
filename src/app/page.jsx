@@ -31,7 +31,7 @@ export default function Home() {
           theme: "light",
         });
         setToastShown(true);
-      }, 6000);
+      }, 4000);
 
       return () => clearTimeout(timeoutId);
     }
