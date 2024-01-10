@@ -512,7 +512,7 @@ export const technicalEvent = [
     Mode: "Offline",
     about: "Tech meets tact: simple robots, epic clashes",
     register:"https://unstop.com/p/robolution-20-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-854013",
-    brochure:"https://drive.google.com/file/d/1xq4uXbmwc8NcYX6dtk2W5Eaf4ntyqg6p/view?usp=drive_link"
+    // brochure:"https://drive.google.com/file/d/1xq4uXbmwc8NcYX6dtk2W5Eaf4ntyqg6p/view?usp=drive_link"
   },
   {
     SNO: 5,
