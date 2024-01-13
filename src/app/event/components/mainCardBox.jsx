@@ -123,14 +123,16 @@ export default function EventCard({ store, rulebook }) {
                 return <div key={index}>{item}</div>;
               })}
           </CardFooter>
-          <a href={rulebook} target="_blank">
-            <button
-              className="text-white md:hidden block hover:bg-white hover:text-black w-full mb-2 border-2 px-2   rounded-full text-[0.8rem]  cursor-pointer  transition-all duration-500"
-              title="go back"
-            >
-              General Rules
-            </button>
-          </a>
+          {rulebook && (
+            <a href={rulebook} target="_blank">
+              <button
+                className="text-white md:hidden block hover:bg-white hover:text-black w-full mb-2 border-2 px-2   rounded-full text-[0.8rem]  cursor-pointer  transition-all duration-500"
+                title="go back"
+              >
+                General Rules
+              </button>
+            </a>
+          )}
         </Card>
       </motion.div>
     </>

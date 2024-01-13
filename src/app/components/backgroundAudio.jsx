@@ -1,4 +1,3 @@
-"use client"
 import React, { useRef, useState } from "react";
 import { SpeakerWaveIcon } from "@heroicons/react/24/solid";
 import { SpeakerXMarkIcon } from "@heroicons/react/24/solid";
@@ -6,7 +5,6 @@ import { SpeakerXMarkIcon } from "@heroicons/react/24/solid";
 function Audio() {
   const [isPlaying, setIsPlaying] = useState(true);
   const audioRef = useRef();
-
 
   const toggleAudio = () => {
     if (audioRef.current) {
@@ -21,25 +19,33 @@ function Audio() {
     }
   };
 
+  const handlePlay = () => {
+    setIsPlaying(true);
+  };
+
+  const handlePause = () => {
+    setIsPlaying(false);
+  };
+
   return (
     <>
       <button onClick={toggleAudio}>
-          <div className="flex flex-row gap-2 items-center justify-center">
-            {isPlaying ? (
-              <SpeakerWaveIcon className="text-slate-300 h-4 w-4 md:h-6 md:w-6" />
-            ) : (
-              <SpeakerXMarkIcon className="text-slate-300 h-4 w-4 md:h-6 md:w-6" />
-            )}
-           
-          </div>
-        </button>
-        <audio
-          ref={audioRef}
-          defaultValue={true}
-          src="/background_audio/get_you_to_moon.mp3"
-          loop
-          autoPlay
-        />
+        <div className="flex flex-row gap-2 items-center justify-center">
+          {isPlaying ? (
+            <SpeakerWaveIcon className="text-slate-300 h-4 w-4 md:h-6 md:w-6" />
+          ) : (
+            <SpeakerXMarkIcon className="text-slate-300 h-4 w-4 md:h-6 md:w-6" />
+          )}
+        </div>
+      </button>
+      <audio
+        ref={audioRef}
+        src="/background_audio/get_you_to_moon.mp3"
+        loop
+        autoPlay
+        onPlay={handlePlay}
+        onPause={handlePause}
+      />
     </>
   );
 }

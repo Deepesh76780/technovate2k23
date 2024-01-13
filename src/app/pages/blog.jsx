@@ -7,7 +7,7 @@ import { blogData } from "../../styles/data"
 
 const Blog = () => {
     return (
-        <div className="w-full h-full flex flex-col py-14 gap-20    max-w-[150rem] text-slate-200 px-7">
+        <div className="w-full h-full flex flex-col py-14 gap-20   max-w-[100rem] text-slate-200 px-7">
             <Title title="BLOG" />
             <div className='w-full h-full flex xl:flex-row flex-col justify-between items-center xl:gap-0 gap-20'>
                 <BlogCard blogData={blogData[0]} />
