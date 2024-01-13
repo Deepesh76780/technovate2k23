@@ -319,18 +319,18 @@ export const culturalEvent = [
   },
   {
     SNO: 3,
-    Event: "Singing Contest (SOLO)",
-    Event_Heads: ["Anoushka Koul - 8449194200", "Mohd.Kaif - 9727833388"],
+    Event: "Singing Contest (Solo and Duet)",
+    Event_Heads: ["Anoushka Koul - 8449194200", "Mohd. Kaif - 9727833388"],
     Distribution: [
-      "1st Prize : ₹5000",
-      "2nd Prize : ₹3000",
-      "3rd Prize : ₹2000",
+      "1st Prize : ₹7000",
+      "2nd Prize : ₹5000",
+      "3rd Prize : ₹3000",
     ],
     No_of_Team_Mem: [1, null],
     Mode: "Offline",
     imgUrl: "/events/cultural/Singing.jpg",
     about:
-      "Step into the spotlight and let your voice soar in the electrifying world of a singing competition. It's not just about hitting the right notes; it's about capturing hearts and leaving the audience breathless. So grab the mic, hit those high notes, and let the world hear the magic in your soul!",
+      "Step into the spotlight and let your voice soar in the electrifying world of a singing competition. It's not just about hitting the right notes; it's about capturing hearts and leaving the audience breathless. So grab the mic, hit those high notes, and let the world hear the magic in your soul! OR Get your buddy up for a melodic rollercoaster, forge two voices into one, and make the echoes of duet brilliance linger in the hearts of all who bear witness.",
     register:
       "https://unstop.com/p/solo-and-duet-music-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-856622",
     brochure:
@@ -338,25 +338,6 @@ export const culturalEvent = [
   },
   {
     SNO: 4,
-    Event: "Singing Contest (DUET)",
-    Event_Heads: ["Anoushka Koul - 8449194200", "Mohd.Kaif - 9727833388"],
-    Distribution: [
-      "1st Prize : ₹7000",
-      "2nd Prize : ₹5000",
-      "3rd Prize : ₹3000",
-    ],
-    No_of_Team_Mem: [2, null],
-    imgUrl: "/events/cultural/Singing.jpg",
-    Mode: "Offline",
-    about:
-      "Get your buddy up for a melodic rollercoaster, forge two voices into one, and make the echoes of duet brilliance linger in the hearts of all who bear witness.",
-    register:
-      "https://unstop.com/p/solo-and-duet-music-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-856622",
-    brochure:
-      "https://drive.google.com/file/d/1Fzh4O1bbiPaQjIBD5iqse_Z8MCg-R2_4/view?usp=drive_link",
-  },
-  {
-    SNO: 5,
     Event: "Dance Battle (Solo and Duet)",
     Event_Heads: [
       "Aryan Kumar Baghel - 7000978867",
@@ -377,7 +358,7 @@ export const culturalEvent = [
       "https://drive.google.com/file/d/11iOoA9An9Np86a8z1T9pDHvCScCDBkBM/view?usp=drive_link",
   },
   {
-    SNO: 6,
+    SNO: 5,
     Event: "Dance Battle (Group)",
     Event_Heads: [
       "Aryan Kumar Baghel - 7000978867",
@@ -399,7 +380,7 @@ export const culturalEvent = [
       "https://drive.google.com/file/d/11iOoA9An9Np86a8z1T9pDHvCScCDBkBM/view?usp=drive_link",
   },
   {
-    SNO: 7,
+    SNO: 6,
     Event: "Nukkad Natak Contest",
     Event_Heads: ["Swastika Satya", "Krishna Agrawal"],
     Distribution: [
@@ -417,7 +398,7 @@ export const culturalEvent = [
       "https://drive.google.com/file/d/14yYxsYWBb5nwVLY2go8HxJ0C0fNblSMW/view?usp=drive_link",
   },
   {
-    SNO: 8,
+    SNO: 7,
     Event: "Battle of Bands Event",
     Event_Heads: [
       "Priyanshu Srivastava - 9935062012",
@@ -439,7 +420,7 @@ export const culturalEvent = [
       "https://drive.google.com/file/d/1X16tESC-iJLBsa_cWnQOD95HtgUN9FuA/view?usp=drive_link",
   },
   {
-    SNO: 9,
+    SNO: 8,
     Event: "Fashion Show Contest",
     Event_Heads: [
       "Anjali Daheriya  - 9301465728",
@@ -461,7 +442,7 @@ export const culturalEvent = [
       "https://drive.google.com/file/d/11quQzIEycD5UjCEHir-_mnDIqxoc8k51/view?usp=drive_link",
   },
   {
-    SNO: 10,
+    SNO: 9,
     Event: "Public Speaking Event",
     Event_Heads: ["Kanika Malhotra - 8809374054", "Shreya Tiwari - 9425511225"],
     Distribution: [
@@ -538,8 +519,7 @@ export const technicalEvent = [
     about: "Tech meets tact: simple robots, epic clashes",
     register:
       "https://unstop.com/p/robolution-20-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-854013",
-    brochure:
-      "https://drive.google.com/file/d/1xq4uXbmwc8NcYX6dtk2W5Eaf4ntyqg6p/view?usp=drive_link",
+    // brochure:"https://drive.google.com/file/d/1xq4uXbmwc8NcYX6dtk2W5Eaf4ntyqg6p/view?usp=drive_link"
   },
   {
     SNO: 5,
