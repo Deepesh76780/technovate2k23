@@ -330,7 +330,7 @@ export const culturalEvent = [
     Mode: "Offline",
     imgUrl: "/events/cultural/Singing.jpg",
     about:
-      "Step into the spotlight and let your voice soar in the electrifying world of a singing competition. It's not just about hitting the right notes; it's about capturing hearts and leaving the audience breathless. So grab the mic, hit those high notes, and let the world hear the magic in your soul! OR Get your buddy up for a melodic rollercoaster, forge two voices into one, and make the echoes of duet brilliance linger in the hearts of all who bear witness.",
+      "The Solo and Duet Singing Competition at our college fest invites participants to showcase their vocal brilliance either solo or in duets. Participants have the opportunity to win exciting prizes, including cash rewards and exclusive opportunities. Don't miss this chance to captivate the audience with your musical talents on the stage. It's your time to shine!",
     register:
       "https://unstop.com/p/solo-and-duet-music-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-856622",
     brochure:
@@ -517,7 +517,8 @@ export const technicalEvent = [
     imgUrl: "/events/technical/robolution(mobile).png",
     Mode: "Offline",
     about: "Tech meets tact: simple robots, epic clashes",
-    register:"https://unstop.com/p/robolution-20-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-854013",
+    register:
+      "https://unstop.com/p/robolution-20-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-854013",
     // brochure:"https://drive.google.com/file/d/1xq4uXbmwc8NcYX6dtk2W5Eaf4ntyqg6p/view?usp=drive_link"
   },
   {
