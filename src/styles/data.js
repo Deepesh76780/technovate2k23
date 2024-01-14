@@ -389,7 +389,7 @@ export const culturalEvent = [
       "3rd Prize : ₹4000",
     ],
     No_of_Team_Mem: null,
-    imgUrl: "/events/cultural/ASM.png",
+    imgUrl: "/events/cultural/NNM.png",
     Mode: "Offline",
     about: "...",
     register:
