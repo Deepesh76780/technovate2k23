@@ -607,28 +607,26 @@ export const technicalEvent = [
 
 export const blogData = [
   {
-    imageAlt: "Yash Khare",
-    imageHref: "/blog/yash.webp",
+    imageAlt: "Ayush Trikey",
+    imageHref: "/blog/ayush.jpeg",
     normalDesc:
-      "He also said a third word, hectic, which would be true if not for the enjoyment of planning and organising of the Technovate events, which to him was the best aspect . Through his experiences over the years he says, “Go out of your way to contribute as much as possible for the fest and donot limit yourselves to the role , Go beyond!”",
-    boldDesc: "Yash had two words for Technovate- Adventurous and exciting.",
+      "Having faced the disappointment of the previous edition's cancellation due to COVID, Ayush and his counterpart, Ketan, embraced the challenge, turning the edition into the best Technovate yet. Ayush's key takeaways included mastering time management and collaborating with a stellar team that thrived under pressure. His heartfelt advice for the team: have fun, relish the process, maintain unity across batches, and let go of any grudges. To the head coordinators, Ayush suggests fostering healthy competition with past editions, always aiming to elevate the fest beyond its previous glory. Here's to positivity, growth, and making each Technovate better than the last!",
+    boldDesc: "Ayush, our lead coordinator for Technovate 4.0, beamed with joy as he shared his experience organizing last year's fest.",
     about: [
-      "Yash Khare(2017-2021)",
-      "Outlook and Design (2018)",
-      "Student Coordinator (2019-2020)",
+      "Ayush Trikey (2019-2023)",
+      "Student Coordinator (2021-2022)",
     ],
   },
   {
-    imageAlt: "Nitin",
-    imageHref: "/blog/nitin.jpg",
+    imageAlt: "Ketan Agrawal",
+    imageHref: "/blog/ketan.jpeg",
     normalDesc:
-      "Technovate 2020, had one of the best line ups but also faced the worst of times due to the pandemic which ended in lockdown and cancellation of the fest just after the ‘7 days to go’ poster was revealed. Nitin was at the center, he was the head coordinator and a first hand witness of the hardships that the team went through.",
+      "Transitioning from the execution team, this marked his first step into event planning and this event would go on to be one of the best fests in the central region and have a footfall of more than 5000 people. He underscores the importance of taking on positions of responsibility, advising juniors and team members to embrace roles that teach leadership qualities beyond the scope of an average college experience. Ketan's heartfelt advice to the Technovate team is simple: Treat the fest like it's your own creation, pouring in dedication and pride. understanding that the real reward lies in the fest itself, as he fondly asserts, \"the fest is the best,\" encapsulating the genuine joy and reward found in the heart of the Technovate experience.",
     boldDesc:
-      "“Be confident and overconfident cause you are no longer a student, you are part of technovate.”",
+      "Ketan shares his Technovate journey as the head coordinator, and describes it as a mix of nerves and exhilaration. ",
     about: [
-      "Nitin Chandra (2017-2021)",
-      "Media Marketing (2018)",
-      "Student coordinator (2019-2020)",
+      "Ketan agrawal (2019-2023)",
+      "Student coordinator (2021-2022)",
     ],
   },
 ];
