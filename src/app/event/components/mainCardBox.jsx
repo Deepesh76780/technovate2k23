@@ -37,16 +37,14 @@ export default function EventCard({ store, rulebook }) {
         variants={item}
         className=" flex md:flex-row flex-col lg:justify-evenly justify-evenly  place-items-center w-full md:gap-0 gap-3"
       >
-        {rulebook && (
-          <a href={rulebook} target="_blank">
-            <button
-              className="text-white md:absolute md:right-32 hover:bg-white hover:text-black pb-0.5 relative hidden md:block md:top-10 border-2 px-2  md:text-[1rem] rounded-full text-[0.8rem]  cursor-pointer  transition-all duration-500"
-              title={"Event rules"}
-            >
-              General rule
-            </button>
-          </a>
-        )}
+        <a href={rulebook} target="_blank">
+          <button
+            className="text-white md:absolute md:right-32 hover:bg-white hover:text-black pb-0.5 relative hidden md:block md:top-10 border-2 px-2  md:text-[1rem] rounded-full text-[0.8rem]  cursor-pointer  transition-all duration-500"
+            title={"Event rules"}
+          >
+            General rule
+          </button>
+        </a>
         <button
           className="text-white md:absolute md:right-5 hover:bg-white hover:text-black pb-0.5 relative hidden md:block md:top-10 border-2 px-2  md:text-[1rem] rounded-full text-[0.8rem]  cursor-pointer  transition-all duration-500"
           title="go back"
@@ -90,15 +88,13 @@ export default function EventCard({ store, rulebook }) {
           </CardContent>
           <CardTitle className="flex flex-col items-start lg:text-base text-sm">
             <div className="flex md:gap-5 gap-3 mb-2">
-              {store.brochure && (
-                <a
-                  href={store.brochure}
-                  target="_blank"
-                  className="lg:text-base text-sm text-black bg-purple-300 p-1 rounded-2xl hover:bg-slate-50 px-3 hover:rounded-xl transition-all duration-700 font-Chakra  cursor-pointer no-underline"
-                >
-                  Rule Book
-                </a>
-              )}
+              <a
+                href={store.brochure}
+                target="_blank"
+                className="lg:text-base text-sm text-black bg-purple-300 p-1 rounded-2xl hover:bg-slate-50 px-3 hover:rounded-xl transition-all duration-700 font-Chakra  cursor-pointer no-underline"
+              >
+                Rule Book
+              </a>
               <a
                 href={store.register}
                 target="_blank"
@@ -123,16 +119,14 @@ export default function EventCard({ store, rulebook }) {
                 return <div key={index}>{item}</div>;
               })}
           </CardFooter>
-          {rulebook && (
-            <a href={rulebook} target="_blank">
-              <button
-                className="text-white md:hidden block hover:bg-white hover:text-black w-full mb-2 border-2 px-2   rounded-full text-[0.8rem]  cursor-pointer  transition-all duration-500"
-                title="go back"
-              >
-                General Rules
-              </button>
-            </a>
-          )}
+          <a href={rulebook} target="_blank">
+            <button
+              className="text-white md:hidden block hover:bg-white hover:text-black w-full mb-2 border-2 px-2   rounded-full text-[0.8rem]  cursor-pointer  transition-all duration-500"
+              title="go back"
+            >
+              General Rules
+            </button>
+          </a>
         </Card>
       </motion.div>
     </>
