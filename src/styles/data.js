@@ -803,6 +803,7 @@ export const volunteerData = [
       "Taran Pal Singh ",
       "Tejas keshwani ",
       "VAISHNAVI SHRIVASTAVA",
+      "Om Diwan"
     ],
   },
 
@@ -956,6 +957,7 @@ export const volunteerData = [
       "Aditya Kumar Nayak",
       "Garv Bajaj ",
       "Shubhang Nande",
+      "Anshumaan Karna"
     ],
   },
   {
