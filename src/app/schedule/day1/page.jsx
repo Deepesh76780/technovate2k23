@@ -1,88 +1,27 @@
-// import React from 'react'
-// import ScheduleTable from "../component/scheduleTable"
-
-// const day1 = [
-//     {
-//         "time": "9:00",
-//         "name": "jai shree ram",
-//         "venue": "ayodhiya",
-//         "about": "mandir"
-//     },
-//     {
-//         "time": "9:15",
-//         "name": "Event 2",
-//         "venue": "Location 2",
-//         "about": "Description 2"
-//     },
-//     {
-//         "time": "9:30",
-//         "name": "Event 3",
-//         "venue": "Location 3",
-//         "about": "Description 3"
-//     },
-//     {
-//         "time": "9:45",
-//         "name": "Event 4",
-//         "venue": "Location 4",
-//         "about": "Description 4"
-//     },
-//     {
-//         "time": "10:00",
-//         "name": "Event 5",
-//         "venue": "Location 5",
-//         "about": "Description 5"
-//     },
-//     {
-//         "time": "10:15",
-//         "name": "Event 6",
-//         "venue": "Location 6",
-//         "about": "Description 6"
-//     },
-//     {
-//         "time": "10:30",
-//         "name": "Event 7",
-//         "venue": "Location 7",
-//         "about": "Description 7"
-//     },
-//     {
-//         "time": "10:45",
-//         "name": "Event 8",
-//         "venue": "Location 8",
-//         "about": "Description 8"
-//     },
-//     {
-//         "time": "11:00",
-//         "name": "Event 9",
-//         "venue": "Location 9",
-//         "about": "Description 9"
-//     },
-//     {
-//         "time": "11:15",
-//         "name": "Event 10",
-//         "venue": "Location 10",
-//         "about": "Description 10"
-//     }
-// ]
+"use client";
+import { Suspense } from "react";
+import { Html, useProgress } from '@react-three/drei'
+import { Canvas } from "@react-three/fiber";
+import { Environment } from "@react-three/drei";
+import Model from "./model";
 
 
 
-// const Page = () => {
-//     return (
-//         <ScheduleTable data={day1} />
-//     )
-// }
+function Loader() {
+  const { progress } = useProgress()
+  return <Html center>{progress.toFixed()}%</Html>
+}
 
-// export default Page
 
-import React from "react";
-import ComingSoonText from "../../components/comingSoon";
-
-const Page = () => {
+const Home = () => {
   return (
-    <div className="flex  custom  flex-wrap gap-2 lg:gap-10 justify-center mx-auto w-fit">
-      <ComingSoonText />
-    </div>
+      <Canvas>
+        <Suspense fallback={<Loader />}>
+          <Model/>
+          <Environment preset="sunset"  />
+        </Suspense>
+      </Canvas>
   );
 };
 
-export default Page;
+export default Home;
