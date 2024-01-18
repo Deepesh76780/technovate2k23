@@ -319,7 +319,7 @@ export const culturalEvent = [
   },
   {
     SNO: 3,
-    Event: "Singing Contest (Solo and Duet)",
+    Event: "Singing Contest",
     Event_Heads: ["Anoushka Koul - 8449194200", "Mohd. Kaif - 9727833388"],
     Distribution: [
       "1st Prize : ₹7000",
@@ -336,38 +336,37 @@ export const culturalEvent = [
     brochure:
       "https://drive.google.com/file/d/1Fzh4O1bbiPaQjIBD5iqse_Z8MCg-R2_4/view?usp=drive_link",
   },
+  // {
+  //   SNO: 4,
+  //   Event: "Dance Battle (Solo and Duet)",
+  //   Event_Heads: [
+  //     "Aryan Kumar Baghel - 7000978867",
+  //     "Ramarakshith Katta - 7036422159",
+  //   ],
+  //   Distribution: [
+  //     "1st Prize : ₹6000",
+  //     "2nd Prize : ₹4000",
+  //     "3rd Prize : ₹2000",
+  //   ],
+  //   No_of_Team_Mem: [1, 2],
+  //   imgUrl: "/events/cultural/Dance.jpg",
+  //   Mode: "Offline",
+  //   about: "...",
+  //   register:
+  //     "https://unstop.com/p/dance-battle-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-859684",
+  //   brochure:
+  //     "https://drive.google.com/file/d/11iOoA9An9Np86a8z1T9pDHvCScCDBkBM/view?usp=drive_link",
+  // },
   {
     SNO: 4,
-    Event: "Dance Battle (Solo and Duet)",
+    Event: "Dance Battle",
     Event_Heads: [
       "Aryan Kumar Baghel - 7000978867",
       "Ramarakshith Katta - 7036422159",
     ],
     Distribution: [
-      "1st Prize : ₹6000",
-      "2nd Prize : ₹4000",
-      "3rd Prize : ₹2000",
-    ],
-    No_of_Team_Mem: [1, 2],
-    imgUrl: "/events/cultural/Dance.jpg",
-    Mode: "Offline",
-    about: "...",
-    register:
-      "https://unstop.com/p/dance-battle-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-859684",
-    brochure:
-      "https://drive.google.com/file/d/11iOoA9An9Np86a8z1T9pDHvCScCDBkBM/view?usp=drive_link",
-  },
-  {
-    SNO: 5,
-    Event: "Dance Battle (Group)",
-    Event_Heads: [
-      "Aryan Kumar Baghel - 7000978867",
-      "Ramarakshith Katta - 7036422159",
-    ],
-    Distribution: [
-      "1st Prize : ₹7000",
-      "2nd Prize : ₹5000",
-      "3rd Prize : ₹3000",
+      "solo & duet - 10K+ worth",
+      "group dance - 15k+ worth",
     ],
     No_of_Team_Mem: null,
     Mode: "Offline",
@@ -380,7 +379,7 @@ export const culturalEvent = [
       "https://drive.google.com/file/d/11iOoA9An9Np86a8z1T9pDHvCScCDBkBM/view?usp=drive_link",
   },
   {
-    SNO: 6,
+    SNO: 5,
     Event: "Nukkad Natak Contest",
     Event_Heads: ["Swastika Satya", "Krishna Agrawal"],
     Distribution: [
@@ -398,7 +397,7 @@ export const culturalEvent = [
       "https://drive.google.com/file/d/14yYxsYWBb5nwVLY2go8HxJ0C0fNblSMW/view?usp=drive_link",
   },
   {
-    SNO: 7,
+    SNO: 6,
     Event: "Battle of Bands Event",
     Event_Heads: [
       "Priyanshu Srivastava - 9935062012",
@@ -420,7 +419,7 @@ export const culturalEvent = [
       "https://drive.google.com/file/d/1X16tESC-iJLBsa_cWnQOD95HtgUN9FuA/view?usp=drive_link",
   },
   {
-    SNO: 8,
+    SNO: 7,
     Event: "Fashion Show Contest",
     Event_Heads: [
       "Anjali Daheriya  - 9301465728",
@@ -442,7 +441,7 @@ export const culturalEvent = [
       "https://drive.google.com/file/d/11quQzIEycD5UjCEHir-_mnDIqxoc8k51/view?usp=drive_link",
   },
   {
-    SNO: 9,
+    SNO: 8,
     Event: "Public Speaking Event",
     Event_Heads: ["Kanika Malhotra - 8809374054", "Shreya Tiwari - 9425511225"],
     Distribution: [
@@ -671,7 +670,7 @@ export const sportsEvent = [
       "Neha Dhruw - 7828213923",
     ],
     Distribution: ["₹3000"],
-    Mode: "Offline",
+    Mode: "Online",
     about:
       "https://unstop.com/p/chess-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-859762",
     brochure:
@@ -906,7 +905,7 @@ export const volunteerData = [
     ],
   },
   {
-    name: "Parternship Team",
+    name: "Partnership Team",
     data: [
       "Aniket Pandey",
       "Ashutosh Jaiswal",
