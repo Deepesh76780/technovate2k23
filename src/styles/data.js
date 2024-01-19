@@ -276,6 +276,20 @@ export const organizingCommite = [
 
 export const culturalEvent = [
   {
+    SNO: 4,
+    Event: "Comic-Expo",
+    Distribution: ["Worth ₹15,000"],
+    imgUrl: "/events/comicon.png",
+    Event_Heads: ["Satvik - 8933827069", "Aseem - 9168807828"],
+    about:
+      "Dive into the exciting world of pop culture as IIIT NR proudly presents the first-ever Comic Convention Carnival in Central India! Featuring an exhilarating Cosplay event, book fair, and many more attractions to bring your favorite characters to life.",
+    Mode: "Offline",
+    register:
+      "https://unstop.com/events/comic-expo-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-867092",
+    brochure:
+      "https://drive.google.com/file/d/1-fchoHikBoA4WkOZXTgDTXPBEWCxYLzP/view",
+  },
+  {
     SNO: 1,
     Event: "Photography contest",
     Event_Heads: [
@@ -608,7 +622,10 @@ export const blogData = [
       "Having faced the disappointment of the previous edition's cancellation due to COVID, Ayush and his counterpart, Ketan, embraced the challenge, turning the edition into the best Technovate yet. Ayush's key takeaways included mastering time management and collaborating with a stellar team that thrived under pressure. His heartfelt advice for the team: have fun, relish the process, maintain unity across batches, and let go of any grudges. To the head coordinators, Ayush suggests fostering healthy competition with past editions, always aiming to elevate the fest beyond its previous glory. Here's to positivity, growth, and making each Technovate better than the last!",
     boldDesc:
       "Ayush, our lead coordinator for Technovate 4.0, beamed with joy as he shared his experience organizing last year's fest.",
-    about: ["Ayush Trikey (Batch 2019-2023)", "Student Coordinator (2021-2022)"],
+    about: [
+      "Ayush Trikey (Batch 2019-2023)",
+      "Student Coordinator (2021-2022)",
+    ],
   },
   {
     imageAlt: "Ketan Agrawal",
@@ -617,7 +634,10 @@ export const blogData = [
       "Transitioning from the execution team, this marked his first step into event planning and this event would go on to be one of the best fests in the central region and have a footfall of more than 5000 people. He underscores the importance of taking on positions of responsibility, advising juniors and team members to embrace roles that teach leadership qualities beyond the scope of an average college experience. Ketan's heartfelt advice to the Technovate team is simple: Treat the fest like it's your own creation, pouring in dedication and pride. understanding that the real reward lies in the fest itself, as he fondly asserts, \"the fest is the best,\" encapsulating the genuine joy and reward found in the heart of the Technovate experience.",
     boldDesc:
       "Ketan shares his Technovate journey as the head coordinator, and describes it as a mix of nerves and exhilaration. ",
-    about: ["Ketan agrawal (Batch 2019-2023)", "Student coordinator (2021-2022)"],
+    about: [
+      "Ketan agrawal (Batch 2019-2023)",
+      "Student coordinator (2021-2022)",
+    ],
   },
 ];
 
