@@ -306,8 +306,6 @@ export const culturalEvent = [
       "1st Prize : ₹3000",
       "2nd Prize : ₹2000",
       "3rd Prize : ₹1000",
-      "Banner Standees : ₹500",
-      "Arena Requirements : ₹500",
     ],
     No_of_Team_Mem: [1, null],
     Mode: "Hybrid",
@@ -364,10 +362,7 @@ export const culturalEvent = [
       "Aryan Kumar Baghel - 7000978867",
       "Ramarakshith Katta - 7036422159",
     ],
-    Distribution: [
-      "solo & duet - 10K+ worth",
-      "group dance - 15k+ worth",
-    ],
+    Distribution: ["solo & duet - 10K+ worth", "group dance - 15k+ worth"],
     No_of_Team_Mem: null,
     Mode: "Offline",
     imgUrl: "/events/cultural/Dance.jpg",
@@ -462,16 +457,32 @@ export const culturalEvent = [
 
 export const technicalEvent = [
   {
+    SNO: 10,
+    Event: "AlgoSprint",
+    imgUrl: "/events/technical/algosprint_mobile.png",
+    Distribution: ["Worth ₹10,000"],
+    Event_Heads: [
+      "Shivaibhav Dewangan - 8602237007",
+      "Gaurish Ojha - 6394079252",
+    ],
+    about: "AlgoSprint: Code, Compete, Conquer!",
+    Mode: "Online",
+    register:
+      "https://unstop.com/p/algo-sprint-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-854928",
+    brochure:
+      "https://drive.google.com/file/d/1WRPNjBlxiiUwzu2RJ_NSyX7K2u8JBWrO/view?usp=drive_link",
+  },
+  {
     SNO: 1,
     Event: "Wall Street Waltz",
     imgUrl: "/events/technical/wall street waltz(mobile).png",
     Event_Heads: ["Ravil Patel - 9893043231", "Abhinav Roy - 7974751882"],
-    Distribution: ["₹5000"],
+    Distribution: ["Worth ₹5000"],
     Mode: "Online",
     about:
       'Test your trading mettle in "Wall Street Waltz": a solo virtual stock market competition on StockGro, where the greenest portfolio wins!',
     register:
-      "https://unstop.com/p/wall-street-waltz-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-860893",
+      "https://community.stockgro.club/form/d29624b1-2def-42fc-9809-973d5b50c4c8",
     brochure: "",
   },
   {
@@ -481,7 +492,7 @@ export const technicalEvent = [
       "Ashutosh Jaiswal - 9129093900",
       "Karan Agrawal - 7077183484",
     ],
-    Distribution: ["₹10000"],
+    Distribution: ["Worth ₹10000"],
     Mode: "Offline",
     imgUrl: "/events/technical/venture vista(mobile).png",
     about:
@@ -494,7 +505,7 @@ export const technicalEvent = [
   {
     SNO: 3,
     Event: "SpeedRun",
-    Distribution: ["₹10000"],
+    Distribution: ["Worth ₹10000"],
     Event_Heads: ["Vineet - 9893395818", "Dhyanendra Tripathi - 7355206518"],
     imgUrl: "/events/technical/speedrun(mobile).png",
     Mode: "Offline",
@@ -508,7 +519,7 @@ export const technicalEvent = [
   {
     SNO: 4,
     Event: "Robolution",
-    Distribution: ["₹40000"],
+    Distribution: ["Worth ₹40000"],
     Event_Heads: [
       "Lakshya Garg - 9818791666",
       "Bhavesh Gyanchandani - 9834304932",
@@ -518,12 +529,13 @@ export const technicalEvent = [
     about: "Tech meets tact: simple robots, epic clashes",
     register:
       "https://unstop.com/p/robolution-20-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-854013",
-    brochure:"https://drive.google.com/file/d/1xq4uXbmwc8NcYX6dtk2W5Eaf4ntyqg6p/view?usp=drive_link"
+    brochure:
+      "https://drive.google.com/file/d/1xq4uXbmwc8NcYX6dtk2W5Eaf4ntyqg6p/view?usp=drive_link",
   },
   {
     SNO: 5,
     Event: "DataPunk",
-    Distribution: ["₹10000"],
+    Distribution: ["Worth ₹10000"],
     imgUrl: "/events/technical/datapunk(mobile).png",
     Event_Heads: ["Sanskar Singh - 7000486098", "Sanchit Namdeo - 8989846583"],
     Mode: "Online",
@@ -536,7 +548,7 @@ export const technicalEvent = [
   {
     SNO: 6,
     Event: "Wired Wizardry",
-    Distribution: ["₹10000"],
+    Distribution: ["Worth ₹10000"],
     imgUrl: "/events/technical/WIRED_mobile.png",
     Event_Heads: ["Ishita Tegar - 8349402003", "Karthik - 7842757138"],
     about: "Wire up your wizardry, let circuits cast the spell of innovation!",
@@ -549,7 +561,7 @@ export const technicalEvent = [
   {
     SNO: 7,
     Event: "Hack-o-Harbour",
-    Distribution: ["₹34500"],
+    Distribution: ["Worth ₹34500"],
     imgUrl: "/events/technical/hack-o-harbour_mobile.png",
     Event_Heads: ["Alankrit Sharma - 7376961118", "Vandit Tyagi - 7840073450"],
     about: "Decipher, Develop, Dominate: Hack the Harbour",
@@ -562,7 +574,7 @@ export const technicalEvent = [
   {
     SNO: 8,
     Event: "Quiz Runner 2049",
-    Distribution: ["₹8500"],
+    Distribution: ["Worth ₹8500"],
     imgUrl: "/events/technical/quizrunner_mobile.png",
     Event_Heads: ["Ayush Yadav - 8529133411", "Harsh Shrivastava - 9907882155"],
     about: "BrainWave: Where Minds Collide in the Ultimate Quiz Odyssey!",
@@ -576,7 +588,7 @@ export const technicalEvent = [
   {
     SNO: 9,
     Event: "Unlock The Technoverse",
-    Distribution: ["₹10,000"],
+    Distribution: ["Worth ₹10,000"],
     imgUrl: "/events/technical/CTF_mobile.png",
     Event_Heads: ["Aman Sahu - 95844 84662", "V. Jashwanth - 8919891146"],
     about: "Unlock the Technoverse: Catch The Flag(CTF)",
@@ -586,22 +598,6 @@ export const technicalEvent = [
     brochure:
       "https://drive.google.com/file/d/18s0T6zaphLr9YUxpgFjXtDD6Lfq4x4uO/view?usp=drive_link",
   },
-  {
-    SNO: 10,
-    Event: "AlgoSprint",
-    imgUrl: "/events/technical/algosprint_mobile.png",
-    Distribution: ["₹10,000"],
-    Event_Heads: [
-      "Shivaibhav Dewangan - 8602237007",
-      "Gaurish Ojha - 6394079252",
-    ],
-    about: "AlgoSprint: Code, Compete, Conquer!",
-    Mode: "Offline",
-    register:
-      "https://unstop.com/p/algo-sprint-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-854928",
-    brochure:
-      "https://drive.google.com/file/d/1WRPNjBlxiiUwzu2RJ_NSyX7K2u8JBWrO/view?usp=drive_link",
-  },
 ];
 
 export const blogData = [
@@ -610,11 +606,9 @@ export const blogData = [
     imageHref: "/blog/ayush.jpeg",
     normalDesc:
       "Having faced the disappointment of the previous edition's cancellation due to COVID, Ayush and his counterpart, Ketan, embraced the challenge, turning the edition into the best Technovate yet. Ayush's key takeaways included mastering time management and collaborating with a stellar team that thrived under pressure. His heartfelt advice for the team: have fun, relish the process, maintain unity across batches, and let go of any grudges. To the head coordinators, Ayush suggests fostering healthy competition with past editions, always aiming to elevate the fest beyond its previous glory. Here's to positivity, growth, and making each Technovate better than the last!",
-    boldDesc: "Ayush, our lead coordinator for Technovate 4.0, beamed with joy as he shared his experience organizing last year's fest.",
-    about: [
-      "Ayush Trikey (2019-2023)",
-      "Student Coordinator (2021-2022)",
-    ],
+    boldDesc:
+      "Ayush, our lead coordinator for Technovate 4.0, beamed with joy as he shared his experience organizing last year's fest.",
+    about: ["Ayush Trikey (Batch 2019-2023)", "Student Coordinator (2021-2022)"],
   },
   {
     imageAlt: "Ketan Agrawal",
@@ -623,10 +617,7 @@ export const blogData = [
       "Transitioning from the execution team, this marked his first step into event planning and this event would go on to be one of the best fests in the central region and have a footfall of more than 5000 people. He underscores the importance of taking on positions of responsibility, advising juniors and team members to embrace roles that teach leadership qualities beyond the scope of an average college experience. Ketan's heartfelt advice to the Technovate team is simple: Treat the fest like it's your own creation, pouring in dedication and pride. understanding that the real reward lies in the fest itself, as he fondly asserts, \"the fest is the best,\" encapsulating the genuine joy and reward found in the heart of the Technovate experience.",
     boldDesc:
       "Ketan shares his Technovate journey as the head coordinator, and describes it as a mix of nerves and exhilaration. ",
-    about: [
-      "Ketan agrawal (2019-2023)",
-      "Student coordinator (2021-2022)",
-    ],
+    about: ["Ketan agrawal (Batch 2019-2023)", "Student coordinator (2021-2022)"],
   },
 ];
 
@@ -636,7 +627,7 @@ export const sportsEvent = [
     Event: "Badminton",
     imgUrl: "/events/sports/Badminton.PNG",
     Event_Heads: ["Ravi Vinayak - 9302710832", "Aditya Jha - 8629992740"],
-    Distribution: ["₹15000"],
+    Distribution: ["Worth ₹15000"],
     Mode: "Offline",
     about: "",
     register:
@@ -652,7 +643,7 @@ export const sportsEvent = [
       "Ravikant Shrinivas - 7694039081",
       "Rahul Meshram - 7646908233",
     ],
-    Distribution: ["₹10000"],
+    Distribution: ["Worth ₹10000"],
     Mode: "Offline",
     about: "",
     register:
@@ -669,7 +660,7 @@ export const sportsEvent = [
       "Yashraj - 6203763329",
       "Neha Dhruw - 7828213923",
     ],
-    Distribution: ["₹3000"],
+    Distribution: ["Worth ₹3000"],
     Mode: "Online",
     about:
       "https://unstop.com/p/chess-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-859762",
@@ -685,7 +676,7 @@ export const sportsEvent = [
       "Yashraj - 6203763329",
       "Deependra - 6260613425",
     ],
-    Distribution: ["₹10000"],
+    Distribution: ["Worth ₹10000"],
     Mode: "Offline",
     about: "",
     register:
@@ -702,7 +693,7 @@ export const sportsEvent = [
       "Kusum Patel - 6304446282",
       "Arnav Pandey - 8287305782",
     ],
-    Distribution: ["₹6000"],
+    Distribution: ["Worth ₹6000"],
     Mode: "Offline",
     about: "",
     register:
@@ -719,7 +710,7 @@ export const sportsEvent = [
       "Yashraj - 6203763329",
       "Neha Dhruw - 7828213923",
     ],
-    Distribution: ["₹10000"],
+    Distribution: ["Worth ₹10000"],
     Mode: "Offline",
     about: "",
     register:
@@ -732,7 +723,7 @@ export const sportsEvent = [
     Event: "BGMI",
     imgUrl: "/events/sports/BGMI.PNG",
     Event_Heads: ["Apurva - 9752593689", "Ojash - 9359525156"],
-    Distribution: ["₹3500"],
+    Distribution: ["Worth ₹3500"],
     Mode: "Online",
     about: "",
     register:
@@ -745,7 +736,7 @@ export const sportsEvent = [
     Event: "Valorant",
     imgUrl: "/events/sports/Valorant.PNG",
     Event_Heads: ["Apurva - 9752593689", "Ojash - 9359525156"],
-    Distribution: ["₹5000"],
+    Distribution: ["Worth ₹5000"],
     Mode: "Online",
     about: "",
     register:
@@ -802,7 +793,7 @@ export const volunteerData = [
       "Taran Pal Singh ",
       "Tejas keshwani ",
       "VAISHNAVI SHRIVASTAVA",
-      "Om Diwan"
+      "Om Diwan",
     ],
   },
 
@@ -956,7 +947,7 @@ export const volunteerData = [
       "Aditya Kumar Nayak",
       "Garv Bajaj ",
       "Shubhang Nande",
-      "Anshumaan Karna"
+      "Anshumaan Karna",
     ],
   },
   {
