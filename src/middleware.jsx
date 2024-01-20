@@ -26,10 +26,10 @@ export async function generateMetadata({ params }) {
 }
 
 export function middleware(request) {
-  const url = request.nextUrl.clone();
-  url.pathname = "/";
-  if (request.nextUrl.pathname === "/event") {
-    return NextResponse.redirect(url);
+const url = request.nextUrl.clone()
+url.pathname = '/'
+  if (request.nextUrl.pathname==='/events') {
+    return NextResponse.redirect(url)
   }
   return NextResponse.next();
 }
