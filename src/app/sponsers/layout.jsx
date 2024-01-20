@@ -6,8 +6,8 @@ export const metadata = {
 
 
 const sponsershipLinks = [
-  { name: 'Sponser', href: '/sponsers/overall_sponser' },
-  { name: 'Event Sponser', href: '/sponsers/event_sponser' },
+  { name: 'Sponsers', href: '/sponsers/overall_sponser' },
+  { name: 'Event Sponsers', href: '/sponsers/event_sponser' },
 ];
 
 export default function SponserLayout({ children }) {
