@@ -27,6 +27,7 @@ export default function SponserCard({ sponserdata }) {
           height={1500}
           className="w-full h-48 md:h-52 scale-125 hover:scale-100 transition-all duration-300 object-fill"
           alt={sponserdata.name}
+          priority
         />
         <CardFooter className="bg-emerald-400 py-1 tracking-wider text-[0.7rem] md:text-xs w-full">
           <p className="truncate mx-auto font-Orbitron ">{sponserdata.sub}</p>

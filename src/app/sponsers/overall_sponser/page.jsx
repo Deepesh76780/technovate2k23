@@ -9,15 +9,14 @@ export default async function Sponsers() {
     <>
       {sponsers.map((item, index) => {
         return (
-          <div className="align-center w-full">
-            <div className="my-8 md:my-16 w-full">
+          <div className="align-center w-full h-full ">
+            <div className="w-full m-2 mb-8">
               <h1 className="text-4xl font-bold text-center font-glitch text-emerald-300">
                 {item.tier}
               </h1>
             </div>
-
             {item.data.length ? (
-              <div className="flex flex-col md:flex md:flex-row w-full justify-evenly items-center content-center">
+              <div className="flex flex-row w-full gap-14  justify-center">
                 {item.data.map((item, index) => {
                   return <SponserCard sponserdata={item} key={item.name} />;
                 })}
