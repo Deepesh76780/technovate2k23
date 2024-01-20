@@ -16,7 +16,7 @@ export default async function Sponsers() {
               </h1>
             </div>
             {item.data.length ? (
-              <div className="flex flex-row w-full gap-14  justify-center">
+              <div className="flex flex-col md:flex md:flex-row w-full justify-center gap-14  items-center content-center">
                 {item.data.map((item, index) => {
                   return <SponserCard sponserdata={item} key={item.name} />;
                 })}
