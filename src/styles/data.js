@@ -960,3 +960,30 @@ export const volunteerData = [
     ],
   },
 ];
+export const sponsers = [
+  // { tier: "Title Sponsor", data: [] },
+  // { tier: "Associate Sponsers", data: [] },
+  // { tier: "Platinum Sponsers", data: [] },
+  // { tier: "Gold Sponsers", data: [] },
+  // { tier: "Silver Sponsers", data: [] },
+  {
+    tier: "Specail Partners",
+    data: [
+      {
+        name: "WorkZera",
+        logo: "/sponsers/WZ.png",
+        sub: "Development Partner",
+      },
+      {
+        name: "Sargam",
+        logo: "/sponsers/sargam.png",
+        sub: "Musical Partner",
+      },
+    ],
+  },
+];
+export const eventSponsers = [
+  { name: "Stockgro", sub: "Wall Street Wiltz", logo: "/sponsers/stockGro.png" },
+  { name: "Geek-for-Geeks", sub: "AlgoSprint", logo: "/sponsers/gfg.jpeg" },
+  { name: "Decathlon", sub: "Sports Events", logo: "/sponsers/decathlon.png" },
+];

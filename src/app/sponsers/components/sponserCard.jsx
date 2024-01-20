@@ -1,47 +1,42 @@
-"use client"
-import React from 'react'
-import {
-    Card,
-    CardFooter,
-    CardTitle
-} from "@/components/ui/card"
-import Image from 'next/image'
-import { motion } from "framer-motion"
+"use client";
+import React from "react";
+import { Card, CardFooter } from "@/components/ui/card";
+import Image from "next/image";
+import { motion } from "framer-motion";
 
-export default function SponserCard({ sponserName }) {
+export default function SponserCard({ sponserdata }) {
+  const item = {
+    hidden: {
+      opacity: 0,
+    },
+    show: {
+      opacity: 1,
+      transition: {
+        stiffness: 260,
+        duration: 2,
+      },
+    },
+  };
 
-    const item = {
-        hidden: {
-            opacity: 0,
-        },
-        show: {
-            opacity: 1,
-            transition: {
-                stiffness: 260,
-                duration: 2
-            }
-        }
-
-    }
-
-    return (
-        <motion.div
-            variants={item}
-            animate="show"
-            initial="hidden"
-        >
-            <Card className="text-center card shadow-inner border-2 hover:shadow-emerald-600 w-32 md:h-40 h-32 overflow-hidden  transition-all duration-300">
-                <CardTitle className='relative w-full h-[90%] '>
-                    <Image
-                        src={"/past_star_images/ash_king.png"}
-                        alt={"Sponsers Card"}
-                        fill
-                    />
-                </CardTitle>
-                <CardFooter className="mx-auto justify-center font-cyberstar font-medium tracking-widest uppercase bg-emerald-300 p-1 text-sm h-[10%] w-full">
-                    {sponserName}
-                </CardFooter>
-            </Card>
-        </motion.div>
-    )
+  return (
+    <motion.div variants={item} animate="show" initial="hidden">
+      <Card className="text-center shadow-md overflow-hidden  w-64  transition-all duration-300 rounded">
+        <Image
+          src={sponserdata.logo}
+          width={1500}
+          height={1500}
+          className="w-full h-48 md:h-52 scale-125 hover:scale-100 transition-all duration-300 object-fill"
+          alt={sponserdata.name}
+        />
+        <CardFooter className="bg-emerald-400 py-1 tracking-wider text-[0.7rem] md:text-xs w-full">
+          <p className="truncate mx-auto font-Orbitron ">{sponserdata.sub}</p>
+        </CardFooter>
+        <CardFooter className="mx-auto font-cyberstar  uppercase bg-emerald-400 p-1 px-5 text-xs md:text-[0.8rem] w-full">
+          <p className="mx-auto font-blackop line-clamp-2 h-[32px] flex items-center justify-center">
+            {sponserdata.name}
+          </p>
+        </CardFooter>
+      </Card>
+    </motion.div>
+  );
 }

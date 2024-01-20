@@ -1,9 +1,13 @@
-"use client"
+"use client";
 import React from "react";
-import ComingSoonText from "../../components/comingSoon"
-import SponserCard from "../components/sponserCard"
+import SponserCard from "../components/sponserCard";
+import { eventSponsers } from "../../../styles/data";
 export default async function Sponsers() {
-    return (
-        <ComingSoonText/>
-    );
+  return (
+    <>
+      {eventSponsers.map((item, index) => {
+        return <SponserCard sponserdata={item} key={item.name} />;
+      })}
+    </>
+  );
 }
