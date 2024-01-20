@@ -17,7 +17,7 @@ export default async function Sponsers() {
             </div>
 
             {item.data.length ? (
-              <div className="flex flex-row w-full justify-evenly">
+              <div className="flex flex-col md:flex md:flex-row w-full justify-evenly items-center content-center">
                 {item.data.map((item, index) => {
                   return <SponserCard sponserdata={item} key={item.name} />;
                 })}
