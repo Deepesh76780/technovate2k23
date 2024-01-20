@@ -430,7 +430,7 @@ export const culturalEvent = [
   },
   {
     SNO: 9,
-    Event: "Public Speaking Event",
+    Event: "Orators Conclave",
     Event_Heads: ["Kanika Malhotra - 8809374054", "Shreya Tiwari - 9425511225"],
     Distribution: [
       "1st Prize : ₹8000",
