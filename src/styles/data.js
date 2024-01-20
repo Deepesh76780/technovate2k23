@@ -276,10 +276,10 @@ export const organizingCommite = [
 
 export const culturalEvent = [
   {
-    SNO: 4,
+    SNO: 1,
     Event: "Comic-Expo",
     Distribution: ["Worth ₹15,000"],
-    imgUrl: "/events/comicon.png",
+    imgUrl: "/events/cultural/comicon.png",
     Event_Heads: ["Satvik - 8933827069", "Aseem - 9168807828"],
     about:
       "Dive into the exciting world of pop culture as IIIT NR proudly presents the first-ever Comic Convention Carnival in Central India! Featuring an exhilarating Cosplay event, book fair, and many more attractions to bring your favorite characters to life.",
@@ -290,7 +290,7 @@ export const culturalEvent = [
       "https://drive.google.com/file/d/1-fchoHikBoA4WkOZXTgDTXPBEWCxYLzP/view",
   },
   {
-    SNO: 1,
+    SNO: 2,
     Event: "Photography contest",
     Event_Heads: [
       "Debashish Padhy - 8374344812",
@@ -312,7 +312,7 @@ export const culturalEvent = [
       "https://drive.google.com/file/d/1fb2Cbr3C64Rq5-2h-lG7wKgewS3v8m3o/view?usp=sharing",
   },
   {
-    SNO: 2,
+    SNO: 3,
     Event: "Art and Sketching Event",
     Event_Heads: ["Shalini Singh - 9893018267", "Are Koushik -  8465017840"],
     imgUrl: "/events/cultural/ASM.png",
@@ -330,7 +330,7 @@ export const culturalEvent = [
       "https://drive.google.com/file/d/1P4vxLzL-0M7loQzgqfCnh3ljWRLIYkZy/view?usp=drive_link",
   },
   {
-    SNO: 3,
+    SNO: 4,
     Event: "Singing Contest",
     Event_Heads: ["Anoushka Koul - 8449194200", "Mohd. Kaif - 9727833388"],
     Distribution: [
@@ -348,29 +348,8 @@ export const culturalEvent = [
     brochure:
       "https://drive.google.com/file/d/1Fzh4O1bbiPaQjIBD5iqse_Z8MCg-R2_4/view?usp=drive_link",
   },
-  // {
-  //   SNO: 4,
-  //   Event: "Dance Battle (Solo and Duet)",
-  //   Event_Heads: [
-  //     "Aryan Kumar Baghel - 7000978867",
-  //     "Ramarakshith Katta - 7036422159",
-  //   ],
-  //   Distribution: [
-  //     "1st Prize : ₹6000",
-  //     "2nd Prize : ₹4000",
-  //     "3rd Prize : ₹2000",
-  //   ],
-  //   No_of_Team_Mem: [1, 2],
-  //   imgUrl: "/events/cultural/Dance.jpg",
-  //   Mode: "Offline",
-  //   about: "...",
-  //   register:
-  //     "https://unstop.com/p/dance-battle-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-859684",
-  //   brochure:
-  //     "https://drive.google.com/file/d/11iOoA9An9Np86a8z1T9pDHvCScCDBkBM/view?usp=drive_link",
-  // },
   {
-    SNO: 4,
+    SNO: 5,
     Event: "Dance Battle",
     Event_Heads: [
       "Aryan Kumar Baghel - 7000978867",
@@ -388,7 +367,7 @@ export const culturalEvent = [
       "https://drive.google.com/file/d/11iOoA9An9Np86a8z1T9pDHvCScCDBkBM/view?usp=drive_link",
   },
   {
-    SNO: 5,
+    SNO: 6,
     Event: "Nukkad Natak Contest",
     Event_Heads: ["Swastika Satya", "Krishna Agrawal"],
     Distribution: [
@@ -406,7 +385,7 @@ export const culturalEvent = [
       "https://drive.google.com/file/d/14yYxsYWBb5nwVLY2go8HxJ0C0fNblSMW/view?usp=drive_link",
   },
   {
-    SNO: 6,
+    SNO: 7,
     Event: "Battle of Bands Event",
     Event_Heads: [
       "Priyanshu Srivastava - 9935062012",
@@ -428,7 +407,7 @@ export const culturalEvent = [
       "https://drive.google.com/file/d/1X16tESC-iJLBsa_cWnQOD95HtgUN9FuA/view?usp=drive_link",
   },
   {
-    SNO: 7,
+    SNO: 8,
     Event: "Fashion Show Contest",
     Event_Heads: [
       "Anjali Daheriya  - 9301465728",
@@ -450,7 +429,7 @@ export const culturalEvent = [
       "https://drive.google.com/file/d/11quQzIEycD5UjCEHir-_mnDIqxoc8k51/view?usp=drive_link",
   },
   {
-    SNO: 8,
+    SNO: 9,
     Event: "Public Speaking Event",
     Event_Heads: ["Kanika Malhotra - 8809374054", "Shreya Tiwari - 9425511225"],
     Distribution: [
@@ -470,22 +449,7 @@ export const culturalEvent = [
 ];
 
 export const technicalEvent = [
-  {
-    SNO: 10,
-    Event: "AlgoSprint",
-    imgUrl: "/events/technical/algosprint_mobile.png",
-    Distribution: ["Worth ₹10,000"],
-    Event_Heads: [
-      "Shivaibhav Dewangan - 8602237007",
-      "Gaurish Ojha - 6394079252",
-    ],
-    about: "AlgoSprint: Code, Compete, Conquer!",
-    Mode: "Online",
-    register:
-      "https://unstop.com/p/algo-sprint-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-854928",
-    brochure:
-      "https://drive.google.com/file/d/1WRPNjBlxiiUwzu2RJ_NSyX7K2u8JBWrO/view?usp=drive_link",
-  },
+
   {
     SNO: 1,
     Event: "Wall Street Waltz",
@@ -611,6 +575,22 @@ export const technicalEvent = [
       "https://unstop.com/p/unlock-the-technoverse-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-854934",
     brochure:
       "https://drive.google.com/file/d/18s0T6zaphLr9YUxpgFjXtDD6Lfq4x4uO/view?usp=drive_link",
+  },
+  {
+    SNO: 10,
+    Event: "AlgoSprint",
+    imgUrl: "/events/technical/algosprint_mobile.png",
+    Distribution: ["Worth ₹10,000"],
+    Event_Heads: [
+      "Shivaibhav Dewangan - 8602237007",
+      "Gaurish Ojha - 6394079252",
+    ],
+    about: "AlgoSprint: Code, Compete, Conquer!",
+    Mode: "Online",
+    register:
+      "https://unstop.com/p/algo-sprint-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-854928",
+    brochure:
+      "https://drive.google.com/file/d/1WRPNjBlxiiUwzu2RJ_NSyX7K2u8JBWrO/view?usp=drive_link",
   },
 ];
 
