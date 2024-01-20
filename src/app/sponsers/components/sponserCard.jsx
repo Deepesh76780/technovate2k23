@@ -20,7 +20,7 @@ export default function SponserCard({ sponserdata }) {
 
   return (
     <motion.div variants={item} animate="show" initial="hidden">
-      <Card className="text-center shadow-md overflow-hidden  w-64  transition-all duration-300 rounded">
+      <Card className="text-center shadow-md overflow-hidden  md:w-64 w-56  transition-all duration-300 rounded">
         <Image
           src={sponserdata.logo}
           width={1500}
