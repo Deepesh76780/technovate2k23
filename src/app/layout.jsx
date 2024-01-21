@@ -2,7 +2,7 @@ import "../styles/globals.css";
 import { Chakra_PetchFont, MichromaFont, OrbitronFont, BlackOps,inter, cyberway, cyberstar, greek, glitch, cyberblack } from "../styles/font"
 import Providers from './providers';
 import {AudioWrappperDesktop} from "./audioWrapperDesktop";
-
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 
 export const metadata = {
@@ -26,6 +26,7 @@ export default function RootLayout(props) {
         <AudioWrappperDesktop />
         </Providers>
       </body>
+      <GoogleAnalytics gaId="G-CP6E4VV93G" />
     </html>
   );
 }
