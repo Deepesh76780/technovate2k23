@@ -662,7 +662,8 @@ export const sportsEvent = [
     ],
     Distribution: ["Worth ₹3000"],
     Mode: "Online",
-    about:
+    about:"",
+    register:
       "https://unstop.com/p/chess-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-859762",
     brochure:
       "https://drive.google.com/file/d/1Z3agokLu4shW-38wOvj3lvfVxoHYzHa8/view?usp=drive_link",
