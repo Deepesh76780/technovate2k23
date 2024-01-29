@@ -968,7 +968,7 @@ export const sponsers = [
   // { tier: "Gold Sponsers", data: [] },
   // { tier: "Silver Sponsers", data: [] },
   {
-    tier: "Specail Partners",
+    tier: "Special Partners",
     data: [
       {
         name: "WorkZera",
