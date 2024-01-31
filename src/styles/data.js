@@ -22,7 +22,7 @@ export const team = [
     criteria: "Lead",
     name: "Jay Padia",
     phone: "8956796716",
-    about: "Sponserhip Head",
+    about: "Sponsership Head",
     imgUrl: "/team/Jay.jpg",
     linkedIn: "www.linkedin.com/in/jay-padia/",
   },
@@ -203,7 +203,7 @@ export const organizingCommite = [
   {
     id: 1,
     criteria: "OrganisingComittee",
-    name: "Dr. Satyanarayana",
+    name: "Dr. Satyanarayana Vollala",
     phone: "7712474049",
     about: "Faculty Coordinator",
     imgUrl: "/team/satyanarayana_vollala.jpg",
@@ -980,6 +980,11 @@ export const sponsers = [
         logo: "/sponsers/sargam.png",
         sub: "Musical Partner",
       },
+      {
+        name: "Netweb Technologies",
+        logo: "/sponsers/Netweb2.png",
+        sub: "Server Partner",
+      }
     ],
   },
 ];
