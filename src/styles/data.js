@@ -39,7 +39,7 @@ export const team = [
     id: 5,
     criteria: "Lead",
     name: "Gautam Gupta",
-    about: "Mareting Head",
+    about: "Marketing Head",
     phone: "9414066706",
     imgUrl: "/team/Gautam_Gupta_Marketing.jpeg",
     linkedIn: "www.linkedin.com/in/gautam-gupta-906976261/",
