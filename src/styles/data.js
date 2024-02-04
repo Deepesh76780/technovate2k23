@@ -795,6 +795,7 @@ export const volunteerData = [
       "Tejas keshwani ",
       "VAISHNAVI SHRIVASTAVA",
       "Om Diwan",
+      "Pranjal Sharma",
     ],
   },
 
