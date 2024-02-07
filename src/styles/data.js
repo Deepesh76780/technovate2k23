@@ -449,7 +449,6 @@ export const culturalEvent = [
 ];
 
 export const technicalEvent = [
-
   {
     SNO: 1,
     Event: "Wall Street Waltz",
@@ -662,7 +661,7 @@ export const sportsEvent = [
     ],
     Distribution: ["Worth ₹3000"],
     Mode: "Online",
-    about:"",
+    about: "",
     register:
       "https://unstop.com/p/chess-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-859762",
     brochure:
@@ -964,28 +963,13 @@ export const volunteerData = [
 ];
 export const sponsers = [
   {
-    tier: "Special Partners",
+    tier: "Our Partners",
     data: [
       {
-        name: "WorkZera",
-        logo: "/sponsers/WZ.png",
-        sub: "Development Partner",
+        name: "NRDA",
+        logo: "/sponsers/nrda-logo.png",
+        sub: "Associate",
       },
-      {
-        name: "Sargam",
-        logo: "/sponsers/sargam.png",
-        sub: "Musical Partner",
-      },
-      {
-        name: "Netweb Technologies",
-        logo: "/sponsers/Netweb2.png",
-        sub: "Server Partner",
-      }
-    ],
-  },
-  {
-    tier: "Elite Sponsors",
-    data: [
       {
         name: "NTPC",
         logo: "/sponsers/NTPC.jpg",
@@ -996,23 +980,23 @@ export const sponsers = [
         logo: "/sponsers/SBI.png",
         sub: "Elite Banking Partner",
       },
-    ],
-  },
-  {
-    tier: "Gold Sponsors",
-    data: [
       {
-        name: "CG Herbal",
+        name: "Raipur Smart City Limited",
+        logo: "/sponsers/RSCL.png",
+        sub: "Hackathon Partner",
+      },
+      {
+        name: "Netweb Technologies",
+        logo: "/sponsers/Netweb2.png",
+        sub: "Server Partner",
+      },
+      {
+        name: "CG Herbals",
         logo: "/sponsers/CG-Herbal.png",
         sub: "Gold",
       },
-    ],
-  },
-  {
-    tier: "Silver Sponsors",
-    data: [
       {
-        name: "Bank of MH",
+        name: "Bank of Maharastra",
         logo: "/sponsers/BMH.png",
         sub: "Silver Partner",
       },
@@ -1021,16 +1005,6 @@ export const sponsers = [
         logo: "/sponsers/BSNL.png",
         sub: "Silver Partner",
       },
-      {
-        name: "RSCL",
-        logo: "/sponsers/RSCL.png",
-        sub: "Hackathon Partner",
-      },
-    ],
-  },
-  {
-    tier: "Other Partners",
-    data: [
       {
         name: "Jainx",
         logo: "/sponsers/JAINX.png",
@@ -1047,16 +1021,25 @@ export const sponsers = [
         sub: "Energy Partner",
       },
       {
-        name: "NRDA",
-        logo: "/sponsers/nrda-logo.png",
-        sub: "Associate",
+        name: "Sargam",
+        logo: "/sponsers/sargam.png",
+        sub: "Musical Partner",
+      },
+      {
+        name: "WorkZera",
+        logo: "/sponsers/WZ.png",
+        sub: "Development Partner",
       },
     ],
   },
 ];
 
 export const eventSponsers = [
-  { name: "Stockgro", sub: "Wall Street Wiltz", logo: "/sponsers/stockGro.png" },
+  {
+    name: "Stockgro",
+    sub: "Wall Street Wiltz",
+    logo: "/sponsers/stockGro.png",
+  },
   { name: "Geek-for-Geeks", sub: "AlgoSprint", logo: "/sponsers/gfg.jpeg" },
   { name: "Decathlon", sub: "Sports Events", logo: "/sponsers/decathlon.png" },
 ];
