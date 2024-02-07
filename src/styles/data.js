@@ -963,11 +963,6 @@ export const volunteerData = [
   },
 ];
 export const sponsers = [
-  // { tier: "Title Sponsor", data: [] },
-  // { tier: "Associate Sponsers", data: [] },
-  // { tier: "Platinum Sponsers", data: [] },
-  // { tier: "Gold Sponsers", data: [] },
-  // { tier: "Silver Sponsers", data: [] },
   {
     tier: "Special Partners",
     data: [
@@ -988,7 +983,78 @@ export const sponsers = [
       }
     ],
   },
+  {
+    tier: "Elite Sponsors",
+    data: [
+      {
+        name: "NTPC",
+        logo: "/sponsers/NTPC.jpg",
+        sub: "Elite",
+      },
+      {
+        name: "SBI",
+        logo: "/sponsers/SBI.png",
+        sub: "Elite Banking Partner",
+      },
+    ],
+  },
+  {
+    tier: "Gold Sponsors",
+    data: [
+      {
+        name: "CG Herbal",
+        logo: "/sponsers/CG-Herbal.png",
+        sub: "Gold",
+      },
+    ],
+  },
+  {
+    tier: "Silver Sponsors",
+    data: [
+      {
+        name: "Bank of MH",
+        logo: "/sponsers/BMH.png",
+        sub: "Silver Partner",
+      },
+      {
+        name: "BSNL",
+        logo: "/sponsers/BSNL.png",
+        sub: "Silver Partner",
+      },
+      {
+        name: "RSCL",
+        logo: "/sponsers/RSCL.png",
+        sub: "Hackathon Partner",
+      },
+    ],
+  },
+  {
+    tier: "Other Partners",
+    data: [
+      {
+        name: "Jainx",
+        logo: "/sponsers/JAINX.png",
+        sub: "Technical Store",
+      },
+      {
+        name: "CG Cost",
+        logo: "/sponsers/CGCOST.png",
+        sub: "Awareness Partner",
+      },
+      {
+        name: "CREDA",
+        logo: "/sponsers/CREDA.png",
+        sub: "Energy Partner",
+      },
+      {
+        name: "NRDA",
+        logo: "/sponsers/nrda-logo.png",
+        sub: "Associate",
+      },
+    ],
+  },
 ];
+
 export const eventSponsers = [
   { name: "Stockgro", sub: "Wall Street Wiltz", logo: "/sponsers/stockGro.png" },
   { name: "Geek-for-Geeks", sub: "AlgoSprint", logo: "/sponsers/gfg.jpeg" },
