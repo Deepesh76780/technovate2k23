@@ -5,7 +5,7 @@ import { eventSponsers } from "../../../styles/data";
 export default async function Sponsers() {
   return (
     <>
-      {eventSponsers.map((item, index) => {
+      {eventSponsers.map((item) => {
         return <SponserCard sponserdata={item} key={item.name} />;
       })}
     </>

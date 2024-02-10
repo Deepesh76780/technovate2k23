@@ -981,11 +981,6 @@ export const sponsers = [
         sub: "Elite Banking Partner",
       },
       {
-        name: "Raipur Smart City Limited",
-        logo: "/sponsers/RSCL.png",
-        sub: "Hackathon Partner",
-      },
-      {
         name: "Netweb Technologies",
         logo: "/sponsers/Netweb2.png",
         sub: "Server Partner",
