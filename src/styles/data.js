@@ -1025,6 +1025,26 @@ export const sponsers = [
         logo: "/sponsers/WZ.png",
         sub: "Development Partner",
       },
+      {
+        name: "Spark Cars",
+        logo: "/sponsers/sparkcars.webp",
+        sub: "Travelling Partner",
+      },
+      {
+        name: " IIITIANS Network",
+        logo: "/sponsers/iiitn.png",
+        sub: "Network Partner",
+      },
+      {
+        name: "Safexpress",
+        logo: "/sponsers/Safeexpress.png",
+        sub: " Partner",
+      },
+      {
+        name: "Oxytech International",
+        logo: "/sponsers/Oxytech.png",
+        sub: " Partner",
+      },
     ],
   },
 ];
@@ -1037,4 +1057,11 @@ export const eventSponsers = [
   },
   { name: "Geek-for-Geeks", sub: "AlgoSprint", logo: "/sponsers/gfg.jpeg" },
   { name: "Decathlon", sub: "Sports Events", logo: "/sponsers/decathlon.png" },
+  { name: "Coding Ninjas", sub: "Event sponser", logo: "/sponsers/CodingNinjas.png" },
+  { name: "Startup talky", sub: "Event sponser", logo: "/sponsers/StartupTalky.png" },
+  { name: "Meenakshi's Salon", sub: "Event sponser", logo: "/sponsers/meenakshi.png" },
+  { name: "Silent Owl", sub: "Event sponser", logo: "/sponsers/silentOwl.png" },
+  { name: "Communication Systems", sub: "Event sponser", logo: "/sponsers/CS.png" },
 ];
+
+
