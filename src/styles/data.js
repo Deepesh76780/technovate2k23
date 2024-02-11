@@ -884,6 +884,7 @@ export const volunteerData = [
       "Arnav Pandey ",
       "Ashritha ",
       "Ayush",
+      "Mohit Kulhari",
       "Dharmendra dhruw ",
       "Khushboo Painkra ",
       "Kritie Omar ",
@@ -961,6 +962,7 @@ export const volunteerData = [
     ],
   },
 ];
+
 export const sponsers = [
   {
     tier: "Our Partners",
