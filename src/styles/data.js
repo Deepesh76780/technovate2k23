@@ -971,81 +971,97 @@ export const sponsers = [
         name: "NRDA",
         logo: "/sponsers/nrda-logo.png",
         sub: "Associate Partner",
+        url: "https://navaraipuratalnagar.com/",
       },
       {
         name: "NTPC",
         logo: "/sponsers/NTPC.jpg",
         sub: "Elite Partner",
+        url: "https://www.ntpc.co.in/",
       },
       {
         name: "SBI",
         logo: "/sponsers/SBI.png",
         sub: "Elite Banking Partner",
+        url: "https://sbi.co.in/",
       },
       {
         name: "CG Cost",
         logo: "/sponsers/CGCOST.png",
         sub: "Awareness Partner",
+        url: "http://cgcost.nic.in/",
       },
       {
         name: "CG Herbals",
         logo: "/sponsers/CG-Herbal.png",
         sub: "Gold Partner",
+        url: "https://chhattisgarhherbal.com/",
       },
       {
         name: "Jainx",
         logo: "/sponsers/JAINX.png",
         sub: "Technical Store",
+        url: "",
       },
       {
         name: "CREDA",
         logo: "/sponsers/CREDA.png",
         sub: "Energy Partner",
+        url: "https://creda.co.in/",
       },
       {
         name: "Netweb Technologies",
         logo: "/sponsers/Netweb2.png",
         sub: "Server Partner",
+        url: "https://netwebindia.com/",
       },
       {
         name: "BSNL",
         logo: "/sponsers/BSNL.png",
         sub: "Silver Partner",
+        url: "https://www.bsnl.co.in/",
       },
       {
         name: "Sargam",
         logo: "/sponsers/sargam.png",
         sub: "Musical Partner",
+        url: "https://www.sargammusicalstores.com/",
       },
       {
         name: "Bank of Maharastra",
         logo: "/sponsers/BMH.png",
         sub: "Silver Partner",
+        url: "https://bankofmaharashtra.in/",
       },
       {
         name: "WorkZera",
         logo: "/sponsers/WZ.png",
         sub: "Development Partner",
+        url: "https://www.instagram.com/workzera/?hl=en",
       },
       {
         name: "Oxytech International",
         logo: "/sponsers/Oxytech.png",
-        sub: " Partner",
+        sub: "Accessory Partner",
+        url: "https://www.oxytechindia.com/",
       },
       {
         name: "Safexpress",
         logo: "/sponsers/Safeexpress.png",
-        sub: " Partner",
+        sub: "Logistic Partner",
+        url: "https://www.safexpress.com/",
       },
       {
         name: "Spark Cars",
         logo: "/sponsers/sparkcars.webp",
         sub: "Travelling Partner",
+        url: "https://sparkcars.in/",
       },
       {
         name: "IIITIANS Network",
         logo: "/sponsers/iiitn.png",
         sub: "Network Partner",
+        url: "https://www.instagram.com/iiitiansnetwork/",
       },
     ],
   },
@@ -1056,16 +1072,51 @@ export const eventSponsers = [
     name: "Stockgro",
     sub: "Wall Street Wiltz",
     logo: "/sponsers/stockGro.png",
+    url: "https://www.stockgro.club/",
   },
-  { name: "Geek-for-Geeks", sub: "AlgoSprint", logo: "/sponsers/gfg.jpeg" },
-  { name: "Decathlon", sub: "Sports Events", logo: "/sponsers/decathlon.png" },
-  { name: "Coding Ninjas", sub: "Event sponser", logo: "/sponsers/CodingNinjas.png" },
-  { name: "Startup talky", sub: "Event sponser", logo: "/sponsers/StartupTalky.png" },
-  { name: "Meenakshi's Salon", sub: "Event sponser", logo: "/sponsers/meenakshi.png" },
-  { name: "Silent Owl", sub: "Event sponser", logo: "/sponsers/silentOwl.png" },
-  { name: "Communication Systems", sub: "Event sponser", logo: "/sponsers/CS.png" },
+  {
+    name: "Geek-for-Geeks",
+    sub: "AlgoSprint",
+    logo: "/sponsers/gfg.jpeg",
+    url: "https://www.geeksforgeeks.org/",
+  },
+  {
+    name: "Decathlon",
+    sub: "Sports Events",
+    logo: "/sponsers/decathlon.png",
+    url: "https://www.decathlon.in/",
+  },
+  {
+    name: "Coding Ninjas",
+    sub: "Event sponser",
+    logo: "/sponsers/CodingNinjas.png",
+    url: "https://www.codingninjas.com/",
+  },
+  {
+    name: "Startup Talky",
+    sub: "Event sponser",
+    logo: "/sponsers/StartupTalky.png",
+    url: "https://startuptalky.com/",
+  },
+  {
+    name: "Meenakshi's Salon",
+    sub: "Event sponser",
+    logo: "/sponsers/meenakshi.png",
+    url: "https://meenakshisalons.com/",
+  },
+  {
+    name: "Silent Owl",
+    sub: "Event sponser",
+    logo: "/sponsers/silentOwl.png",
+    url: "https://www.instagram.com/silentowlindia/?hl=en",
+  },
+  {
+    name: "Communication Systems",
+    sub: "Event sponser",
+    logo: "/sponsers/CS.png",
+    url: "",
+  },
 ];
-
 
 export const day1 = [
   {
@@ -1125,8 +1176,7 @@ export const day1 = [
   },
 ];
 
-
-export const  day2 = [
+export const day2 = [
   {
     time: "10:00 A.M. - 2:00 P.M.",
     name: "Quiz Runner 2049",
@@ -1188,7 +1238,6 @@ export const  day2 = [
     venue: "Football Ground",
   },
 ];
-
 
 export const day3 = [
   {

@@ -19,6 +19,7 @@ export default function SponserCard({ sponserdata }) {
   };
 
   return (
+    <a href={sponserdata.url} target="_blank">
     <motion.div variants={item} animate="show" initial="hidden">
       <Card className="shadow-md overflow-hidden md:w-64  transition-all duration-300 rounded">
         <Image
@@ -39,5 +40,6 @@ export default function SponserCard({ sponserdata }) {
         </CardFooter>
       </Card>
     </motion.div>
+    </a>
   );
 }
