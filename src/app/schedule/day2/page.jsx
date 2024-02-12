@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const day1 = [
   {
-    time: "10:00 A.M. 2:00 P.M.",
+    time: "10:00 A.M. - 2:00 P.M.",
     name: "Quiz Runner 2049",
     venue: "Academic Building",
   },

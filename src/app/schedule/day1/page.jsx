@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const day1 = [
   {
-    time: "8:00 A.M.",
-    name: "Hack-O-Harbour Starts",
+    time: "8:00 A.M. Onwards",
+    name: "Hack-O-Harbour hackathon Starts",
     venue: "Data Science Lab",
   },
   {
@@ -14,7 +14,7 @@ const day1 = [
     venue: "Auditorium",
   },
   {
-    time: "11:00 AM Onwards",
+    time: "11:00 A.M. Onwards",
     name: "Tech Expo",
     venue: "Palm Park",
   },
@@ -49,12 +49,12 @@ const day1 = [
     venue: "Auditorium",
   },
   {
-    time: "7:00 P.M.- 10:00 P.M.",
+    time: "7:00 P.M. - 10:00 P.M.",
     name: "Silent Disco - Open",
     venue: "Football Ground",
   },
   {
-    time: "10:00 P.M.- 12:00 P.M.",
+    time: "10:00 P.M. - 12:00 P.M.",
     name: "Silent Disco - IIIT Students",
     venue: "Football Ground",
   },

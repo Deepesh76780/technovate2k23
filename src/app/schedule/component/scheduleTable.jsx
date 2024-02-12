@@ -9,7 +9,7 @@ const ScheduleTable = ({ data }) => {
         {data.map((item, index) => {
           return (
             <React.Fragment key={index}>
-              <TableRow className="md:text-md md:text-[1rem] text-[0.6rem] text-center">
+              <TableRow className="md:text-md md:text-[1rem] text-[0.7rem] text-center">
                 <TableCell className="font-glitch  border-l-2  border-t-2 border-b-2 border-amber-500">
                   {item.time}
                 </TableCell>
