@@ -983,9 +983,9 @@ export const sponsers = [
         sub: "Elite Banking Partner",
       },
       {
-        name: "Netweb Technologies",
-        logo: "/sponsers/Netweb2.png",
-        sub: "Server Partner",
+        name: "CG Cost",
+        logo: "/sponsers/CGCOST.png",
+        sub: "Awareness Partner",
       },
       {
         name: "CG Herbals",
@@ -993,24 +993,9 @@ export const sponsers = [
         sub: "Gold Partner",
       },
       {
-        name: "Bank of Maharastra",
-        logo: "/sponsers/BMH.png",
-        sub: "Silver Partner",
-      },
-      {
-        name: "BSNL",
-        logo: "/sponsers/BSNL.png",
-        sub: "Silver Partner",
-      },
-      {
         name: "Jainx",
         logo: "/sponsers/JAINX.png",
         sub: "Technical Store",
-      },
-      {
-        name: "CG Cost",
-        logo: "/sponsers/CGCOST.png",
-        sub: "Awareness Partner",
       },
       {
         name: "CREDA",
@@ -1018,9 +1003,24 @@ export const sponsers = [
         sub: "Energy Partner",
       },
       {
+        name: "Netweb Technologies",
+        logo: "/sponsers/Netweb2.png",
+        sub: "Server Partner",
+      },
+      {
+        name: "BSNL",
+        logo: "/sponsers/BSNL.png",
+        sub: "Silver Partner",
+      },
+      {
         name: "Sargam",
         logo: "/sponsers/sargam.png",
         sub: "Musical Partner",
+      },
+      {
+        name: "Bank of Maharastra",
+        logo: "/sponsers/BMH.png",
+        sub: "Silver Partner",
       },
       {
         name: "WorkZera",
@@ -1028,14 +1028,9 @@ export const sponsers = [
         sub: "Development Partner",
       },
       {
-        name: "Spark Cars",
-        logo: "/sponsers/sparkcars.webp",
-        sub: "Travelling Partner",
-      },
-      {
-        name: " IIITIANS Network",
-        logo: "/sponsers/iiitn.png",
-        sub: "Network Partner",
+        name: "Oxytech International",
+        logo: "/sponsers/Oxytech.png",
+        sub: " Partner",
       },
       {
         name: "Safexpress",
@@ -1043,9 +1038,14 @@ export const sponsers = [
         sub: " Partner",
       },
       {
-        name: "Oxytech International",
-        logo: "/sponsers/Oxytech.png",
-        sub: " Partner",
+        name: "Spark Cars",
+        logo: "/sponsers/sparkcars.webp",
+        sub: "Travelling Partner",
+      },
+      {
+        name: "IIITIANS Network",
+        logo: "/sponsers/iiitn.png",
+        sub: "Network Partner",
       },
     ],
   },
