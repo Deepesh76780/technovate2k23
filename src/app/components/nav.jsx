@@ -30,7 +30,7 @@ const navData = [
     subTitle: "©"
   },
   {
-    href: "/event/cultural",
+    href: "/event/pronight",
     title: "Events",
     subTitle: "2"
   },

@@ -751,21 +751,24 @@ export const proNights = [
     Event: "Day 1 : Comic-Expo and Silent Disco",
     imgUrl: "/events/pro/expo.png",
     Mode: "Offline",
-    register: "",
+    register:
+      "https://unstop.com/events/comic-expo-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-867092",
   },
   {
     SNO: 2,
     Event: "Day 2 Pro-Night : EDM Night",
     imgUrl: "/events/pro/edm.png",
     Mode: "Offline",
-    register: "",
+    register:
+      "https://unstop.com/events/edm-night-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-896162",
   },
   {
     SNO: 3,
     Event: "Day 3 Pro-Night : Bollywood Night",
     imgUrl: "/events/pro/bollywood.png",
     Mode: "Offline",
-    register: "",
+    register:
+      "https://unstop.com/events/bollywood-night-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-896297",
   },
 ];
 export const volunteerData = [

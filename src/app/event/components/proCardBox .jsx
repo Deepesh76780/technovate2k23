@@ -78,22 +78,9 @@ export default function EventCard({ store, rulebook }) {
           <CardFooter className="flex flex-col items-start lg:text-base text-sm text-purple-200 font-Chakra items-center">
             Grab the Tickets :
             <div className="md:flex gap-5 mt-5">
-              <a href={store?.ticketLink} target="_blank">
-                <div className="w-full text-black text-center bg-orange-700 rounded-[.5rem] pb-[15%]">
-                  One Day Pass
-                </div>
-                <Image
-                  src="/logo/logo.png"
-                  width={1500}
-                  height={1500}
-                  className="h-[90%] w-full bg-black rounded-[1rem] border-2 border-orange-700 mt-[-15%] mb-5"
-                  alt={"event"}
-                  priority
-                />
-              </a>
-              <a href={store?.ticketLink} target="_blank">
+              <a href={store.register} target="_blank">
                 <div className="w-full text-black text-center bg-white rounded-[.5rem] pb-[15%]">
-                  Combo Pass 1
+                  One Day Pass
                 </div>
                 <Image
                   src="/logo/logo.png"
@@ -104,7 +91,7 @@ export default function EventCard({ store, rulebook }) {
                   priority
                 />
               </a>
-              <a href={store?.ticketLink} target="_blank">
+              <a href="" target="_blank">
                 <div className="w-full text-black text-center bg-yellow-500 rounded-[.5rem] pb-[15%]">
                   Combo Pass 2
                 </div>
