@@ -9,17 +9,18 @@ const ScheduleTable = ({ data }) => {
         {data.map((item, index) => {
           return (
             <React.Fragment key={index}>
-              <TableRow className="md:text-md md:text-[1rem] text-[0.7rem] text-center">
-                <TableCell className="font-glitch  border-l-2  border-t-2 border-b-2 border-amber-500">
+              <TableRow className="md:text-md md:text-[1rem]  text-[0.7rem] text-center">
+                <TableCell className="font-Chakra  border-l-2 p-1  border-t-2 border-b-2 border-amber-500">
                   {item.time}
                 </TableCell>
-                <TableCell className="font-glitch bg-amber-500  text-black">
+                <TableCell className="font-Chakra bg-amber-500  text-black">
                   {item.name}
                 </TableCell>
-                <TableCell className="font-glitch border-t-2 border-b-2 border-amber-500">
+                <TableCell className="font-Chakra border-t-2 border-b-2 border-amber-500">
                   {item.venue}
                 </TableCell>
               </TableRow>
+              <tr className="h-2"/>
             </React.Fragment>
           );
         })}

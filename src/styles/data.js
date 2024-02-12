@@ -970,12 +970,12 @@ export const sponsers = [
       {
         name: "NRDA",
         logo: "/sponsers/nrda-logo.png",
-        sub: "Associate",
+        sub: "Associate Partner",
       },
       {
         name: "NTPC",
         logo: "/sponsers/NTPC.jpg",
-        sub: "Elite",
+        sub: "Elite Partner",
       },
       {
         name: "SBI",
@@ -990,7 +990,7 @@ export const sponsers = [
       {
         name: "CG Herbals",
         logo: "/sponsers/CG-Herbal.png",
-        sub: "Gold",
+        sub: "Gold Partner",
       },
       {
         name: "Bank of Maharastra",
@@ -1067,3 +1067,188 @@ export const eventSponsers = [
 ];
 
 
+export const day1 = [
+  {
+    time: "8:00 A.M. Onwards",
+    name: "Hack-O-Harbour hackathon Starts",
+    venue: "Data Science Lab",
+  },
+  {
+    time: "9:00 A.M - 10:00 A.M.",
+    name: "Inauguration Ceremony",
+    venue: "Auditorium",
+  },
+  {
+    time: "11:00 A.M. Onwards",
+    name: "Tech Expo",
+    venue: "Palm Park",
+  },
+  {
+    time: "12:00 P.M. - 4:00 P.M.",
+    name: "Comic-Expo",
+    venue: "Academic Building",
+  },
+  {
+    time: "12:00 P.M. Onwards",
+    name: "Unlock The Technoverse Launch",
+    venue: "Online",
+  },
+  {
+    time: "12:00 P.M. Onwards",
+    name: "Rangmela",
+    venue: "Audi to FG Pathway",
+  },
+  {
+    time: "2:00 P.M. - 6:00 P.M.",
+    name: "Awaaz-Nukkad Natak",
+    venue: "Amphitheatre",
+  },
+  {
+    time: "3:00 P.M. - 6:00 P.M.",
+    name: "AlgoSprint",
+    venue: "Online (GFG)",
+  },
+  {
+    time: "6:00 P.m. - 8:00 P.M.",
+    name: "Speaker Session",
+    venue: "Auditorium",
+  },
+  {
+    time: "7:00 P.M. - 10:00 P.M.",
+    name: "Silent Disco - Open",
+    venue: "Football Ground",
+  },
+  {
+    time: "10:00 P.M. - 12:00 P.M.",
+    name: "Silent Disco - IIIT Students",
+    venue: "Football Ground",
+  },
+];
+
+
+export const  day2 = [
+  {
+    time: "10:00 A.M. - 2:00 P.M.",
+    name: "Quiz Runner 2049",
+    venue: "Academic Building",
+  },
+  {
+    time: "11:00 A.M - 12:30 P.M.",
+    name: "Photgraphy and rangmela Showcase",
+    venue: "Academic Building",
+  },
+  {
+    time: "11:00 A.M. - 1:00 P.M.",
+    name: "Chess Finals",
+    venue: "Academic Building",
+  },
+  {
+    time: "12:00 P.M.",
+    name: "Unlock the Technoverse Ends",
+    venue: "Online",
+  },
+  {
+    time: "2:00 P.M. - 5:00 P.M.",
+    name: "Venture Vista",
+    venue: "Academic Building",
+  },
+  {
+    time: "2:00 P.M. - 6:00 P.M.",
+    name: "Robolution",
+    venue: "Academic Building",
+  },
+  {
+    time: "2:00 P.M. - 5:30 P.M.",
+    name: "Raag-Ratri",
+    venue: "Auditorium",
+  },
+  {
+    time: "2:00 P.M. - 4:00 P.M.",
+    name: "BGMI Finals Screening",
+    venue: "Academic Building",
+  },
+  {
+    time: "4:00 P.m. - 6:00 P.M.",
+    name: "Valorant Finals Screening",
+    venue: "Academic Building",
+  },
+  {
+    time: "5:00 P.M.- 7:30 P.M.",
+    name: "Battle of Bands",
+    venue: "Football Ground",
+  },
+  {
+    time: "8:00 P.M.",
+    name: "Hack-o-harbour Ends",
+    venue: "Academic Building",
+  },
+  {
+    time: "7:30 P.M.- 11:30 P.M.",
+    name: "Pro-Night : EDM Night",
+    venue: "Football Ground",
+  },
+];
+
+
+export const day3 = [
+  {
+    time: "9:00 A.M. Onwards",
+    name: "Cricket Finals",
+    venue: "Uparwara Ground",
+  },
+  {
+    time: "10:00 A.M Onwards",
+    name: "Volley-Ball Finals",
+    venue: "Volleyball Court",
+  },
+  {
+    time: "10:00 A.M. - 2:00 P.M.",
+    name: "Orator's Comclave",
+    venue: "Academic Building",
+  },
+  {
+    time: "10:30 P.M. - 12:30 P.M.",
+    name: "Fiducia - Round 1",
+    venue: "Auditorium",
+  },
+  {
+    time: "11:00 P.M. Onwards",
+    name: "Futsal Finals",
+    venue: "",
+  },
+  {
+    time: "1:00 P.M. - 5:00 P.M.",
+    name: "Let's Nacho",
+    venue: "Auditorium",
+  },
+  {
+    time: "1:30 P.M.- 7:30 P.M.",
+    name: "Robolution",
+    venue: "Academic Building",
+  },
+  {
+    time: "2:00 P.M. Onwards",
+    name: "Table Tennis Finals",
+    venue: "Incubation Complex",
+  },
+  {
+    time: "2:30 P.m. - 5:30 P.M.",
+    name: "Coding Speedrun",
+    venue: "Academic Building",
+  },
+  {
+    time: "4:00 P.M. Onwards",
+    name: "Badminton Finals",
+    venue: "Bhabha House",
+  },
+  {
+    time: "5:00 P.M. - 7:00 P.M.",
+    name: "Fiducia - Finals",
+    venue: "Auditorium",
+  },
+  {
+    time: "7:30 P.M.- 11:30 P.M.",
+    name: "Pro-Night : Bollywood Night",
+    venue: "Football Ground",
+  },
+];

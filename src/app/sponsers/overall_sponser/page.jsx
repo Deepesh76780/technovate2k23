@@ -14,8 +14,8 @@ export default async function Sponsers() {
             className="flex flex-col  w-full h-full gap-8"
             key={index}
           >
-            <h1 className="text-2xl md:text-4xl font-bold text-center font-glitch text-emerald-300">
-              {item.tier}
+            <h1 className="text-2xl md:text-4xl tracking-widest font-bold text-center font-glitch text-emerald-300">
+              OUR PARTNER
             </h1>
             {item.data.length ? (
               <div className="flex flex-wrap w-full justify-center gap-9 ">
