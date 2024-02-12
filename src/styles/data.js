@@ -745,7 +745,29 @@ export const sportsEvent = [
       "https://drive.google.com/file/d/1GE9hKM7mYUJvWFEcIV4TWTo5eSP0m2Wr/view?usp=drive_link",
   },
 ];
-
+export const proNights = [
+  {
+    SNO: 1,
+    Event: "Day 1 : Comic-Expo and Silent Disco",
+    imgUrl: "/events/pro/expo.png",
+    Mode: "Offline",
+    register: "",
+  },
+  {
+    SNO: 2,
+    Event: "Day 2 Pro-Night : EDM Night",
+    imgUrl: "/events/pro/edm.png",
+    Mode: "Offline",
+    register: "",
+  },
+  {
+    SNO: 3,
+    Event: "Day 3 Pro-Night : Bollywood Night",
+    imgUrl: "/events/pro/bollywood.png",
+    Mode: "Offline",
+    register: "",
+  },
+];
 export const volunteerData = [
   {
     name: "Cultural Events Team",
