@@ -91,7 +91,7 @@ export default function EventCard({ store, rulebook }) {
                   priority
                 />
               </a>
-              <a href="" target="_blank">
+              <a href target="_blank">
                 <div className="w-full text-black text-center bg-yellow-500 rounded-[.5rem] pb-[15%]">
                   Combo Pass 2
                 </div>
