@@ -91,9 +91,12 @@ export default function EventCard({ store, rulebook }) {
                   priority
                 />
               </a>
-              <a href target="_blank">
+              <a
+                href="https://unstop.com/p/pronites-combo-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-896228"
+                target="_blank"
+              >
                 <div className="w-full text-black text-center bg-yellow-500 rounded-[.5rem] pb-[15%]">
-                  Combo Pass 2
+                  Combo Pass
                 </div>
                 <Image
                   src="/logo/logo.png"
