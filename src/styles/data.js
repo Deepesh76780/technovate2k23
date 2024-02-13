@@ -752,7 +752,7 @@ export const proNights = [
     imgUrl: "/events/pro/expo.png",
     Mode: "Offline",
     register:
-      "https://unstop.com/events/comic-expo-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-867092",
+      "https://unstop.com/p/day-1-combo-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-896944",
   },
   {
     SNO: 2,
