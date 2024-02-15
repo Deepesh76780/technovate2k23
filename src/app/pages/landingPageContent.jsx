@@ -96,10 +96,10 @@ const LandingPageContent = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 2, duration: 1 }}
       >
-        <div className="text-center">Welcome to Technovate</div>
+        <div className="text-center">Welcome to Technovate 2024</div>
         <div className="text-center flex ">
           <div>We are Live</div>
-          <div className="h-2.5 w-2.5 bg-red-700 shadow-2xl shadow-red-500 rounded-2xl animate-pulse"></div>
+          {/* <div className="h-2.5 w-2.5 bg-red-700 shadow-2xl shadow-red-500 rounded-2xl animate-pulse"></div> */}
           <div className="ml-2.5">Now</div>
         </div>
       </motion.div>
