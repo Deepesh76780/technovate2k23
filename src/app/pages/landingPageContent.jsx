@@ -23,25 +23,8 @@ const containerVariants = {
 
 const LandingPageContent = () => {
   const [scrollY, setScrollY] = useState(0);
-  const [time, setTime] = useState();
   const [hover, setHover] = useState(false);
   const scale = 1 + scrollY / 500 > 6 ? 6 : 1 + scrollY / 500;
-  var myfunc = setInterval(function () {
-    var countDownDate = new Date("Feb 16, 2024 00:00:00").getTime();
-    var now = new Date().getTime();
-    var timeleft = countDownDate - now;
-    var days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
-    var hours = Math.floor(
-      (timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-    );
-    var minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
-    setTime(days + "d " + hours + "h " + minutes + "m " + seconds + "s ");
-    if (timeleft < 0) {
-      clearInterval(myfunc);
-      setTime("Arrived at Technovate");
-    }
-  }, 1000);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -63,7 +46,7 @@ const LandingPageContent = () => {
     >
       <Navbar bgcolor={"bg-[#e960a5a8]"} />
       <motion.div
-        className="w-full lg:h-[73%]  h-[83%] flex overflow-x-hidden"
+        className="w-full lg:h-[71%]  h-[83%] flex overflow-x-hidden"
         variants={containerVariants}
         initial="hidden"
         animate="visible"
@@ -108,12 +91,17 @@ const LandingPageContent = () => {
         <p>REGISTER</p>
       </motion.a>
       <motion.div
-        className="pink_selector   mx-auto w-fit tracking-[0.15em] mt-3  font-Michroma font-semibold  lg:text-lg text-sm  p-2   text-slate-50 rounded-full"
+        className="pink_selector  place-items-center gap-1 flex flex-col  mx-auto w-fit tracking-[0.15em] mt-2  font-Michroma font-semibold  lg:text-lg text-sm  p-2   text-slate-50 rounded-full"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 2, duration: 1 }}
       >
-        Arriving at {time}
+        <div className="text-center">Welcome to Technovate</div>
+        <div className="text-center flex ">
+          <div>We are Live</div>
+          <div className="h-2.5 w-2.5 bg-red-700 shadow-2xl shadow-red-500 rounded-2xl animate-pulse"></div>
+          <div className="ml-2.5">Now</div>
+        </div>
       </motion.div>
     </div>
   );
