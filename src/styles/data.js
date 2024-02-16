@@ -1125,7 +1125,7 @@ export const eventSponsers = [
   },
   {
     name: "Meenakshi's Salon",
-    sub: "Event sponser",
+    sub: "Fudicia",
     logo: "/sponsers/meenakshi.png",
     url: "https://meenakshisalons.com/",
   },
@@ -1143,7 +1143,7 @@ export const eventSponsers = [
   },
   {
     name: "Communication Systems",
-    sub: "Fiducia",
+    sub: "Fudicia",
     logo: "/sponsers/CS.png",
     url: "",
   },
