@@ -1113,13 +1113,13 @@ export const eventSponsers = [
   },
   {
     name: "Coding Ninjas",
-    sub: "Event sponser",
+    sub: "Coding Speedrun",
     logo: "/sponsers/CodingNinjas.png",
     url: "https://www.codingninjas.com/",
   },
   {
     name: "Startup Talky",
-    sub: "Event sponser",
+    sub: "Venture Vista",
     logo: "/sponsers/StartupTalky.png",
     url: "https://startuptalky.com/",
   },
@@ -1130,14 +1130,20 @@ export const eventSponsers = [
     url: "https://meenakshisalons.com/",
   },
   {
+    name: "Raag Music Academy",
+    sub: "Singing and Battle of Bands",
+    logo: "/sponsers/Raag.png",
+    url: "https://www.instagram.com/raagmusicacademy/",
+  },
+  {
     name: "Silent Owl",
-    sub: "Event sponser",
+    sub: "Silent Disco",
     logo: "/sponsers/silentOwl.png",
     url: "https://www.instagram.com/silentowlindia/?hl=en",
   },
   {
     name: "Communication Systems",
-    sub: "Event sponser",
+    sub: "Fiducia",
     logo: "/sponsers/CS.png",
     url: "",
   },
@@ -1228,11 +1234,6 @@ export const day2 = [
     venue: "Academic Building",
   },
   {
-    time: "2:00 P.M. - 6:00 P.M.",
-    name: "Robolution",
-    venue: "Academic Building",
-  },
-  {
     time: "2:00 P.M. - 5:30 P.M.",
     name: "Raag-Ratri",
     venue: "Auditorium",
@@ -1296,7 +1297,7 @@ export const day3 = [
     venue: "Auditorium",
   },
   {
-    time: "1:30 P.M.- 7:30 P.M.",
+    time: "10:00 A.M.- 7:30 P.M.",
     name: "Robolution",
     venue: "Academic Building",
   },
