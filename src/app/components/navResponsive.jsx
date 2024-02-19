@@ -30,47 +30,46 @@ const NavResponsive = ({ navData, bgColor }) => {
           </svg>
         </>
       </div>
-        {isOpen ? (
-          <div
-           
-            className={`z-10 flex flex-col border-2  border-pink-700 h-[100dvh] fixed  top-0 gap-5 place-items-center justify-around w-full bg-[#0000009a]`}
-          >
-            <div className="flex flex-col gap-10 items-center">
-              {navData.map((item, index) => {
-                return (
-                  <Link href={item.href} key={index}>
-                    <NavButton
-                      Title={item.title}
-                      subTitle={item.subTitle}
-                      bgcolor={bgColor}
-                      href={item.href}
-                    />
-                  </Link>
-                );
-              })}
-              <a
-                href="https://unstop.com/competitions/campus-ambassador-program-technovate-2024-international-institute-of-information-technology-iiit-naya-raipu-848020"
-                target="_blank"
+      {isOpen ? (
+        <div
+          className={`z-10 flex flex-col border-2  border-pink-700 h-[100dvh] fixed  top-0 gap-5 place-items-center justify-around w-full bg-[#0000009a]`}
+        >
+          <div className="flex flex-col gap-10 items-center">
+            {navData.map((item, index) => {
+              return (
+                <Link href={item.href} key={index}>
+                  <NavButton
+                    Title={item.title}
+                    subTitle={item.subTitle}
+                    bgcolor={bgColor}
+                    href={item.href}
+                  />
+                </Link>
+              );
+            })}
+            <div
+              href="https://unstop.com/competitions/campus-ambassador-program-technovate-2024-international-institute-of-information-technology-iiit-naya-raipu-848020"
+              target="_blank"
+            >
+              <button
+                className={
+                  "border-2    shadow-inner  cursor-pointer relative uppercase card text-white   w-[220px]  text-[0.8rem]   h-[65px]"
+                }
               >
-                <button
+                <div
                   className={
-                    "border-2    shadow-inner  cursor-pointer relative uppercase card text-white   w-[220px]  text-[0.8rem]   h-[55px]"
+                    "flex items-center justify-center absolute top-[5px]  inset-[0.101rem] transition-all duration-500 font-cyberway  font-extrabold tracking-[0.3rem] "
                   }
                 >
-                  <div
-                    className={
-                      "flex items-center justify-center absolute top-[5px]  inset-[0.101rem] transition-all duration-500 font-cyberway  font-extrabold tracking-[0.3rem] "
-                    }
-                  >
-                    {"campus ambassador"}
-                  </div>
-                </button>
-              </a>
+                  {"campus ambassador [CLOSED]"}
+                </div>
+              </button>
             </div>
           </div>
-        ) : (
-          <></>
-        )}
+        </div>
+      ) : (
+        <></>
+      )}
     </div>
   );
 };

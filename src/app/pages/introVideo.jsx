@@ -36,15 +36,15 @@ const IntroVideo = () => {
           </p>
           <p className="text-white text-center text-lg md:text-2xl ">
             Apply For&nbsp;
-            <a
+            <span
               className=" text-pink-400 shadow-inner campusA cursor-pointer text-2xl scale-100  hover:underline transition-all duration-300"
               onMouseEnter={() => sethover(true)}
               onMouseLeave={() => sethover(false)}
-              href="https://unstop.com/competitions/campus-ambassador-program-technovate-2024-international-institute-of-information-technology-iiit-naya-raipu-848020"
-              target="_blank"
+              // href=""
+              // target="_blank"
             >
-              campus ambassador &#8599;
-            </a>
+              campus ambassador (Closed) &#8599;
+            </span>
           </p>
         </div>
       </Card>
