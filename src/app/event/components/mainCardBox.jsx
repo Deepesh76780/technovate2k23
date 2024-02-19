@@ -95,13 +95,13 @@ export default function EventCard({ store, rulebook }) {
               >
                 Rule Book
               </a>
-              <a
+              <div
                 href={store.register}
                 target="_blank"
                 className="lg:text-base text-sm text-black  bg-purple-300 p-1 hover:bg-slate-50 px-3 hover:rounded-xl rounded-2xl font-Chakra  transition-all duration-700 cursor-pointer no-underline"
               >
-                Register
-              </a>
+                Register [CLOSED]
+              </div>
             </div>
 
             <div className="text-white mt-2 font-Chakra">

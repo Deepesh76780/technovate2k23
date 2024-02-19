@@ -20,16 +20,16 @@ export default function Home() {
     if (loading && !toastShown) {
       const timeoutId = setTimeout(() => {
         setLoading(false);
-        toast("👈 👀 Secure your passes today 🤝", {
-          position: "bottom-right",
-          autoClose: 6000,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true,
-          progress: undefined,
-          theme: "light",
-        });
+        // toast("👈 👀 Secure your passes today 🤝", {
+        //   position: "bottom-right",
+        //   autoClose: 6000,
+        //   hideProgressBar: false,
+        //   closeOnClick: true,
+        //   pauseOnHover: true,
+        //   draggable: true,
+        //   progress: undefined,
+        //   theme: "light",
+        // });
         setToastShown(true);
       }, 4000);
 

@@ -78,9 +78,13 @@ export default function EventCard({ store, rulebook }) {
           <CardFooter className="flex flex-col items-start lg:text-base text-sm text-purple-200 font-Chakra items-center">
             Grab the Tickets :
             <div className="md:flex gap-5 mt-5">
-              <a href={store.register} target="_blank">
+              <div
+                href={store.register}
+                target="_blank"
+                className="cursor-pointer"
+              >
                 <div className="w-full text-black text-center bg-white rounded-[.5rem] pb-[15%]">
-                  One Day Pass
+                  One Day Pass [CLOSED]
                 </div>
                 <Image
                   src="/logo/logo.png"
@@ -90,13 +94,14 @@ export default function EventCard({ store, rulebook }) {
                   alt={"event"}
                   priority
                 />
-              </a>
-              <a
+              </div>
+              <div
                 href="https://unstop.com/p/pronites-combo-technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-896228"
                 target="_blank"
+                className="cursor-pointer"
               >
                 <div className="w-full text-black text-center bg-yellow-500 rounded-[.5rem] pb-[15%]">
-                  Combo Pass
+                  Combo Pass [CLOSED]
                 </div>
                 <Image
                   src="/logo/logo.png"
@@ -106,7 +111,7 @@ export default function EventCard({ store, rulebook }) {
                   alt={"event"}
                   priority
                 />
-              </a>
+              </div>
             </div>
           </CardFooter>
         </Card>

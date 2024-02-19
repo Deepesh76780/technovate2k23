@@ -78,29 +78,27 @@ const LandingPageContent = () => {
           </div>
         </div>
       </div>
-      <motion.a
+      <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 2 }}
         onMouseEnter={() => setHover(true)}
         onMouseLeave={() => setHover(false)}
-        href="https://unstop.com/college-fests/technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-183351/amp"
-        target="_blank"
+        // href="https://unstop.com/college-fests/technovate-2024-international-institute-of-information-technology-iiit-naya-raipur-183351/amp"
+        // target="_blank"
         className="pink_selector h-fit  border-2   hover:border-pink-500 bg-[#000000a1] hover:bg-black hover:rounded-xl hover:scale-125 hover:backdrop-hue-rotate-30 hover:text-pink-400 transition-all duration-500 cursor-pointer tracking-[0.3em] flex place-self-center text-center  border-slate-200 lg:text-2xl  text-xl  rounded-2xl font-cyberway  text-slate-50 lg:p-4 p-2 mx-auto w-fit "
       >
-        <p>REGISTER</p>
-      </motion.a>
+        <p>CLOSED</p>
+      </motion.div>
       <motion.div
         className="pink_selector  place-items-center gap-1 flex flex-col  mx-auto w-fit tracking-[0.15em] mt-2  font-Michroma font-semibold  lg:text-lg text-sm  p-2   text-slate-50 rounded-full"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 2, duration: 1 }}
       >
-        <div className="text-center">Welcome to Technovate 2024</div>
+        <div className="text-center">Thank You For Coming</div>
         <div className="text-center flex ">
-          <div>We are Live</div>
-          {/* <div className="h-2.5 w-2.5 bg-red-700 shadow-2xl shadow-red-500 rounded-2xl animate-pulse"></div> */}
-          <div className="ml-2.5">Now</div>
+          <div>We are Closed Now</div>
         </div>
       </motion.div>
     </div>
