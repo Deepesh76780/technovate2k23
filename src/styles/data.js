@@ -1088,6 +1088,12 @@ export const sponsers = [
         sub: "Network Partner",
         url: "https://www.instagram.com/iiitiansnetwork/",
       },
+      {
+        name: "Perfect World",
+        logo: "/sponsers/perfect_world.png",
+        sub: "Partner",
+        url: "",
+      },
     ],
   },
 ];
